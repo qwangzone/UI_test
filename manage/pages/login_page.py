@@ -1,6 +1,37 @@
 from basepage import BasePage
-
+import time
 class LoginPage(BasePage):
-    pass
+    url = "/employee/login"
 
-from PIL import Image,ImageEnhance
+    @property
+    def input_username(self):
+        return self.by_id("UserName")
+
+    @property
+    def input_password(self):
+        return self.by_id("UserPass")
+
+    @property
+    def input_yanzheng(self):
+        return self.by_name("CaptchaInputText")
+
+    @property
+    def btn_click(self):
+        return self.by_tag_name("button")
+
+    @property
+    def error_msg(self):
+        return self.by_class_name("alert-error")
+
+    #登录模块
+    def login(self, username="caihongguang", password="789654", res="wanneng"):
+        self.open()
+        self.input_username.send_keys(username)
+        self.input_password.send_keys(password)
+        time.sleep(5)
+        #self.input_yanzheng.send_keys(res)
+        self.btn_click.click()
+
+    #获取页面报错信息
+    def get_error_msg(self):
+        return self.error_msg.text
