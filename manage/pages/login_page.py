@@ -1,5 +1,5 @@
 from basepage import BasePage
-import time
+import time, functools
 class LoginPage(BasePage):
     url = "/employee/login"
 
@@ -31,6 +31,9 @@ class LoginPage(BasePage):
         time.sleep(5)
         #self.input_yanzheng.send_keys(res)
         self.btn_click.click()
+
+    def login_success(self):
+        return functools.partial(self.login, username="caihongguang", password="789654", res="wanneng")
 
     #获取页面报错信息
     def get_error_msg(self):
