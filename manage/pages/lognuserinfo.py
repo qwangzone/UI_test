@@ -70,7 +70,12 @@ class LoanUserInfo(BasePage):
     def carRadios(self, carRadiosid):
         pass
 
-    #填写借款人信息表单并提交
+    # 保存按钮
+    @property
+    def savebtn(self):
+        pass
+
+    # 填写借款人信息表单并提交
     def submitform(self, nativeProvince='山东青岛', companyEntryTime='2016-06-03', currentAddress='大理',
                    ethnic='土家族', educationLevel='本科', maritalStatus='未婚', yearOfService='20年以上',
                    quarters='股东', natureOfCompany='国有企业', industry='创造业', wage='30000元以上',
@@ -89,3 +94,4 @@ class LoanUserInfo(BasePage):
         self.province.send_keys(province)
         self.houseRadios(houseRadiosid).click()
         self.carRadios(carRadiosid).click()
+        self.savebtn.click()
