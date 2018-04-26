@@ -11,14 +11,14 @@ class CreateNew(BasePage):
         return self.by_id("projectName")
 
     #上线项目分类
-    @property
-    def project_category(self):
-        return self.by_id("projectCategory")
+    def project_category(self, text="信易融"):
+        ele = self.by_id("projectCategory")
+        return self.select_by_text(ele, text)
 
     #项目类型
-    @property
-    def projectNewType(self):
-        return self.by_id("projectNewType")
+    def projectNewType(self, text="直投"):
+        ele = self.by_id("projectNewType")
+        return self.select_by_text(ele, text)
 
     #借款期限
     @property
@@ -26,9 +26,9 @@ class CreateNew(BasePage):
         return self.by_id("financingMaturity")
 
     #标的类型
-    @property
-    def corporeType(self):
-        return self.by_id("corporeType")
+    def corporeType(self, text="普通标"):
+        ele = self.by_id("corporeType")
+        return self.select_by_text(ele, text)
 
     #借款金额
     @property
@@ -41,9 +41,9 @@ class CreateNew(BasePage):
         return self.by_id("minBidAmount")
 
     #还款方式
-    @property
-    def repaymentCalcType(self):
-        return self.by_id("repaymentCalcType")
+    def repaymentCalcType(self, text="等额本息"):
+        ele = self.by_id("repaymentCalcType")
+        return self.select_by_text(ele, text)
 
     #出借方年化利率
     @property
@@ -56,8 +56,7 @@ class CreateNew(BasePage):
         return self.by_id("displayInterestRate")
 
     #允许投标起始时间
-    @property
-    def start_time(self):
+    def start_time(self, time=datetime.now().strftime("%Y-%m-%d %H:%M:%S")):
         pass
 
     #认购截止时间

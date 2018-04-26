@@ -1,3 +1,4 @@
+from selenium.webdriver.support.select import Select
 class BasePage:
     base_url = "http://192.168.3.105:88"
 
@@ -30,3 +31,8 @@ class BasePage:
     def by_tag_name(self, tagname):
         return self.driver.find_element_by_tag_name(tagname)
 
+    def select_by_text(self, element, text):
+        return Select(element).select_by_visible_text(text)
+
+    def js_execute(self, js):
+        return self.driver.execute_script(js)
