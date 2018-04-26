@@ -31,8 +31,8 @@ class UploadImg(BasePage):
     def submit_save_btn(self):
         return self.by_id("saveFileBtnCardFrond")
 
-    def uploadimg(self):
-        self.CardFrond.send_keys(Keys.ENTER)
-        self.sendimg.send_keys("C:\Users\Administrator\Desktop\图片文件夹\劳动节.png")
-        self.submit_save_btn.click()
-        self.driver.switch_to_alert().accept()
+    # def uploadimage(self):
+    #     self.CardFrond.send_keys(Keys.ENTER)
+    #     self.sendimg.send_keys("C:\Users\Administrator\Desktop\图片文件夹\劳动节.png")
+    #     self.submit_save_btn.click()
+    #     self.driver.switch_to_alert().accept()

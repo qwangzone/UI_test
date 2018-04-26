@@ -1,5 +1,5 @@
 from basepage import BasePage
-from createproject_page import CreateNew
+#from createproject_page import CreateNew
 from lognuserinfo import LoanUserInfo
 from projectstatus import ProjectSta
 from uploadimg import UploadImg

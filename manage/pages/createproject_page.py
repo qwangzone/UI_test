@@ -1,7 +1,7 @@
 from basepage import BasePage
 from copyproject import CopyPro
 import time
-from datetime import datetime
+from datetime import datetime, timedelta
 class CreateNew(BasePage):
     url = "/loan/project/create"
 
@@ -13,12 +13,12 @@ class CreateNew(BasePage):
     #上线项目分类
     def project_category(self, text="信易融"):
         ele = self.by_id("projectCategory")
-        return self.select_by_text(ele, text)
+        self.select_by_text(ele, text)
 
     #项目类型
     def projectNewType(self, text="直投"):
         ele = self.by_id("projectNewType")
-        return self.select_by_text(ele, text)
+        self.select_by_text(ele, text)
 
     #借款期限
     @property
@@ -28,7 +28,7 @@ class CreateNew(BasePage):
     #标的类型
     def corporeType(self, text="普通标"):
         ele = self.by_id("corporeType")
-        return self.select_by_text(ele, text)
+        self.select_by_text(ele, text)
 
     #借款金额
     @property
@@ -43,7 +43,7 @@ class CreateNew(BasePage):
     #还款方式
     def repaymentCalcType(self, text="等额本息"):
         ele = self.by_id("repaymentCalcType")
-        return self.select_by_text(ele, text)
+        self.select_by_text(ele, text)
 
     #出借方年化利率
     @property
@@ -55,29 +55,30 @@ class CreateNew(BasePage):
     def displayInterestRate(self):
         return self.by_id("displayInterestRate")
 
-    #允许投标起始时间
-    def start_time(self, time=datetime.now().strftime("%Y-%m-%d %H:%M:%S")):
-        pass
+    # 允许投标起始时间
+    def start_time(self, time_input=datetime.now().strftime("%Y-%m-%d %H:%M:%S")):
+        js = "document.getElementById('datetime-picker-4').value=\'%s\'" % time_input
+        self.js_execute(js)
 
     #认购截止时间
-    @property
-    def end_time(self):
-        pass
+    def end_time(self, time_input=(datetime.now() + timedelta(days=1)).strftime("%Y-%m-%d %H:%M:%S")):
+        js = "document.getElementById('datetime-picker-5').value=\'%s\'" % time_input
+        self.js_execute(js)
 
     #线上合同编号
     @property
     def contractFullID(self):
-        pass
+        return self.by_id("contractFullID")
 
     #合同类型
-    @property
-    def contractType(self):
-        pass
+    def contractType(self, text="信易融_薪金贷合同"):
+        ele = self.by_id("contractType")
+        self.select_by_text(ele, text)
 
     #线下借款合同编号
     @property
     def loanContract(self):
-        pass
+        return self.by_id("loanContract")
 
     #风险评级
     def custRating(self, custRating):
@@ -86,37 +87,37 @@ class CreateNew(BasePage):
     #借款人用户名
     @property
     def userName(self):
-        pass
+        return self.by_id("userName")
 
     #获取用户信息
     @property
     def btnLoadUser(self):
-        pass
+        return self.by_id("btnLoadUser")
 
     #资金用途
     @property
     def purpose(self):
-        pass
+        return self.by_id("purpose")
 
     #还款保障措施
     @property
     def houseGuaranteeInfo(self):
-        pass
+        return self.by_id("houseGuaranteeInfo")
 
     #项目情况
     @property
     def projectDescription(self):
-        pass
+        return self.by_id("projectDescription")
 
     #还款来源
     @property
     def repaymentSource(self):
-        pass
+        return self.by_id("repaymentSource")
 
     #底部保存按钮
     @property
     def saveLoanBtn(self):
-        pass
+        return self.by_id("saveLoanBtn")
 
 
 
@@ -124,28 +125,35 @@ class CreateNew(BasePage):
     def createnewproject(self, *,
                          project_name='test', project_category='信易融', projectNewType='直投',
                          financingMaturity=12, corporeType='普通标', amount=5000, minBidAmount=100,
-                         repaymentCalcType='等额本息', interestRatePercent=10.5, displayInterestRate='',
-                         start_time='', end_time='', contractFullID=222, contractType='信易融_薪金贷合同',
-                         loanContract='w222', custRating='AAA', userName='v2998928', purpose='资金用途测试',
+                         repaymentCalcType='等额本息', interestRatePercent="10.5", displayInterestRate='',
+                         start_time=datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                         end_time=(datetime.now() + timedelta(days=1)).strftime("%Y-%m-%d %H:%M:%S"),
+                         contractFullID=222, contractType='信易融_薪金贷合同',
+                         loanContract='w222', custRating='AAA',
+                         userName='v2998928', purpose='资金用途测试',
                          houseGuaranteeInfo='还款保障措施测试',projectDescription='项目情况测试',
                          repaymentSource='还款来源测试'):
-        self.open()
-        #先填写项目名称与借款期限
+        # self.open()
+        # 先填写项目名称与借款期限
         self.project_name.send_keys(project_name)
         self.financingMaturity.send_keys(financingMaturity)
         time.sleep(2)
-        self.project_category.send_keys(project_category)
-        self.projectNewType.send_keys(projectNewType)
-        self.corporeType.send_keys(corporeType)
+        self.project_category(project_category)
+        self.projectNewType(projectNewType)
+        self.corporeType(corporeType)
+        self.amount.clear()
         self.amount.send_keys(amount)
+        self.minBidAmount.clear()
         self.minBidAmount.send_keys(minBidAmount)
-        self.repaymentCalcType.send_keys(repaymentCalcType)
+        self.repaymentCalcType(repaymentCalcType)
+        self.interestRatePercent.clear()
         self.interestRatePercent.send_keys(interestRatePercent)
         self.displayInterestRate.send_keys(displayInterestRate)
-        self.start_time.send_keys(start_time)
-        self.end_time.send_keys(end_time)
+        self.start_time(start_time)
+        self.end_time(end_time)
+        time.sleep(3)
         self.contractFullID.send_keys(contractFullID)
-        self.contractType.send_keys(contractType)
+        self.contractType(contractType)
         self.loanContract.send_keys(loanContract)
         self.custRating(custRating).click()
         self.userName.send_keys(userName)
@@ -156,7 +164,7 @@ class CreateNew(BasePage):
         self.projectDescription.send_keys(projectDescription)
         self.repaymentSource.send_keys(repaymentSource)
         self.saveLoanBtn.click()
-        return CopyPro(self.diver)
+        return CopyPro(self.driver)
         #self.repaymentSource.send_keys(kwargs['repaymentSource'])
 
     #获取创建成功标的后的url
