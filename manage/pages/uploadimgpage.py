@@ -1,7 +1,7 @@
 # coding=utf-8
 from basepage import BasePage
 from selenium.webdriver.common.keys import Keys
-
+import time
 
 class UploadImg(BasePage):
     url = ''
@@ -31,8 +31,13 @@ class UploadImg(BasePage):
     def submit_save_btn(self):
         return self.by_id("saveFileBtnCardFrond")
 
-    # def uploadimage(self):
-    #     self.CardFrond.send_keys(Keys.ENTER)
-    #     self.sendimg.send_keys("C:\Users\Administrator\Desktop\图片文件夹\劳动节.png")
-    #     self.submit_save_btn.click()
-    #     self.driver.switch_to_alert().accept()
+    # 关闭弹窗
+    def close_alert(self):
+        return self.by_xpath("/html/body/div[7]/div/div[2]/button")
+
+    def uploadimage(self, imgpath="D:\测试用图\\1.png"):
+        self.CardFrond.click()
+        self.sendimg.send_keys(imgpath)
+        time.sleep(1)
+        self.submit_save_btn.click()
+        self.switch_alert.accept()

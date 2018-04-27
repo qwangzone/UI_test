@@ -3,11 +3,11 @@ import unittest, os, sys
 
 dir = os.path.dirname(os.path.dirname(__file__))
 sys.path.append(dir + "/pages")
-import createprojectpage, loginpage
+import copyprojectpage, loginpage, createprojectpage
 
 
-class CreateProTest(unittest.TestCase):
-    '''创建标的测试'''
+class CopyProTest(unittest.TestCase):
+    '''测试复制标的'''
 
     def setUp(self):
         self.dr = webdriver.Chrome()
@@ -19,11 +19,12 @@ class CreateProTest(unittest.TestCase):
         self.lgpg.login()
         # 引用后台新建标的page
         self.create_page = createprojectpage.CreateNew(self.dr)
-
-    def test_create_new(self):
         self.create_page.open()
-        self.create_page.createnewproject()
-        success_msg = self.create_page.get_save_success_msg()
+        self.copy_page = self.create_page.createnewproject()
+
+    def test_copypro(self):
+        self.copy_page.save_proinfo()
+        success_msg = self.copy_page.get_save_success_msg()
         self.assertIn("项目保存成功", success_msg)
 
     def tearDown(self):

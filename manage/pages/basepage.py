@@ -36,3 +36,14 @@ class BasePage:
 
     def js_execute(self, js):
         return self.driver.execute_script(js)
+
+    def by_link(self, link_text):
+        return self.driver.find_element_by_link_text(link_text)
+
+    def switch_alert(self):
+        return self.driver.switch_to_alert()
+
+    # 竖向滚动条拉动
+    def scroll(self, size):
+        js = "document.body.scrollTop=\'%s\'" % size
+        self.js_execute(js)

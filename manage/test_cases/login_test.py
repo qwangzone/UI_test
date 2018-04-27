@@ -2,7 +2,7 @@ import unittest, os, sys
 
 dir = os.path.dirname(os.path.dirname(__file__))
 sys.path.append(dir + "/pages")
-import login_page
+import loginpage
 from selenium import webdriver
 
 
@@ -11,7 +11,7 @@ class LoginTest(unittest.TestCase):
     @classmethod
     def setUpClass(self):
         self.dr = webdriver.Chrome()
-        self.lgpg = login_page.LoginPage(self.dr)
+        self.lgpg = loginpage.LoginPage(self.dr)
         self.lgpg.open()
 
     # 登录失败（用户名或密码错误）
@@ -27,7 +27,7 @@ class LoginTest(unittest.TestCase):
         self.lgpg.login(username="caihongguang")
         self.success = self.lgpg.get_login_success_msg()
         # print(self.success)
-        self.assertIn("欢迎", self.success, )
+        self.assertIn("欢迎", self.success)
 
     @classmethod
     def tearDownClass(self):
