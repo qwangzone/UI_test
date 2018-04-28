@@ -40,4 +40,5 @@ class UploadImg(BasePage):
         self.sendimg.send_keys(imgpath)
         time.sleep(1)
         self.submit_save_btn.click()
-        self.switch_alert.accept()
+        time.sleep(1)
+        self.close_alert().click()
