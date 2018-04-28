@@ -6,7 +6,8 @@ sys.path.append(dir + "/pages")
 from loginpage import LoginPage
 from createprojectpage import CreateNew
 
-class UploadImgTest(unittest.TestCase):
+
+class ProStatusTest(unittest.TestCase):
     def setUp(self):
         self.dr = webdriver.Chrome()
         self.dr.maximize_window()
@@ -20,12 +21,13 @@ class UploadImgTest(unittest.TestCase):
         self.createpro_p.open()
         self.createpro_p.createnewproject()
 
-    def test_uploadimg(self):
-        self.upload_p = self.createpro_p.uploadimgb()
-        self.upload_p.uploadimage()
+    def test_prostatus(self):
+        self.prostat_p = self.createpro_p.projectstatus()
+        for i in range(2):
+            self.prostat_p.changeprosta()
 
     def tearDown(self):
-        self.dr.quit()
-
+        #self.dr.quit()
+        print("end")
 if __name__ == '__main__':
     unittest.main()

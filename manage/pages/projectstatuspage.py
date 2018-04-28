@@ -15,6 +15,7 @@ class ProjectSta(BasePage):
     # 改变项目状态
     def changeprosta(self):
         self.changestatusbtn().click()
+        self.changestatusbtn().click()
 
     # 中止项目
     def stoppro(self):

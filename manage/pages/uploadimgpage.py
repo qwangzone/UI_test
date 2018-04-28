@@ -1,7 +1,7 @@
 # coding=utf-8
 from basepage import BasePage
 from selenium.webdriver.common.keys import Keys
-import time
+import time, os, sys
 
 class UploadImg(BasePage):
     url = ''
@@ -21,24 +21,79 @@ class UploadImg(BasePage):
     def LocallyHead(self):
         return self.by_id("uploadLocallyHead")
 
-    # 上传图片
+    # 上传身份证正面图片
     @property
-    def sendimg(self):
+    def sendimgFrond(self):
         return self.by_id("uploadImageLocalInputCardFrond")
 
-    # 弹框上保存按钮
+    # 上传身份证反面图片
     @property
-    def submit_save_btn(self):
+    def sendimgBack(self):
+        return self.by_id("uploadImageLocalInputCardBack")
+
+    # 上传身份证头像图片
+    @property
+    def sendimgHead(self):
+        return self.by_id("uploadImageLocalInputHead")
+
+    # 弹框上保存正面按钮
+    @property
+    def submit_save_Frond_btn(self):
         return self.by_id("saveFileBtnCardFrond")
+
+    # 弹框上保存反面按钮
+    @property
+    def submit_save_Back_btn(self):
+        return self.by_id("saveFileBtnCardBack")
+
+    # 弹框上保存头像按钮
+    @property
+    def submit_save_Head_btn(self):
+        return self.by_id("saveFileBtnHead")
 
     # 关闭弹窗
     def close_alert(self):
         return self.by_xpath("/html/body/div[7]/div/div[2]/button")
 
-    def uploadimage(self, imgpath="D:\测试用图\\1.png"):
+    def uploadimage(self, imgfronk=r"E:\github\UI_test\manage\\testdate_img\1.png",
+                    imgback=r"E:\github\UI_test\manage\\testdate_img\2.png",
+                    imghead=r"E:\github\UI_test\manage\\testdate_img\3.png"):
+
+        # 上传身份证正面
         self.CardFrond.click()
-        self.sendimg.send_keys(imgpath)
+        self.sendimgFrond.send_keys(imgfronk)
         time.sleep(1)
-        self.submit_save_btn.click()
+        self.submit_save_Frond_btn.click()
         time.sleep(1)
         self.close_alert().click()
+        time.sleep(1)
+
+        # 上传身份证反面
+        self.CardBack.click()
+        self.sendimgBack.send_keys(imgback)
+        time.sleep(1)
+        self.submit_save_Back_btn.click()
+        time.sleep(1)
+        self.close_alert().click()
+        time.sleep(1)
+
+        # 上传身份证头像
+        self.LocallyHead.click()
+        self.sendimgHead.send_keys(imghead)
+        time.sleep(1)
+        self.submit_save_Head_btn.click()
+        time.sleep(1)
+        self.close_alert().click()
+        time.sleep(1)
+        # btn_dic = {self.CardFrond: [self.sendimgFrond, self.submit_save_Frond_btn],
+        #            self.CardBack: [self.sendimgBack, self.submit_save_Back_btn],
+        #            self.LocallyHead: [self.sendimgHead, self.submit_save_Head_btn]}
+        # for i, v in btn_dic.items():
+        #     i().click()
+        #     v[0].send_keys(imgpath)
+        #     time.sleep(1)
+        #     v[1].click()
+        #     time.sleep(1)
+        #     self.close_alert().click()
+        #     time.sleep(5)
+
