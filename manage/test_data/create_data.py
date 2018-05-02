@@ -1,7 +1,7 @@
 import os, sys
 
 dir = os.path.dirname(os.path.dirname(__file__))
-sys.path.append(dir + "/manage/pages")
+sys.path.append(dir + "/pages/")
 from createprojectpage import CreateNew
 from loginpage import LoginPage
 from selenium import webdriver
@@ -33,7 +33,7 @@ def createdata(driver):
 
     # 创建标的
     create_p.open()
-    create_p.createnewproject()
+    create_p.createnewproject(project_name="testwq")
 
     # 填写借款人信息
     loanuser_p = create_p.loanuserinfo()
@@ -45,7 +45,8 @@ def createdata(driver):
 
     # 改变项目状态
     prosta_p = create_p.projectstatus()
-    prosta_p.changeprosta()
+    prosta_p.changeprosta_yianpai()
+    prosta_p.changeprosta_kaifang()
 
     # 获取标id
     url = driver.current_url
@@ -56,5 +57,5 @@ def createdata(driver):
 if __name__ == '__main__':
     dr = webdriver.Chrome()
     dr.maximize_window()
-    dr.implicitly_wait(20)
+    #dr.implicitly_wait(20)
     createdata(dr)

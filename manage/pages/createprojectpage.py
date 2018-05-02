@@ -120,6 +120,11 @@ class CreateNew(BasePage):
     def repaymentSource(self):
         return self.by_id("repaymentSource")
 
+    # 签约地址
+    @property
+    def signAddr(self):
+        return self.by_id("signAddr")
+
     # 底部保存按钮
     @property
     def saveLoanBtn(self):
@@ -175,7 +180,7 @@ class CreateNew(BasePage):
                          loanContract='w222', custRating='AAA',
                          userName='v2998928', purpose='资金用途测试',
                          houseGuaranteeInfo='还款保障措施测试', projectDescription='项目情况测试',
-                         repaymentSource='还款来源测试'):
+                         repaymentSource='还款来源测试', signAddr='签约地址测试'):
         # self.open()
         # 先填写项目名称与借款期限
         self.project_name.send_keys(project_name)
@@ -209,6 +214,7 @@ class CreateNew(BasePage):
         self.projectDescription.send_keys(projectDescription)
         self.repaymentSource.clear()
         self.repaymentSource.send_keys(repaymentSource)
+        self.signAddr.send_keys(signAddr)
         self.saveLoanBtn.click()
         return CopyPro(self.driver)
         # self.repaymentSource.send_keys(kwargs['repaymentSource'])

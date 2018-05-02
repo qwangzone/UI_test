@@ -12,11 +12,15 @@ class ProjectSta(BasePage):
     def discontinuebtn(self):
         return self.by_xpath("//div[@id='contact-info']/div/form[2]/input[3]")
 
-    # 改变项目状态
-    def changeprosta(self):
+    # 改变项目状态 已安排
+    def changeprosta_yianpai(self):
         self.changestatusbtn().click()
-        self.changestatusbtn().click()
+        # self.changestatusbtn().click()
+        # self.ele_wait(self.changestatusbtn()).click()
 
+    # 改变项目状态 开放投标
+    def changeprosta_kaifang(self):
+        self.changestatusbtn().click()
     # 中止项目
     def stoppro(self):
         self.discontinuebtn().click()

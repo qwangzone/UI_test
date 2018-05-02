@@ -23,8 +23,9 @@ class ProStatusTest(unittest.TestCase):
 
     def test_prostatus(self):
         self.prostat_p = self.createpro_p.projectstatus()
-        for i in range(2):
-            self.prostat_p.changeprosta()
+        self.prostat_p.changeprosta_yianpai()
+        self.prostat_p.changeprosta_kaifang()
+
 
     def tearDown(self):
         #self.dr.quit()

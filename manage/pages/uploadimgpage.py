@@ -3,6 +3,7 @@ from basepage import BasePage
 from selenium.webdriver.common.keys import Keys
 import time, os, sys
 
+
 class UploadImg(BasePage):
     url = ''
 
@@ -58,33 +59,41 @@ class UploadImg(BasePage):
     def uploadimage(self, imgfronk=r"E:\github\UI_test\manage\\testdate_img\1.png",
                     imgback=r"E:\github\UI_test\manage\\testdate_img\2.png",
                     imghead=r"E:\github\UI_test\manage\\testdate_img\3.png"):
-
         # 上传身份证正面
         self.CardFrond.click()
-        self.sendimgFrond.send_keys(imgfronk)
-        time.sleep(1)
-        self.submit_save_Frond_btn.click()
-        time.sleep(1)
-        self.close_alert().click()
-        time.sleep(1)
+        self.ele_wait_present(("id", "uploadImageLocalInputCardFrond")).send_keys(imgfronk)
+        # self.sendimgFrond.send_keys(imgfronk)
+        # time.sleep(1)
+        self.ele_wait_visible(("id", "saveFileBtnCardFrond")).click()
+        # self.submit_save_Frond_btn.click()
+        # time.sleep(1)
+        self.ele_wait_visible(("xpath", "/html/body/div[7]/div/div[2]/button")).click()
+        # self.close_alert().click()
+        # time.sleep(1)
 
         # 上传身份证反面
         self.CardBack.click()
-        self.sendimgBack.send_keys(imgback)
-        time.sleep(1)
-        self.submit_save_Back_btn.click()
-        time.sleep(1)
-        self.close_alert().click()
-        time.sleep(1)
+        self.ele_wait_present(("id", "uploadImageLocalInputCardBack")).send_keys(imgback)
+        # self.sendimgBack.send_keys(imgback)
+        # time.sleep(1)
+        self.ele_wait_visible(("id", "saveFileBtnCardBack")).click()
+        # self.submit_save_Back_btn.click()
+        # time.sleep(1)
+        self.ele_wait_visible(("xpath", "/html/body/div[7]/div/div[2]/button")).click()
+        # self.close_alert().click()
+        # time.sleep(1)
 
         # 上传身份证头像
         self.LocallyHead.click()
-        self.sendimgHead.send_keys(imghead)
-        time.sleep(1)
-        self.submit_save_Head_btn.click()
-        time.sleep(1)
-        self.close_alert().click()
-        time.sleep(1)
+        self.ele_wait_present(("id", "uploadImageLocalInputHead")).send_keys(imghead)
+        # self.sendimgHead.send_keys(imghead)
+        # time.sleep(1)
+        self.ele_wait_visible(("id", "saveFileBtnHead")).click()
+        # self.submit_save_Head_btn.click()
+        # time.sleep(1)
+        self.ele_wait_visible(("xpath", "/html/body/div[7]/div/div[2]/button")).click()
+        # self.close_alert().click()
+        # time.sleep(1)
         # btn_dic = {self.CardFrond: [self.sendimgFrond, self.submit_save_Frond_btn],
         #            self.CardBack: [self.sendimgBack, self.submit_save_Back_btn],
         #            self.LocallyHead: [self.sendimgHead, self.submit_save_Head_btn]}
@@ -96,4 +105,3 @@ class UploadImg(BasePage):
         #     time.sleep(1)
         #     self.close_alert().click()
         #     time.sleep(5)
-
