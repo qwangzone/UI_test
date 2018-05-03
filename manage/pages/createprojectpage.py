@@ -1,3 +1,4 @@
+#coding=utf-8
 from basepage import BasePage
 from copyprojectpage import CopyPro
 from loanuserinfopage import LoanUserInfo
@@ -170,7 +171,7 @@ class CreateNew(BasePage):
         return self.success_alert.text
 
     # 填写创建标的字段
-    def createnewproject(self, *,
+    def createnewproject(self,
                          project_name='test', project_category='信易融', projectNewType='直投',
                          financingMaturity=12, corporeType='普通标', amount=5000, minBidAmount=100,
                          repaymentCalcType='等额本息', interestRatePercent="10.5", displayInterestRate='',

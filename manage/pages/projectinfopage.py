@@ -1,3 +1,4 @@
+#coding=utf-8
 from basepage import BasePage
 # import os, sys
 # dir = os.path.dirname(os.path.dirname(__file__))

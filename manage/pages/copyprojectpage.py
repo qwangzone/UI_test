@@ -1,3 +1,4 @@
+#coding=utf-8
 from basepage import BasePage
 from loanuserinfopage import LoanUserInfo
 from projectstatuspage import ProjectSta
