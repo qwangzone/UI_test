@@ -11,7 +11,7 @@ class ProjetInfo(BasePage):
     # 项目编号
     def project_number(self):
         return self.by_xpath("//table[@class='details oddeven']/tbody/tr[1]/td[2]")
-
+        #return self.ele_wait_present(self, '')
     # 项目类型
     def project_type(self):
         return self.by_xpath("//table[@class='details oddeven']/tbody/tr[1]/td[4]")

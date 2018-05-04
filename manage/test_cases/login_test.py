@@ -17,7 +17,6 @@ class LoginTest(unittest.TestCase):
         self.lgpg.open()
 
     # 登录失败（用户名或密码错误）
-    @classmethod
     def test1_username_error(self):
         '''用户名或密码错误'''
         self.lgpg.login(username="errorusername")
@@ -25,7 +24,6 @@ class LoginTest(unittest.TestCase):
         self.assertEqual(self.error_msg, "用户名或密码不正确")
 
     # 登录成功
-    @classmethod
     def test2_login_success(self):
         '''登录成功'''
         self.lgpg.login(username="caihongguang")

@@ -68,7 +68,7 @@ class BasePage:
 
         return WebDriverWait(self.driver, 20, 1).until(EC.presence_of_element_located(locate))
 
-           # 封装显示等待元素是否可见
+    # 封装显示等待元素是否可见
 
     def ele_wait_visible(self, locate):
         return WebDriverWait(self.driver, 20, 1).until(EC.visibility_of_element_located(locate))
