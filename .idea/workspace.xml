@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45a50947-93c8-422c-ab12-d3b02a09bb9e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/pages/basepage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage/pages/basepage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/pages/projectinfopage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage/pages/projectinfopage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/test_cases/login_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage/test_cases/login_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/test_cases/projectinfo_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage/test_cases/projectinfo_test.py" afterDir="false" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/testdate_img/2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/testdate_img/3.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/testdate_img/E694D5CA-BDC2-44e8-8ABD-32E298DF7680.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/testdate_img/F09F1321-9EF4-487c-99EF-5884655E972D.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/UI_test.iml" afterPath="$PROJECT_DIR$/.idea/UI_test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manage/pages/basepage.py" afterPath="$PROJECT_DIR$/manage/pages/basepage.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manage/pages/uploadimgpage.py" afterPath="$PROJECT_DIR$/manage/pages/uploadimgpage.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manage/test_cases/projectinfo_test.py" afterPath="$PROJECT_DIR$/manage/test_cases/projectinfo_test.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,46 +20,67 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="projectinfopage.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manage/pages/projectinfopage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="103" column="19" selection-start-line="103" selection-start-column="8" selection-end-line="103" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="projectinfo_test.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="projectinfo_test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/manage/test_cases/projectinfo_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="210">
+              <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="uploadimgpage.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manage/pages/uploadimgpage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="423">
+              <caret line="84" column="33" lean-forward="false" selection-start-line="84" selection-start-column="33" selection-end-line="84" selection-end-column="33" />
               <folding>
-                <element signature="e#14#29#0" expanded="true" />
+                <element signature="e#15#44#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manage/test_cases/login_test.py">
+      <file leaf-file-name="projectstatuspage.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manage/pages/projectstatuspage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="969">
-              <caret line="41" column="19" lean-forward="true" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
-              <folding>
-                <element signature="e#14#38#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="390">
+              <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="loanuserinfopage.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manage/pages/loanuserinfopage.py">
+      <file leaf-file-name="basepage.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manage/pages/basepage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1068">
-              <caret line="96" column="88" selection-start-line="96" selection-start-column="80" selection-end-line="96" selection-end-column="88" />
+            <state relative-caret-position="-50">
+              <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wait.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/python3.6/Lib/site-packages/selenium/webdriver/support/wait.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="69" column="31" lean-forward="false" selection-start-line="69" selection-start-column="31" selection-end-line="69" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loginpage.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manage/pages/loginpage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1110">
+              <caret line="38" column="23" lean-forward="true" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -62,16 +88,30 @@
       <file leaf-file-name="createprojectpage.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/manage/pages/createprojectpage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="175" column="95" lean-forward="true" selection-start-line="175" selection-start-column="95" selection-end-line="175" selection-end-column="95" />
-              <folding>
-                <element signature="e#14#43#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="376">
+              <caret line="182" column="57" lean-forward="false" selection-start-line="182" selection-start-column="57" selection-end-line="182" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create_data.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/manage/test_data/create_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>clickable</find>
+      <find>Element</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -88,68 +128,144 @@
         <option value="$PROJECT_DIR$/manage/test_cases/loanuserinfo_test.py" />
         <option value="$PROJECT_DIR$/manage/test_cases/projectstatus_test.py" />
         <option value="$PROJECT_DIR$/manage/test_cases/uploadimg_test.py" />
-        <option value="$PROJECT_DIR$/manage/test_data/create_data.py" />
         <option value="$PROJECT_DIR$/market/pages/basepage.py" />
         <option value="$PROJECT_DIR$/manage/pages/createprojectpage.py" />
         <option value="$PROJECT_DIR$/manage/test_cases/login_test.py" />
-        <option value="$PROJECT_DIR$/manage/pages/basepage.py" />
         <option value="$PROJECT_DIR$/manage/pages/projectinfopage.py" />
         <option value="$PROJECT_DIR$/manage/test_cases/projectinfo_test.py" />
+        <option value="$PROJECT_DIR$/manage/pages/basepage.py" />
+        <option value="$PROJECT_DIR$/manage/pages/uploadimgpage.py" />
+        <option value="$PROJECT_DIR$/manage/test_data/create_data.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="width" value="1924" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
-          <expand>
-            <path>
-              <item name="UI_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UI_test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UI_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UI_test" type="462c0819:PsiDirectoryNode" />
-              <item name="manage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UI_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UI_test" type="462c0819:PsiDirectoryNode" />
-              <item name="manage" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UI_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UI_test" type="462c0819:PsiDirectoryNode" />
-              <item name="manage" type="462c0819:PsiDirectoryNode" />
-              <item name="test_cases" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UI_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UI_test" type="462c0819:PsiDirectoryNode" />
-              <item name="manage" type="462c0819:PsiDirectoryNode" />
-              <item name="test_data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UI_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UI_test" type="462c0819:PsiDirectoryNode" />
-              <item name="market" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UI_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UI_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UI_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UI_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UI_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UI_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testdate_img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UI_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UI_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test_data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UI_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UI_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test_cases" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UI_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UI_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../my_django" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -163,88 +279,171 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for projectinfo_test.ProjectInfoTest.test15_industryinfo_success">
-    <configuration name="Unittests for projectinfo_test.ProjectInfoTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="UI_test" />
+  <component name="RunManager" selected="Python.create_data">
+    <configuration default="false" name="Unittests for projectinfo_test.ProjectInfoTest.test1_projecttype_success" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs />
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/manage/test_cases" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="UI_test" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;projectinfo_test.ProjectInfoTest&quot;" />
+      <option name="_new_target" value="&quot;projectinfo_test.ProjectInfoTest.test1_projecttype_success&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method />
     </configuration>
-    <configuration name="Unittests for projectinfo_test.ProjectInfoTest.test12_riskrating_success" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="UI_test" />
+    <configuration default="false" name="Unittests for projectinfo_test.ProjectInfoTest.setUpClass" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs />
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/manage/test_cases" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="UI_test" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;projectinfo_test.ProjectInfoTest.test12_riskrating_success&quot;" />
+      <option name="_new_target" value="&quot;projectinfo_test.ProjectInfoTest.setUpClass&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method />
     </configuration>
-    <configuration name="Unittests for projectinfo_test.ProjectInfoTest.test15_industryinfo_success" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="UI_test" />
+    <configuration default="false" name="Unittests for projectinfo_test.ProjectInfoTest.setUpClass (1)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs />
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/manage/test_cases" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="UI_test" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;projectinfo_test.ProjectInfoTest.test15_industryinfo_success&quot;" />
+      <option name="_new_target" value="&quot;projectinfo_test.ProjectInfoTest.setUpClass&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method />
     </configuration>
-    <configuration name="Unittests for projectinfo_test.ProjectInfoTest.test9_repaytype_success" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="UI_test" />
+    <configuration default="false" name="create_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/manage/test_cases" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/manage/test_data" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;projectinfo_test.ProjectInfoTest.test9_repaytype_success&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-    </configuration>
-    <configuration name="Unittests in projectinfo_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="UI_test" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage/test_data/create_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="uploadimgpage" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/manage/test_cases" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/manage/pages" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="UI_test" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage/pages/uploadimgpage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="UI_test" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="UI_test" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="UI_test" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/manage/test_cases/projectinfo_test.py&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
     </configuration>
-    <list>
-      <item itemvalue="Python tests.Unittests for projectinfo_test.ProjectInfoTest" />
-      <item itemvalue="Python tests.Unittests in projectinfo_test.py" />
-      <item itemvalue="Python tests.Unittests for projectinfo_test.ProjectInfoTest.test9_repaytype_success" />
-      <item itemvalue="Python tests.Unittests for projectinfo_test.ProjectInfoTest.test12_riskrating_success" />
-      <item itemvalue="Python tests.Unittests for projectinfo_test.ProjectInfoTest.test15_industryinfo_success" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for projectinfo_test.ProjectInfoTest.test1_projecttype_success" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for projectinfo_test.ProjectInfoTest.setUpClass" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for projectinfo_test.ProjectInfoTest.setUpClass (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.create_data" />
+      <item index="4" class="java.lang.String" itemvalue="Python.uploadimgpage" />
     </list>
     <recent_temporary>
-      <list>
-        <item itemvalue="Python tests.Unittests for projectinfo_test.ProjectInfoTest.test15_industryinfo_success" />
-        <item itemvalue="Python tests.Unittests for projectinfo_test.ProjectInfoTest.test12_riskrating_success" />
-        <item itemvalue="Python tests.Unittests for projectinfo_test.ProjectInfoTest" />
-        <item itemvalue="Python tests.Unittests for projectinfo_test.ProjectInfoTest.test9_repaytype_success" />
-        <item itemvalue="Python tests.Unittests in projectinfo_test.py" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.create_data" />
+        <item index="1" class="java.lang.String" itemvalue="Python.uploadimgpage" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for projectinfo_test.ProjectInfoTest.setUpClass (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for projectinfo_test.ProjectInfoTest.setUpClass" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for projectinfo_test.ProjectInfoTest.test1_projecttype_success" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -260,29 +459,17 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_projectinfo_test_ProjectInfoTest_test6_prosartt_success - 2018.05.04 at 10h 10m 20s.xml">
-      <configuration name="Unittests for projectinfo_test.ProjectInfoTest.test6_prosartt_success" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_projectinfo_test_ProjectInfoTest_test6_prosartt_success - 2018.05.04 at 11h 45m 56s.xml">
-      <configuration name="Unittests for projectinfo_test.ProjectInfoTest.test6_prosartt_success" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_projectinfo_test_ProjectInfoTest_test6_prosartt_success - 2018.05.04 at 11h 47m 28s.xml">
-      <configuration name="Unittests for projectinfo_test.ProjectInfoTest.test6_prosartt_success" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_projectinfo_test_ProjectInfoTest_test5_proAddr_success - 2018.05.04 at 11h 48m 50s.xml">
-      <configuration name="Unittests for projectinfo_test.ProjectInfoTest.test5_proAddr_success" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_projectinfo_test_ProjectInfoTest - 2018.05.04 at 14h 08m 56s.xml">
       <configuration name="Unittests for projectinfo_test.ProjectInfoTest" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_projectinfo_test_py - 2018.05.04 at 14h 14m 17s.xml">
-      <configuration name="Unittests in projectinfo_test.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_projectinfo_test_ProjectInfoTest_test9_repaytype_success - 2018.05.04 at 14h 18m 35s.xml">
-      <configuration name="Unittests for projectinfo_test.ProjectInfoTest.test9_repaytype_success" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_projectinfo_test_ProjectInfoTest - 2018.05.04 at 14h 47m 04s.xml">
       <configuration name="Unittests for projectinfo_test.ProjectInfoTest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_projectinfo_test_ProjectInfoTest_setUpClass - 2018.05.04 at 15h 32m 46s.xml">
+      <configuration name="Unittests for projectinfo_test.ProjectInfoTest.setUpClass" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_projectinfo_test_ProjectInfoTest_setUpClass_(1) - 2018.05.04 at 15h 34m 58s.xml">
+      <configuration name="Unittests for projectinfo_test.ProjectInfoTest.setUpClass (1)" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_for_projectinfo_test_ProjectInfoTest_test12_riskrating_success - 2018.05.04 at 14h 52m 15s.xml">
       <configuration name="Unittests for projectinfo_test.ProjectInfoTest.test12_riskrating_success" configurationId="tests" />
@@ -290,48 +477,42 @@
     <history-entry file="Unittests_for_projectinfo_test_ProjectInfoTest_test15_industryinfo_success - 2018.05.04 at 14h 55m 37s.xml">
       <configuration name="Unittests for projectinfo_test.ProjectInfoTest.test15_industryinfo_success" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_projectinfo_test_ProjectInfoTest_test1_projecttype_success - 2018.05.04 at 15h 32m 00s.xml">
+      <configuration name="Unittests for projectinfo_test.ProjectInfoTest.test1_projecttype_success" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_projectinfo_test_ProjectInfoTest_test22_carloan_success - 2018.05.04 at 15h 31m 13s.xml">
+      <configuration name="Unittests for projectinfo_test.ProjectInfoTest.test22_carloan_success" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_projectinfo_test_ProjectInfoTest_test9_repaytype_success - 2018.05.04 at 14h 18m 35s.xml">
+      <configuration name="Unittests for projectinfo_test.ProjectInfoTest.test9_repaytype_success" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_projectinfo_test_py - 2018.05.04 at 14h 14m 17s.xml">
+      <configuration name="Unittests in projectinfo_test.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="0" width="1924" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32897604" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.32897604" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.42810458" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32897604" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32968238" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24973656" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.32897604" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32897604" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Python Console" order="0" />
-    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -346,21 +527,87 @@
       </breakpoints>
       <option name="time" value="1" />
     </breakpoint-manager>
+    <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/manage/pages/projectinfopage.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/test_cases/login_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding>
+            <marker date="1525418922812" expanded="true" signature="820:892" ph="..." />
+            <marker date="1525418922812" expanded="true" signature="820:962" ph="..." />
+            <marker date="1525418922812" expanded="true" signature="939:962" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/pages/loanuserinfopage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2880">
+          <caret line="96" column="82" lean-forward="true" selection-start-line="96" selection-start-column="80" selection-end-line="96" selection-end-column="82" />
+          <folding>
+            <marker date="1525418922802" expanded="true" signature="142:186" ph="..." />
+            <marker date="1525418922802" expanded="true" signature="247:293" ph="..." />
+            <marker date="1525418922802" expanded="true" signature="349:393" ph="..." />
+            <marker date="1525418922802" expanded="true" signature="436:512" ph="..." />
+            <marker date="1525418922802" expanded="true" signature="563:647" ph="..." />
+            <marker date="1525418922802" expanded="true" signature="699:782" ph="..." />
+            <marker date="1525418922802" expanded="true" signature="837:920" ph="..." />
+            <marker date="1525418922802" expanded="true" signature="969:1047" ph="..." />
+            <marker date="1525418922802" expanded="true" signature="1103:1188" ph="..." />
+            <marker date="1525418922802" expanded="true" signature="1236:1314" ph="..." />
+            <marker date="1525418922802" expanded="true" signature="1361:1435" ph="..." />
+            <marker date="1525418922802" expanded="true" signature="1487:1565" ph="..." />
+            <marker date="1525418922802" expanded="true" signature="1609:1683" ph="..." />
+            <marker date="1525418922802" expanded="true" signature="1739:1801" ph="..." />
+            <marker date="1525418922802" expanded="true" signature="1863:1931" ph="..." />
+            <marker date="1525418922802" expanded="true" signature="1983:2041" ph="..." />
+            <marker date="1525418922802" expanded="true" signature="2099:2163" ph="..." />
+            <marker date="1525418922802" expanded="true" signature="2212:2260" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/pages/createprojectpage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5040">
+          <caret line="175" column="95" lean-forward="true" selection-start-line="175" selection-start-column="95" selection-end-line="175" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/test_cases/projectinfo_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/pages/projectinfopage.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2600">
-          <caret line="104" column="76" selection-start-line="104" selection-start-column="76" selection-end-line="104" selection-end-column="76" />
+          <caret line="104" column="76" lean-forward="false" selection-start-line="104" selection-start-column="76" selection-end-line="104" selection-end-column="76" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/manage/test_cases/login_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
-          <caret line="28" column="27" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="27" />
+          <caret line="28" column="27" lean-forward="false" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="27" />
           <folding>
-            <element signature="e#14#38#0" expanded="true" />
+            <marker date="1525418922812" expanded="true" signature="820:892" ph="..." />
+            <marker date="1525418922812" expanded="true" signature="820:962" ph="..." />
+            <marker date="1525418922812" expanded="true" signature="939:962" ph="..." />
           </folding>
         </state>
       </provider>
@@ -368,7 +615,7 @@
     <entry file="file://$PROJECT_DIR$/manage/test_data/create_data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="900">
-          <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+          <caret line="36" column="25" lean-forward="false" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -384,8 +631,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/manage/test_cases/loanuserinfo_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -399,37 +646,23 @@
     <entry file="file://$PROJECT_DIR$/manage/pages/createprojectpage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1450">
-          <caret line="65" column="18" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="18" />
-          <folding>
-            <element signature="e#14#43#0" expanded="true" />
-          </folding>
+          <caret line="65" column="18" lean-forward="false" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/manage/test_cases/projectinfo_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="875">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="e#14#29#0" expanded="true" />
-          </folding>
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/runtest.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/manage/pages/copyprojectpage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage/pages/projectstatuspage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -437,13 +670,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage/test_cases/uploadimg_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -461,54 +687,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manage/pages/loginpage.py">
+    <entry file="file://C:/Python27/Lib/site-packages/selenium/webdriver/support/wait.py" />
+    <entry file="file://C:/Python27/Lib/site-packages/selenium/webdriver/support/expected_conditions.py" />
+    <entry file="file://$PROJECT_DIR$/manage/test_cases/loanuserinfo_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-684">
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        <state relative-caret-position="675">
+          <caret line="28" column="8" lean-forward="false" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manage/test_data/create_data.py">
+    <entry file="file://$PROJECT_DIR$/manage/test_cases/login_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/selenium/webdriver/support/wait.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="43" column="29" lean-forward="true" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/selenium/webdriver/support/expected_conditions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="67" column="8" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage/pages/basepage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="73" column="75" selection-start-line="73" selection-start-column="75" selection-end-line="73" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage/pages/uploadimgpage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="64" column="47" lean-forward="true" selection-start-line="64" selection-start-column="47" selection-end-line="64" selection-end-column="47" />
+        <state relative-caret-position="1140">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding>
-            <element signature="e#15#44#0" expanded="true" />
+            <marker date="1525418922812" expanded="true" signature="820:892" ph="..." />
+            <marker date="1525418922812" expanded="true" signature="820:962" ph="..." />
+            <marker date="1525418922812" expanded="true" signature="939:962" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/pages/projectinfopage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3120">
+          <caret line="104" column="76" lean-forward="false" selection-start-line="104" selection-start-column="76" selection-end-line="104" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/pages/loanuserinfopage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2880">
+          <caret line="97" column="82" lean-forward="false" selection-start-line="97" selection-start-column="80" selection-end-line="97" selection-end-column="82" />
+          <folding>
+            <marker date="1525418922802" expanded="true" signature="142:186" ph="..." />
+            <marker date="1525418922802" expanded="true" signature="247:293" ph="..." />
+            <marker date="1525418922802" expanded="true" signature="349:393" ph="..." />
+            <marker date="1525418922802" expanded="true" signature="436:512" ph="..." />
+            <marker date="1525418922802" expanded="true" signature="563:647" ph="..." />
+            <marker date="1525418922802" expanded="true" signature="699:782" ph="..." />
+            <marker date="1525418922802" expanded="true" signature="837:920" ph="..." />
+            <marker date="1525418922802" expanded="true" signature="969:1047" ph="..." />
+            <marker date="1525418922802" expanded="true" signature="1103:1188" ph="..." />
+            <marker date="1525418922802" expanded="true" signature="1236:1314" ph="..." />
+            <marker date="1525418922802" expanded="true" signature="1361:1435" ph="..." />
+            <marker date="1525418922802" expanded="true" signature="1487:1565" ph="..." />
+            <marker date="1525418922802" expanded="true" signature="1609:1683" ph="..." />
+            <marker date="1525418922802" expanded="true" signature="1739:1801" ph="..." />
+            <marker date="1525418922802" expanded="true" signature="1863:1931" ph="..." />
+            <marker date="1525418922802" expanded="true" signature="1983:2041" ph="..." />
+            <marker date="1525418922802" expanded="true" signature="2099:2163" ph="..." />
+            <marker date="1525418922802" expanded="true" signature="2212:2260" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/manage/test_cases/createproject_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
+        <state relative-caret-position="526">
           <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
           <folding>
             <element signature="e#14#44#0" expanded="true" />
@@ -516,54 +753,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manage/test_cases/loanuserinfo_test.py">
+    <entry file="file://$PROJECT_DIR$/manage/test_cases/uploadimg_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="22" />
+        <state relative-caret-position="810">
+          <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manage/test_cases/login_test.py">
+    <entry file="file://$PROJECT_DIR$/manage/pages/projectstatuspage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="41" column="19" lean-forward="true" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
-          <folding>
-            <element signature="e#14#38#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="390">
+          <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manage/pages/projectinfopage.py">
+    <entry file="file://C:/python3.6/Lib/site-packages/selenium/webdriver/support/expected_conditions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="103" column="19" selection-start-line="103" selection-start-column="8" selection-end-line="103" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage/pages/loanuserinfopage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1068">
-          <caret line="96" column="88" selection-start-line="96" selection-start-column="80" selection-end-line="96" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage/pages/createprojectpage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="175" column="95" lean-forward="true" selection-start-line="175" selection-start-column="95" selection-end-line="175" selection-end-column="95" />
-          <folding>
-            <element signature="e#14#43#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="243">
+          <caret line="271" column="17" lean-forward="true" selection-start-line="271" selection-start-column="17" selection-end-line="271" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/manage/test_cases/projectinfo_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="210">
+          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/pages/uploadimgpage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="84" column="33" lean-forward="false" selection-start-line="84" selection-start-column="33" selection-end-line="84" selection-end-column="33" />
           <folding>
-            <element signature="e#14#29#0" expanded="true" />
+            <element signature="e#15#44#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/python3.6/Lib/site-packages/selenium/webdriver/support/wait.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="69" column="31" lean-forward="false" selection-start-line="69" selection-start-column="31" selection-end-line="69" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/pages/loginpage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="38" column="23" lean-forward="true" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/pages/createprojectpage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="182" column="57" lean-forward="false" selection-start-line="182" selection-start-column="57" selection-end-line="182" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/pages/basepage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-50">
+          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/test_data/create_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -73,6 +73,10 @@ class BasePage:
     def ele_wait_visible(self, locate):
         return WebDriverWait(self.driver, 20, 1).until(EC.visibility_of_element_located(locate))
 
+    # 封装显式等待元素是否而可点击
+    def ele_wait_clickable(self, locate):
+        return WebDriverWait(self.driver, 20, 1).until(EC.element_to_be_clickable(locate))
+
     #     # 封装键盘操作
     #
     # def keyboard(self, WebElement, keyboard="ENTER"):
