@@ -68,9 +68,6 @@ class HomePage(BasePage):
     def morepojects(self):
         return self.by_link("更多>")
 
-    #优选专区更多
-
-
     #邀请好友
     def invitefriends(self):
         return self.by_class_name("activespace")
