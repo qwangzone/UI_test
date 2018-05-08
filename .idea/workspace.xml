@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45a50947-93c8-422c-ab12-d3b02a09bb9e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage/test_cases/login_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage/test_cases/login_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/market/pages/homepage.py" beforeDir="false" afterPath="$PROJECT_DIR$/market/pages/homepage.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,7 +17,7 @@
       <file leaf-file-name="projectinfo_test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/manage/test_cases/projectinfo_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3150">
+            <state relative-caret-position="751">
               <caret line="130" selection-start-line="130" selection-end-line="130" />
             </state>
           </provider>
@@ -35,19 +35,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="loanuserinfo_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manage/test_cases/loanuserinfo_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="uploadimgpage.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/manage/pages/uploadimgpage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2175">
+            <state relative-caret-position="818">
               <caret line="89" selection-start-line="89" selection-end-line="89" />
               <folding>
                 <element signature="e#15#44#0" expanded="true" />
@@ -68,8 +59,17 @@
       <file leaf-file-name="homepage.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/market/pages/homepage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="70" column="4" selection-start-line="70" selection-start-column="4" selection-end-line="70" selection-end-column="4" />
+            <state relative-caret-position="642">
+              <caret line="135" column="26" lean-forward="true" selection-start-line="135" selection-start-column="26" selection-end-line="135" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="createprojectpage.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manage/pages/createprojectpage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-149">
+              <caret line="182" column="57" selection-start-line="182" selection-start-column="57" selection-end-line="182" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -77,7 +77,7 @@
       <file leaf-file-name="projectinfopage.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/manage/pages/projectinfopage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2100">
+            <state relative-caret-position="326">
               <caret line="84" column="75" selection-start-line="84" selection-start-column="75" selection-end-line="84" selection-end-column="75" />
               <folding>
                 <element signature="e#2654#2721#0" />
@@ -86,23 +86,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manage/test_cases/login_test.py">
+      <file leaf-file-name="loanuserinfopage.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manage/pages/loanuserinfopage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1025">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="625">
+              <caret line="97" column="82" selection-start-line="97" selection-start-column="80" selection-end-line="97" selection-end-column="82" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="basepage.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/market/pages/basepage.py">
+      <file leaf-file-name="login_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manage/test_cases/login_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-              <folding>
-                <element signature="e#14#66#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="718">
+              <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -132,12 +129,12 @@
         <option value="$PROJECT_DIR$/manage/test_cases/uploadimg_test.py" />
         <option value="$PROJECT_DIR$/market/pages/basepage.py" />
         <option value="$PROJECT_DIR$/manage/pages/createprojectpage.py" />
-        <option value="$PROJECT_DIR$/manage/test_cases/login_test.py" />
         <option value="$PROJECT_DIR$/manage/pages/projectinfopage.py" />
         <option value="$PROJECT_DIR$/manage/test_cases/projectinfo_test.py" />
         <option value="$PROJECT_DIR$/manage/pages/basepage.py" />
         <option value="$PROJECT_DIR$/manage/pages/uploadimgpage.py" />
         <option value="$PROJECT_DIR$/manage/test_data/create_data.py" />
+        <option value="$PROJECT_DIR$/manage/test_cases/login_test.py" />
         <option value="$PROJECT_DIR$/market/pages/homepage.py" />
       </list>
     </option>
@@ -211,7 +208,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.create_data">
+  <component name="RunManager" selected="Python.homepage">
     <configuration name="create_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="UI_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -225,6 +222,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage/test_data/create_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="homepage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="UI_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/market/pages" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/market/pages/homepage.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -323,19 +338,6 @@
       <option name="_new_target" value="&quot;projectinfo_test.ProjectInfoTest.setUpClass&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests for projectinfo_test.ProjectInfoTest.test1_projecttype_success" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="UI_test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/manage/test_cases" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;projectinfo_test.ProjectInfoTest.test1_projecttype_success&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-    </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -350,19 +352,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests for projectinfo_test.ProjectInfoTest.test1_projecttype_success" />
       <item itemvalue="Python tests.Unittests for projectinfo_test.ProjectInfoTest.setUpClass" />
       <item itemvalue="Python tests.Unittests for projectinfo_test.ProjectInfoTest.setUpClass (1)" />
       <item itemvalue="Python.create_data" />
       <item itemvalue="Python.uploadimgpage" />
+      <item itemvalue="Python.homepage" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.homepage" />
         <item itemvalue="Python.create_data" />
         <item itemvalue="Python.uploadimgpage" />
         <item itemvalue="Python tests.Unittests for projectinfo_test.ProjectInfoTest.setUpClass (1)" />
         <item itemvalue="Python tests.Unittests for projectinfo_test.ProjectInfoTest.setUpClass" />
-        <item itemvalue="Python tests.Unittests for projectinfo_test.ProjectInfoTest.test1_projecttype_success" />
       </list>
     </recent_temporary>
   </component>
@@ -384,7 +386,14 @@
       <option name="project" value="LOCAL" />
       <updated>1525744641012</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="test">
+      <created>1525744750126</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1525744750126</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -426,11 +435,11 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24815595" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.0" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.0" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19716775" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32897604" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.32897604" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32893288" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3278867" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -508,23 +517,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/manage/test_cases/loanuserinfo_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage/pages/uploadimgpage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2175">
-          <caret line="89" selection-start-line="89" selection-end-line="89" />
-          <folding>
-            <element signature="e#15#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/manage/pages/projectstatuspage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="650">
@@ -638,13 +630,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3125">
           <caret line="130" lean-forward="true" selection-start-line="130" selection-end-line="130" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/market/pages/homepage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="70" column="4" selection-start-line="70" selection-start-column="4" selection-end-line="70" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -785,40 +770,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manage/test_cases/login_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1025">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage/pages/projectinfopage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2100">
-          <caret line="84" column="75" selection-start-line="84" selection-start-column="75" selection-end-line="84" selection-end-column="75" />
-          <folding>
-            <element signature="e#2654#2721#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage/pages/loanuserinfopage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2880">
-          <caret line="97" column="82" selection-start-line="97" selection-start-column="80" selection-end-line="97" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage/test_cases/createproject_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
-          <folding>
-            <element signature="e#14#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/manage/test_cases/uploadimg_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="810">
@@ -826,43 +777,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manage/pages/projectstatuspage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/python3.6/Lib/site-packages/selenium/webdriver/support/expected_conditions.py" />
-    <entry file="file://$PROJECT_DIR$/manage/test_cases/projectinfo_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3150">
-          <caret line="130" selection-start-line="130" selection-end-line="130" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage/pages/uploadimgpage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2175">
-          <caret line="89" selection-start-line="89" selection-end-line="89" />
-          <folding>
-            <element signature="e#15#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/python3.6/Lib/site-packages/selenium/webdriver/support/wait.py" />
     <entry file="file://$PROJECT_DIR$/manage/pages/loginpage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1110">
           <caret line="38" column="23" lean-forward="true" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage/pages/createprojectpage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="182" column="57" selection-start-line="182" selection-start-column="57" selection-end-line="182" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -877,6 +797,92 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/pages/projectinfopage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="84" column="75" selection-start-line="84" selection-start-column="75" selection-end-line="84" selection-end-column="75" />
+          <folding>
+            <element signature="e#2654#2721#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/pages/loanuserinfopage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="97" column="82" selection-start-line="97" selection-start-column="80" selection-end-line="97" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/pages/createprojectpage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-149">
+          <caret line="182" column="57" selection-start-line="182" selection-start-column="57" selection-end-line="182" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/selenium/webdriver/chrome/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1300">
+          <caret line="76" column="8" selection-start-line="76" selection-start-column="8" selection-end-line="76" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/test_cases/projectinfo_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="751">
+          <caret line="130" selection-start-line="130" selection-end-line="130" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/test_cases/createproject_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+          <folding>
+            <element signature="e#14#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/pages/uploadimgpage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="818">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+          <folding>
+            <element signature="e#15#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/pages/projectstatuspage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="485" column="59" selection-start-line="485" selection-start-column="54" selection-end-line="485" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/test_cases/login_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="718">
+          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/market/pages/homepage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="642">
+          <caret line="135" column="26" lean-forward="true" selection-start-line="135" selection-start-column="26" selection-end-line="135" selection-end-column="26" />
         </state>
       </provider>
     </entry>

@@ -130,6 +130,9 @@ if __name__ == '__main__':
     hp.layerclose()
     a = dr.find_element_by_class_name("area-item3")
     print(a)
-    b = dr.find_element_by_xpath("//div[@class= 'foot-about float-l']/ul/li[4]").click()
+    b = str(dr.find_element_by_xpath("//div[@class= 'foot-about float-l']/ul/li[4]/a").get_attribute("href"))
+    s = dr.current_url + b
+    print(s)
+    #print(dr.current_url)
 
 
