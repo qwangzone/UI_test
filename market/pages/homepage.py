@@ -1,5 +1,5 @@
 # coding=utf-8
-'''首页'''
+'''首页tests'''
 from basepage import BasePage
 from selenium import webdriver
 
@@ -69,7 +69,7 @@ class HomePage(BasePage):
         return self.by_link("更多>")
 
     #优选专区更多
-    def
+
 
     #邀请好友
     def invitefriends(self):
