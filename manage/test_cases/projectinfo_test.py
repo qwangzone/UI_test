@@ -15,6 +15,7 @@ import create_data
 
 
 class ProjectInfoTest(unittest.TestCase):
+    """测试前台项目详情"""
     @classmethod
     def setUpClass(self):
         self.dr = webdriver.Chrome()
