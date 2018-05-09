@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45a50947-93c8-422c-ab12-d3b02a09bb9e" name="Default" comment="">
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/pages/basepage.py" beforeDir="false" afterPath="$PROJECT_DIR$/market/pages/basepage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/pages/zhitouxqpage.py" beforeDir="false" afterPath="$PROJECT_DIR$/market/pages/zhitouxqpage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/pages/zhitouzfpage.py" beforeDir="false" afterPath="$PROJECT_DIR$/market/pages/zhitouzfpage.py" afterDir="false" />
+>>>>>>> e204c4eea591d32a1db210ceea8454cde40f0779
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -11,65 +18,139 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
       <file leaf-file-name="mainpublishpage.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/market/pages/mainpublishpage.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
               <caret line="14" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
+=======
+      <file leaf-file-name="homepage.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/market/pages/homepage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2675">
+              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+              <folding>
+                <element signature="e#29#58#0" expanded="true" />
+              </folding>
+>>>>>>> e204c4eea591d32a1db210ceea8454cde40f0779
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="myacountpage.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/market/pages/myacountpage.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
               <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding />
+=======
+      <file leaf-file-name="basepage.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/market/pages/basepage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="868">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+              <folding>
+                <element signature="e#14#66#0" expanded="true" />
+              </folding>
+>>>>>>> e204c4eea591d32a1db210ceea8454cde40f0779
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="companyintropage.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/market/pages/companyintropage.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
               <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
               <folding />
+=======
+      <file leaf-file-name="loginpage.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/market/pages/loginpage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="305">
+              <caret line="83" column="4" selection-start-line="83" selection-start-column="4" selection-end-line="84" selection-end-column="17" />
+              <folding>
+                <element signature="e#24#53#0" expanded="true" />
+              </folding>
+>>>>>>> e204c4eea591d32a1db210ceea8454cde40f0779
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="safetypage.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/market/pages/safetypage.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
               <caret line="12" column="54" lean-forward="true" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
               <folding />
+=======
+      <file leaf-file-name="zhitouxqpage.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/market/pages/zhitouxqpage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="643">
+              <caret line="31" column="38" lean-forward="true" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+              <folding>
+                <element signature="e#14#43#0" expanded="true" />
+              </folding>
+>>>>>>> e204c4eea591d32a1db210ceea8454cde40f0779
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="zhitouzfpage.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/market/pages/zhitouzfpage.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+=======
+      <file leaf-file-name="projectinfopage.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manage/pages/projectinfopage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-45">
+              <caret line="84" column="75" selection-start-line="84" selection-start-column="75" selection-end-line="84" selection-end-column="75" />
+              <folding>
+                <element signature="e#2654#2721#0" />
+              </folding>
+>>>>>>> e204c4eea591d32a1db210ceea8454cde40f0779
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="zhitouxqpage.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/market/pages/zhitouxqpage.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+=======
+      <file leaf-file-name="borrowertipspage.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/market/pages/borrowertipspage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="zhitouzfpage.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/market/pages/zhitouzfpage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="e#14#43#0" expanded="true" />
+              </folding>
+>>>>>>> e204c4eea591d32a1db210ceea8454cde40f0779
             </state>
           </provider>
         </entry>
@@ -103,13 +184,12 @@
         <option value="$PROJECT_DIR$/manage/test_cases/loanuserinfo_test.py" />
         <option value="$PROJECT_DIR$/manage/test_cases/projectstatus_test.py" />
         <option value="$PROJECT_DIR$/manage/test_cases/uploadimg_test.py" />
-        <option value="$PROJECT_DIR$/market/pages/basepage.py" />
         <option value="$PROJECT_DIR$/manage/pages/createprojectpage.py" />
-        <option value="$PROJECT_DIR$/manage/test_cases/login_test.py" />
         <option value="$PROJECT_DIR$/manage/pages/projectinfopage.py" />
         <option value="$PROJECT_DIR$/manage/pages/basepage.py" />
         <option value="$PROJECT_DIR$/manage/pages/uploadimgpage.py" />
         <option value="$PROJECT_DIR$/manage/test_data/create_data.py" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/market/pages/borrowertipspage.py" />
         <option value="$PROJECT_DIR$/market/pages/carborrow.py" />
         <option value="$PROJECT_DIR$/market/pages/chargestandardpage.py" />
@@ -138,31 +218,31 @@
         <option value="$PROJECT_DIR$/market/pages/mainpublishpage.py" />
         <option value="$PROJECT_DIR$/market/pages/myacountpage.py" />
         <option value="$PROJECT_DIR$/market/pages/companyintropage.py" />
+=======
+        <option value="$PROJECT_DIR$/manage/test_cases/login_test.py" />
+        <option value="$PROJECT_DIR$/market/pages/homepage.py" />
+        <option value="$PROJECT_DIR$/market/pages/loginpage.py" />
+        <option value="$PROJECT_DIR$/market/pages/zhitouzfpage.py" />
+        <option value="$PROJECT_DIR$/market/pages/zhitouxqpage.py" />
+        <option value="$PROJECT_DIR$/market/pages/basepage.py" />
+>>>>>>> e204c4eea591d32a1db210ceea8454cde40f0779
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="1924" />
-    <option name="height" value="1047" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1678" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="ProjectPane">
         <subPane>
+<<<<<<< HEAD
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="UI_test" />
@@ -205,6 +285,43 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+=======
+          <expand>
+            <path>
+              <item name="UI_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UI_test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UI_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UI_test" type="462c0819:PsiDirectoryNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UI_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UI_test" type="462c0819:PsiDirectoryNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UI_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UI_test" type="462c0819:PsiDirectoryNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
+              <item name="test_cases" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UI_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UI_test" type="462c0819:PsiDirectoryNode" />
+              <item name="market" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UI_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UI_test" type="462c0819:PsiDirectoryNode" />
+              <item name="market" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+>>>>>>> e204c4eea591d32a1db210ceea8454cde40f0779
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -212,8 +329,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../my_django" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -227,8 +344,14 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Python.mainpublishpage">
     <configuration default="false" name="create_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+  <component name="RunManager" selected="Python.zhitouxqpage">
+    <configuration name="create_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="UI_test" />
+>>>>>>> e204c4eea591d32a1db210ceea8454cde40f0779
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -239,20 +362,31 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
       <module name="UI_test" />
+=======
+>>>>>>> e204c4eea591d32a1db210ceea8454cde40f0779
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage/test_data/create_data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+<<<<<<< HEAD
       <method />
     </configuration>
     <configuration default="false" name="uploadimgpage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="homepage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="UI_test" />
+>>>>>>> e204c4eea591d32a1db210ceea8454cde40f0779
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/manage/pages" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -265,6 +399,20 @@
       <method />
     </configuration>
     <configuration default="false" name="borrowertipspage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/market/pages" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/market/pages/homepage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="loginpage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="UI_test" />
+>>>>>>> e204c4eea591d32a1db210ceea8454cde40f0779
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -275,6 +423,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
       <module name="UI_test" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/market/pages/borrowertipspage.py" />
       <option name="PARAMETERS" value="" />
@@ -283,24 +432,47 @@
       <method />
     </configuration>
     <configuration default="false" name="helpcenterpage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/market/pages/loginpage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="uploadimgpage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="UI_test" />
+>>>>>>> e204c4eea591d32a1db210ceea8454cde40f0779
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/market/pages" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="UI_test" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/market/pages/helpcenterpage.py" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/manage/pages" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage/pages/uploadimgpage.py" />
+>>>>>>> e204c4eea591d32a1db210ceea8454cde40f0779
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
-      <method />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
+<<<<<<< HEAD
     <configuration default="false" name="mainpublishpage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration name="zhitouxqpage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="UI_test" />
+>>>>>>> e204c4eea591d32a1db210ceea8454cde40f0779
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -311,12 +483,16 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
       <module name="UI_test" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/market/pages/mainpublishpage.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/market/pages/zhitouxqpage.py" />
+>>>>>>> e204c4eea591d32a1db210ceea8454cde40f0779
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
-      <method />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -370,7 +546,6 @@
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
@@ -380,8 +555,8 @@
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;.&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method />
     </configuration>
+<<<<<<< HEAD
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.create_data" />
       <item index="1" class="java.lang.String" itemvalue="Python.uploadimgpage" />
@@ -396,11 +571,24 @@
         <item index="2" class="java.lang.String" itemvalue="Python.borrowertipspage" />
         <item index="3" class="java.lang.String" itemvalue="Python.create_data" />
         <item index="4" class="java.lang.String" itemvalue="Python.uploadimgpage" />
+=======
+    <list>
+      <item itemvalue="Python.create_data" />
+      <item itemvalue="Python.uploadimgpage" />
+      <item itemvalue="Python.homepage" />
+      <item itemvalue="Python.loginpage" />
+      <item itemvalue="Python.zhitouxqpage" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.zhitouxqpage" />
+        <item itemvalue="Python.loginpage" />
+        <item itemvalue="Python.homepage" />
+        <item itemvalue="Python.create_data" />
+        <item itemvalue="Python.uploadimgpage" />
+>>>>>>> e204c4eea591d32a1db210ceea8454cde40f0779
       </list>
     </recent_temporary>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -413,6 +601,7 @@
       <option name="presentableId" value="Default" />
       <updated>1525312376144</updated>
     </task>
+<<<<<<< HEAD
     <task id="LOCAL-00001" summary="代码update">
       <created>1525686981708</created>
       <option name="number" value="00001" />
@@ -435,6 +624,23 @@
       <updated>1525850113670</updated>
     </task>
     <option name="localTasksCounter" value="4" />
+=======
+    <task id="LOCAL-00001" summary="test">
+      <created>1525744641012</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1525744641012</updated>
+    </task>
+    <task id="LOCAL-00002" summary="test">
+      <created>1525744750126</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1525744750126</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+>>>>>>> e204c4eea591d32a1db210ceea8454cde40f0779
     <servers />
   </component>
   <component name="TestHistory">
@@ -470,6 +676,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="-7" y="0" width="1924" height="1047" extended-state="0" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25268242" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -490,7 +697,76 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+=======
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24815595" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32897604" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.32897604" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3137255" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3278867" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Data View" order="3" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+>>>>>>> e204c4eea591d32a1db210ceea8454cde40f0779
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2497349" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Data View" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32893288" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32893288" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -522,8 +798,13 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+<<<<<<< HEAD
     <MESSAGE value="代码update" />
     <option name="LAST_COMMIT_MESSAGE" value="代码update" />
+=======
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
+>>>>>>> e204c4eea591d32a1db210ceea8454cde40f0779
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -535,9 +816,9 @@
       </breakpoints>
       <option name="time" value="1" />
     </breakpoint-manager>
-    <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/market/pages/chargestandardpage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -549,25 +830,65 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/market/pages/homepage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding>
+            <element signature="e#29#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/market/pages/basepage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+          <folding>
+            <element signature="e#14#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/market/pages/loginpage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1850">
+          <caret line="77" column="3" lean-forward="true" selection-start-line="77" selection-start-column="3" selection-end-line="77" selection-end-column="3" />
+          <folding>
+            <element signature="e#24#53#0" expanded="true" />
+          </folding>
+>>>>>>> e204c4eea591d32a1db210ceea8454cde40f0779
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/market/pages/companynewspage.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="330">
           <caret line="11" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+=======
+        <state relative-caret-position="2880">
+          <caret line="96" column="82" lean-forward="true" selection-start-line="96" selection-start-column="80" selection-end-line="96" selection-end-column="82" />
+>>>>>>> e204c4eea591d32a1db210ceea8454cde40f0779
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/market/pages/carborrow.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+        <state relative-caret-position="5040">
+          <caret line="175" column="95" lean-forward="true" selection-start-line="175" selection-start-column="95" selection-end-line="175" selection-end-column="95" />
+>>>>>>> e204c4eea591d32a1db210ceea8454cde40f0779
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/manage/pages/uploadimgpage.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="2520">
           <caret line="84" column="33" lean-forward="false" selection-start-line="84" selection-start-column="33" selection-end-line="84" selection-end-column="33" />
         </state>
@@ -577,34 +898,58 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+=======
+        <state relative-caret-position="690">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+>>>>>>> e204c4eea591d32a1db210ceea8454cde40f0779
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/manage/pages/projectinfopage.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="539">
           <caret line="104" column="76" lean-forward="false" selection-start-line="104" selection-start-column="76" selection-end-line="104" selection-end-column="76" />
+=======
+        <state relative-caret-position="2600">
+          <caret line="104" column="76" selection-start-line="104" selection-start-column="76" selection-end-line="104" selection-end-column="76" />
+>>>>>>> e204c4eea591d32a1db210ceea8454cde40f0779
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/manage/pages/loginpage.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="1110">
           <caret line="38" column="23" lean-forward="false" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+=======
+        <state relative-caret-position="675">
+          <caret line="28" column="27" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="27" />
+>>>>>>> e204c4eea591d32a1db210ceea8454cde40f0779
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/manage/pages/loanuserinfopage.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="120">
           <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="5" />
+=======
+        <state relative-caret-position="900">
+          <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+>>>>>>> e204c4eea591d32a1db210ceea8454cde40f0779
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/manage/pages/copyprojectpage.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="187">
           <caret line="46" column="33" lean-forward="false" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="33" />
+=======
+        <state relative-caret-position="575">
+          <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+>>>>>>> e204c4eea591d32a1db210ceea8454cde40f0779
         </state>
       </provider>
     </entry>
@@ -673,8 +1018,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/market/pages/loginpage.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+>>>>>>> e204c4eea591d32a1db210ceea8454cde40f0779
         </state>
       </provider>
     </entry>
@@ -687,15 +1037,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/manage/pages/createprojectpage.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="150">
           <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+=======
+        <state relative-caret-position="1450">
+          <caret line="65" column="18" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="18" />
+>>>>>>> e204c4eea591d32a1db210ceea8454cde40f0779
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/market/pages/p2pknowledgepage.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="300">
           <caret line="10" column="54" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="10" selection-end-column="54" />
+=======
+        <state relative-caret-position="875">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+>>>>>>> e204c4eea591d32a1db210ceea8454cde40f0779
         </state>
       </provider>
     </entry>
@@ -757,8 +1117,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/runtest.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+>>>>>>> e204c4eea591d32a1db210ceea8454cde40f0779
         </state>
       </provider>
     </entry>
@@ -769,6 +1134,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/market/pages/newsreportpage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -783,6 +1149,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> e204c4eea591d32a1db210ceea8454cde40f0779
     <entry file="file://$PROJECT_DIR$/manage/test_cases/copyproject_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -792,6 +1160,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/manage/test_cases/createproject_test.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="466">
           <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
         </state>
@@ -808,11 +1177,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+        <state relative-caret-position="675">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/test_cases/uploadimg_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/python3.6/Lib/site-packages/selenium/webdriver/support/expected_conditions.py" />
+    <entry file="file://C:/python3.6/Lib/site-packages/selenium/webdriver/support/wait.py" />
+    <entry file="file://$PROJECT_DIR$/manage/pages/loginpage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="38" column="23" lean-forward="true" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/pages/basepage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-50">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/test_data/create_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+>>>>>>> e204c4eea591d32a1db210ceea8454cde40f0779
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/manage/test_cases/projectinfo_test.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="701">
           <caret line="123" column="0" lean-forward="true" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
           <folding />
@@ -823,18 +1227,42 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="281">
           <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+=======
+        <state relative-caret-position="625">
+          <caret line="97" column="82" selection-start-line="97" selection-start-column="80" selection-end-line="97" selection-end-column="82" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manage/test_cases/uploadimg_test.py">
+    <entry file="file://C:/Python27/Lib/site-packages/selenium/webdriver/chrome/webdriver.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1300">
+          <caret line="76" column="8" selection-start-line="76" selection-start-column="8" selection-end-line="76" selection-end-column="8" />
+>>>>>>> e204c4eea591d32a1db210ceea8454cde40f0779
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/test_cases/projectinfo_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="60">
           <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+=======
+        <state relative-caret-position="751">
+          <caret line="130" selection-start-line="130" selection-end-line="130" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/pages/uploadimgpage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="818">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+>>>>>>> e204c4eea591d32a1db210ceea8454cde40f0779
         </state>
       </provider>
     </entry>
     <entry file="file://C:/python3.6/Lib/unittest/mock.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="283">
           <caret line="1048" column="24" lean-forward="false" selection-start-line="1048" selection-start-column="24" selection-end-line="1048" selection-end-column="24" />
         </state>
@@ -875,11 +1303,88 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+=======
+        <state relative-caret-position="650">
+          <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="485" column="59" selection-start-line="485" selection-start-column="54" selection-end-line="485" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/test_cases/login_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="718">
+          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/pages/createprojectpage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="182" column="57" selection-start-line="182" selection-start-column="57" selection-end-line="182" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/test_cases/createproject_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/market/pages/riskmanagementpage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/market/pages/borrowertipspage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/market/pages/homepage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2675">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding>
+            <element signature="e#29#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/pages/projectinfopage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-45">
+          <caret line="84" column="75" selection-start-line="84" selection-start-column="75" selection-end-line="84" selection-end-column="75" />
+          <folding>
+            <element signature="e#2654#2721#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/market/pages/loginpage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="83" column="4" selection-start-line="83" selection-start-column="4" selection-end-line="84" selection-end-column="17" />
+          <folding>
+            <element signature="e#24#53#0" expanded="true" />
+          </folding>
+>>>>>>> e204c4eea591d32a1db210ceea8454cde40f0779
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/market/pages/zhitouxqpage.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
@@ -899,6 +1404,33 @@
         <state relative-caret-position="340">
           <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
           <folding />
+=======
+        <state relative-caret-position="643">
+          <caret line="31" column="38" lean-forward="true" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+          <folding>
+            <element signature="e#14#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/market/pages/basepage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="868">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="e#14#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/market/pages/zhitouzfpage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#14#43#0" expanded="true" />
+          </folding>
+>>>>>>> e204c4eea591d32a1db210ceea8454cde40f0779
         </state>
       </provider>
     </entry>

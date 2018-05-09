@@ -36,6 +36,7 @@ class LoginTest(unittest.TestCase):
     @classmethod
     def tearDownClass(self):
         self.dr.quit()
+        self.dr.title
 
 
 if __name__ == '__main__':
