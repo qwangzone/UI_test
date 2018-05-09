@@ -1,5 +1,7 @@
 '''公司简介'''
 from basepage import BasePage
+
+
 class CompanyInfoPage(BasePage):
     url = "/information/informationPublic"
 
