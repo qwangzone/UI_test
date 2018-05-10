@@ -10,6 +10,7 @@ class InvestzfPage(BasePage):
     def huishang(self, password):
         self.by_id("pass").send_keys(password)
         self.by_id("mainAcceptIpt").click()
+        time.sleep(3)
         self.by_id("sub").click()
 
 

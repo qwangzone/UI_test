@@ -39,7 +39,7 @@ class LoginPage(BasePage):
         return self.by_class_name("captchaCodem")
 
     #登录操作
-    def login(self, username='13658524695', password='123456'):
+    def login(self, username, password):
         self.open()
         self.input_userName().send_keys(username)
         self.input_loginPass().send_keys(password)
@@ -77,7 +77,7 @@ class LoginPage(BasePage):
                 self.by_class_name("agreebtn").click()
 '''
 
-
+'''
 if __name__ == '__main__':
     dr = webdriver.Chrome()
     dr.maximize_window()
@@ -86,3 +86,4 @@ if __name__ == '__main__':
     time.sleep(5)
     a = login.captchaCodem_error_text()
     print(a)
+'''
