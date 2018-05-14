@@ -78,6 +78,19 @@ class HomePageTest(unittest.TestCase):
         text9 = self.dr.current_url
         self.assertEqual(text9, 'http://192.168.3.105/information/informationPublic')
 
+    #邀请好友
+    def test10_invitefriends(self):
+        self.hp.invitefriends()
+        text10 = self.dr.current_url
+        self.assertEqual(text10, 'http://192.168.3.105/special/invitefriends')
+        self.dr.back()
+
+    #转让专区
+    def test11_transfer(self):
+        self.hp.transfer()
+        text11 = self.dr.current_url
+        self.assertEqual(text11, 'http://192.168.3.105/creditAssignList/list-0-0-0-1')
+
 
 
 

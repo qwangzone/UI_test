@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c193c5da-ba53-4d1e-af9a-19d4403ae140" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/market/test_cases/home_page_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/market/pages/homepage.py" beforeDir="false" afterPath="$PROJECT_DIR$/market/pages/homepage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/market/test_cases/login_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/market/test_cases/login_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/test_cases/home_page_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/market/test_cases/home_page_test.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,8 +26,8 @@
       <file leaf-file-name="homepage.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/market/pages/homepage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="57" column="20" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="20" />
+            <state relative-caret-position="543">
+              <caret line="82" column="16" selection-start-line="82" selection-start-column="8" selection-end-line="82" selection-end-column="16" />
               <folding>
                 <element signature="e#29#58#0" expanded="true" />
               </folding>
@@ -41,8 +38,8 @@
       <file leaf-file-name="home_page_test.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/market/test_cases/home_page_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="718">
-              <caret line="91" column="19" lean-forward="true" selection-start-line="91" selection-start-column="19" selection-end-line="91" selection-end-column="19" />
+            <state relative-caret-position="475">
+              <caret line="91" column="86" lean-forward="true" selection-start-line="91" selection-start-column="86" selection-end-line="91" selection-end-column="86" />
               <folding>
                 <element signature="e#14#28#0" expanded="true" />
               </folding>
@@ -96,7 +93,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1678" />
@@ -318,7 +315,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25500527" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25500527" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32897604" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32979852" />
       <window_info anchor="bottom" id="Version Control" order="7" />
@@ -540,8 +537,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/market/pages/homepage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="57" column="20" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="20" />
+        <state relative-caret-position="543">
+          <caret line="82" column="16" selection-start-line="82" selection-start-column="8" selection-end-line="82" selection-end-column="16" />
           <folding>
             <element signature="e#29#58#0" expanded="true" />
           </folding>
@@ -550,8 +547,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/market/test_cases/home_page_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="718">
-          <caret line="91" column="19" lean-forward="true" selection-start-line="91" selection-start-column="19" selection-end-line="91" selection-end-column="19" />
+        <state relative-caret-position="475">
+          <caret line="91" column="86" lean-forward="true" selection-start-line="91" selection-start-column="86" selection-end-line="91" selection-end-column="86" />
           <folding>
             <element signature="e#14#28#0" expanded="true" />
           </folding>
