@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c193c5da-ba53-4d1e-af9a-19d4403ae140" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/market/test_cases/invest_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/market/test_cases/login_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market/test_cases/home_page_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/market/pages/loginpage.py" beforeDir="false" afterPath="$PROJECT_DIR$/market/pages/loginpage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/market/pages/zhitouxqpage.py" beforeDir="false" afterPath="$PROJECT_DIR$/market/pages/zhitouxqpage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/market/pages/zhitouzfpage.py" beforeDir="false" afterPath="$PROJECT_DIR$/market/pages/zhitouzfpage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/pages/homepage.py" beforeDir="false" afterPath="$PROJECT_DIR$/market/pages/homepage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/test_cases/login_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/market/test_cases/login_test.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,21 +16,33 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="login_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/market/test_cases/login_test.py">
+        <entry file="file://$PROJECT_DIR$/manage/test_cases/login_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="593">
-              <caret line="48" column="19" lean-forward="true" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
+            <state relative-caret-position="626">
+              <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="invest_test.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/market/test_cases/invest_test.py">
+      <file leaf-file-name="homepage.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/market/pages/homepage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="443">
+              <caret line="57" column="20" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="20" />
+              <folding>
+                <element signature="e#29#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home_page_test.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/market/test_cases/home_page_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="718">
+              <caret line="91" column="19" lean-forward="true" selection-start-line="91" selection-start-column="19" selection-end-line="91" selection-end-column="19" />
               <folding>
                 <element signature="e#14#28#0" expanded="true" />
               </folding>
@@ -40,57 +50,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="zhitouzfpage.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/market/pages/zhitouzfpage.py">
+      <file leaf-file-name="createprojectpage.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manage/pages/createprojectpage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="46" lean-forward="true" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
-              <folding>
-                <element signature="e#14#43#0" expanded="true" />
-              </folding>
-            </state>
+            <state relative-caret-position="-1275" />
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="zhitouxqpage.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/market/pages/zhitouxqpage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="44" column="70" lean-forward="true" selection-start-line="44" selection-start-column="70" selection-end-line="44" selection-end-column="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manage/test_cases/login_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="875">
-              <caret line="42" column="19" lean-forward="true" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="loanuserinfo_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manage/test_cases/loanuserinfo_test.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="projectinfo_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manage/test_cases/projectinfo_test.py">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="basepage.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/market/pages/basepage.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="41" column="18" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="18" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="loginpage.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/market/pages/loginpage.py">
+        <entry file="file://$PROJECT_DIR$/manage/pages/loginpage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="41" column="13" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="13" />
-            </state>
+            <state relative-caret-position="-691" />
           </provider>
         </entry>
       </file>
@@ -99,14 +78,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/market/test_cases/login_test.py" />
         <option value="$PROJECT_DIR$/market/pages/loginpage.py" />
         <option value="$PROJECT_DIR$/market/pages/zhitouzfpage.py" />
         <option value="$PROJECT_DIR$/market/pages/zhitouxqpage.py" />
         <option value="$PROJECT_DIR$/market/test_cases/invest_test.py" />
+        <option value="$PROJECT_DIR$/market/test_cases/login_test.py" />
+        <option value="$PROJECT_DIR$/market/pages/homepage.py" />
+        <option value="$PROJECT_DIR$/market/test_cases/home_page_test.py" />
       </list>
     </option>
   </component>
@@ -116,12 +102,27 @@
     <option name="width" value="1678" />
     <option name="height" value="1038" />
   </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -143,19 +144,7 @@
             <path>
               <item name="UI_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="UI_test" type="462c0819:PsiDirectoryNode" />
-              <item name="manage" type="462c0819:PsiDirectoryNode" />
-              <item name="test_cases" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UI_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UI_test" type="462c0819:PsiDirectoryNode" />
               <item name="market" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UI_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UI_test" type="462c0819:PsiDirectoryNode" />
-              <item name="market" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="UI_test" type="b2602c69:ProjectViewProjectNode" />
@@ -167,7 +156,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -181,26 +177,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for invest_test.InvestTest.test5_maxbid">
-    <configuration name="login_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="UI_test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/market/test_cases" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/market/test_cases/login_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="Unittests for invest_test.InvestTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittests in home_page_test.py">
+    <configuration name="Unittests for home_page_test.HomePageTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="UI_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -210,10 +188,10 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;invest_test.InvestTest&quot;" />
+      <option name="_new_target" value="&quot;home_page_test.HomePageTest&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests for invest_test.InvestTest.test1_invest_success" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for home_page_test.HomePageTest.test3_wechat" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="UI_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -223,10 +201,10 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;invest_test.InvestTest.test1_invest_success&quot;" />
+      <option name="_new_target" value="&quot;home_page_test.HomePageTest.test3_wechat&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests for invest_test.InvestTest.test5_maxbid" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for home_page_test.HomePageTest.test6_lend_link" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="UI_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -236,10 +214,10 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;invest_test.InvestTest.test5_maxbid&quot;" />
+      <option name="_new_target" value="&quot;home_page_test.HomePageTest.test6_lend_link&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests in invest_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for home_page_test.HomePageTest.test7_information_link" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="UI_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -249,23 +227,36 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/market/test_cases/invest_test.py&quot;" />
+      <option name="_new_target" value="&quot;home_page_test.HomePageTest.test7_information_link&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Unittests in home_page_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="UI_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/market/test_cases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/market/test_cases/home_page_test.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Python.login_test" />
-      <item itemvalue="Python tests.Unittests in invest_test.py" />
-      <item itemvalue="Python tests.Unittests for invest_test.InvestTest" />
-      <item itemvalue="Python tests.Unittests for invest_test.InvestTest.test1_invest_success" />
-      <item itemvalue="Python tests.Unittests for invest_test.InvestTest.test5_maxbid" />
+      <item itemvalue="Python tests.Unittests in home_page_test.py" />
+      <item itemvalue="Python tests.Unittests for home_page_test.HomePageTest" />
+      <item itemvalue="Python tests.Unittests for home_page_test.HomePageTest.test3_wechat" />
+      <item itemvalue="Python tests.Unittests for home_page_test.HomePageTest.test6_lend_link" />
+      <item itemvalue="Python tests.Unittests for home_page_test.HomePageTest.test7_information_link" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for invest_test.InvestTest.test5_maxbid" />
-        <item itemvalue="Python tests.Unittests in invest_test.py" />
-        <item itemvalue="Python tests.Unittests for invest_test.InvestTest" />
-        <item itemvalue="Python tests.Unittests for invest_test.InvestTest.test1_invest_success" />
-        <item itemvalue="Python.login_test" />
+        <item itemvalue="Python tests.Unittests in home_page_test.py" />
+        <item itemvalue="Python tests.Unittests for home_page_test.HomePageTest" />
+        <item itemvalue="Python tests.Unittests for home_page_test.HomePageTest.test7_information_link" />
+        <item itemvalue="Python tests.Unittests for home_page_test.HomePageTest.test6_lend_link" />
+        <item itemvalue="Python tests.Unittests for home_page_test.HomePageTest.test3_wechat" />
       </list>
     </recent_temporary>
   </component>
@@ -283,35 +274,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_invest_test_InvestTest - 2018.05.10 at 16h 55m 08s.xml">
-      <configuration name="Unittests for invest_test.InvestTest" configurationId="tests" />
+    <history-entry file="Unittests_for_home_page_test_HomePageTest - 2018.05.14 at 16h 00m 17s.xml">
+      <configuration name="Unittests for home_page_test.HomePageTest" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_invest_test_py - 2018.05.10 at 17h 00m 15s.xml">
-      <configuration name="Unittests in invest_test.py" configurationId="tests" />
+    <history-entry file="Unittests_for_home_page_test_HomePageTest - 2018.05.14 at 16h 16m 59s.xml">
+      <configuration name="Unittests for home_page_test.HomePageTest" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_invest_test_py - 2018.05.10 at 17h 01m 33s.xml">
-      <configuration name="Unittests in invest_test.py" configurationId="tests" />
+    <history-entry file="Unittests_for_home_page_test_HomePageTest_test6_lend_link - 2018.05.14 at 16h 18m 11s.xml">
+      <configuration name="Unittests for home_page_test.HomePageTest.test6_lend_link" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_invest_test_py - 2018.05.10 at 17h 05m 35s.xml">
-      <configuration name="Unittests in invest_test.py" configurationId="tests" />
+    <history-entry file="Unittests_for_home_page_test_HomePageTest_test6_lend_link - 2018.05.14 at 16h 20m 57s.xml">
+      <configuration name="Unittests for home_page_test.HomePageTest.test6_lend_link" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_invest_test_py - 2018.05.10 at 17h 10m 19s.xml">
-      <configuration name="Unittests in invest_test.py" configurationId="tests" />
+    <history-entry file="Unittests_for_home_page_test_HomePageTest_test6_lend_link - 2018.05.14 at 16h 22m 34s.xml">
+      <configuration name="Unittests for home_page_test.HomePageTest.test6_lend_link" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_invest_test_InvestTest_test5_maxbid - 2018.05.10 at 17h 13m 40s.xml">
-      <configuration name="Unittests for invest_test.InvestTest.test5_maxbid" configurationId="tests" />
+    <history-entry file="Unittests_for_home_page_test_HomePageTest - 2018.05.14 at 16h 23m 04s.xml">
+      <configuration name="Unittests for home_page_test.HomePageTest" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_invest_test_InvestTest_test5_maxbid - 2018.05.10 at 17h 18m 21s.xml">
-      <configuration name="Unittests for invest_test.InvestTest.test5_maxbid" configurationId="tests" />
+    <history-entry file="Unittests_for_home_page_test_HomePageTest - 2018.05.14 at 16h 25m 31s.xml">
+      <configuration name="Unittests for home_page_test.HomePageTest" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_invest_test_InvestTest - 2018.05.10 at 17h 20m 42s.xml">
-      <configuration name="Unittests for invest_test.InvestTest" configurationId="tests" />
+    <history-entry file="Unittests_for_home_page_test_HomePageTest_test7_information_link - 2018.05.14 at 16h 28m 14s.xml">
+      <configuration name="Unittests for home_page_test.HomePageTest.test7_information_link" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_invest_test_py - 2018.05.10 at 17h 25m 40s.xml">
-      <configuration name="Unittests in invest_test.py" configurationId="tests" />
+    <history-entry file="Unittests_for_home_page_test_HomePageTest - 2018.05.14 at 16h 29m 33s.xml">
+      <configuration name="Unittests for home_page_test.HomePageTest" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_invest_test_InvestTest_test5_maxbid - 2018.05.10 at 17h 28m 22s.xml">
-      <configuration name="Unittests for invest_test.InvestTest.test5_maxbid" configurationId="tests" />
+    <history-entry file="Unittests_in_home_page_test_py - 2018.05.14 at 16h 30m 53s.xml">
+      <configuration name="Unittests in home_page_test.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -327,98 +318,240 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25500527" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32897604" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32897604" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32979852" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5272331" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32897604" />
-      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.50653595" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/manage/test_cases/loanuserinfo_test.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage/pages/loginpage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-157" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage/test_cases/projectinfo_test.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/market/pages/basepage.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage/pages/projectinfopage.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage/test_cases/createproject_test.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage/test_cases/login_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="875">
-          <caret line="42" column="19" lean-forward="true" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/market/pages/loginpage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="41" column="13" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/-762174762/__builtin__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="4530" column="8" selection-start-line="4530" selection-start-column="8" selection-end-line="4530" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/market/pages/zhitouzfpage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="46" lean-forward="true" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
-          <folding>
-            <element signature="e#14#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/market/pages/zhitouxqpage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="44" column="70" lean-forward="true" selection-start-line="44" selection-start-column="70" selection-end-line="44" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/market/test_cases/login_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
-          <caret line="48" column="19" lean-forward="true" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
+        <state relative-caret-position="850">
+          <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/market/test_cases/invest_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/market/pages/zhitouzfpage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/market/pages/zhitouxqpage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/test_cases/login_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1025">
+          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/market/pages/loginpage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1075">
+          <caret line="46" column="32" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/market/test_cases/login_test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/market/test_cases/invest_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/market/pages/zhitouzfpage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="46" lean-forward="true" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/market/pages/zhitouxqpage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="44" column="70" lean-forward="true" selection-start-line="44" selection-start-column="70" selection-end-line="44" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/test_cases/login_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="42" column="19" lean-forward="true" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/market/pages/loginpage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="46" column="32" lean-forward="true" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/-762174762/__builtin__.py" />
+    <entry file="file://$PROJECT_DIR$/market/pages/loginpage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1075">
+          <caret line="46" column="32" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="955" column="8" selection-start-line="955" selection-start-column="8" selection-end-line="955" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/market/test_cases/invest_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/market/pages/zhitouzfpage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/market/pages/zhitouxqpage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/market/test_cases/login_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="875">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/pages/loanuserinfopage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2400" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/pages/projectinfopage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2098" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/test_cases/uploadimg_test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/test_cases/projectstatus_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-225" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/test_cases/projectinfo_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1050" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/pages/projectstatuspage.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/test_cases/copyproject_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-300" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/test_cases/createproject_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-225" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/test_cases/loanuserinfo_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-266" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/pages/loginpage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-691" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/market/pages/basepage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="41" column="18" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/pages/createprojectpage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1275" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/test_cases/login_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="626">
+          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/market/pages/homepage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="57" column="20" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="20" />
+          <folding>
+            <element signature="e#29#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/market/test_cases/home_page_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="718">
+          <caret line="91" column="19" lean-forward="true" selection-start-line="91" selection-start-column="19" selection-end-line="91" selection-end-column="19" />
           <folding>
             <element signature="e#14#28#0" expanded="true" />
           </folding>

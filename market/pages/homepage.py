@@ -5,12 +5,18 @@ from selenium import webdriver
 
 
 class HomePage(BasePage):
+
+    url = "/"
     #关闭活动弹窗
     def layerclose(self):
         return self.by_css("div.layerbg>div.layerclose").click()
+
     # 页面顶部新浪微博
     def websina(self):
-        return self.by_class_name("wesina").text
+        js = 'document.getElementsByTagName("a")[0].target="";'
+        #return self.by_class_name("wesina").click()
+        self.js_execute(js)
+        return self.by_class_name("wesina").click()
 
     # 页面顶部QQ群
     def weqq(self):
@@ -135,5 +141,4 @@ if __name__ == '__main__':
     print(s)
     print(dr.current_url)
     dr.quit()
-    '''
-
+'''

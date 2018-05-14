@@ -40,6 +40,7 @@ class LoginTest(unittest.TestCase):
         #print(text3)
         self.assertIn(u'您好', text3)
 
+
     @classmethod
     def tearDownClass(self):
         self.dr.quit()
