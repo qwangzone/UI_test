@@ -90,16 +90,31 @@ class HomePageTest(unittest.TestCase):
         self.hp.transfer()
         text11 = self.dr.current_url
         self.assertEqual(text11, 'http://192.168.3.105/creditAssignList/list-0-0-0-1')
+        self.dr.back()
 
+    #活动专区
+    def test12_activities(self):
+        self.hp.activities()
+        text12 = self.dr.current_url
+        self.assertEqual(text12, 'http://192.168.3.105/help/activity?status=1')
+        self.dr.back()
 
+    #兑换专区
+    def test13_exchange(self):
+        self.hp.exchange()
+        text13 = self.dr.current_url
+        self.assertEqual(text13, 'http://192.168.3.105/pointsshop/goodsList')
+        self.dr.back()
 
-
+    #新手专区
+    def test14_Newbie(self):
+        self.hp.Newbie()
+        text14 = self.dr.current_url
+        self.assertEqual(text14, 'http://192.168.3.105/special/newGuide')
 
     @classmethod
     def tearDownClass(self):
         self.dr.quit()
-
-
 
 if __name__ == '__main__':
     unittest.main()
