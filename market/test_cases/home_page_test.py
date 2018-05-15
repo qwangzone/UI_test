@@ -112,6 +112,18 @@ class HomePageTest(unittest.TestCase):
         text14 = self.dr.current_url
         self.assertEqual(text14, 'http://192.168.3.105/special/newGuide')
 
+    #累计交易额不为0
+    def test15_accumulated_amount(self):
+        self.hp.open()
+        time.sleep(3)
+        text15 = self.hp.accumulated_amount()
+        self.assertGreaterEqual(text15, 1892907)
+
+    #累计注册人数大于等于当前
+    def test16_accumulated_number(self):
+        text16 = self.hp.accumulated_number()
+        self.assertGreaterEqual(text16, 9072)
+
     @classmethod
     def tearDownClass(self):
         self.dr.quit()

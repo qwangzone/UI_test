@@ -66,6 +66,19 @@ class HomePage(BasePage):
     def register_link(self):
         return self.by_link("注册").click()
 
+    #首页累计交易额
+    def accumulated_amount(self):
+        amount1 = int(self.by_xpath("//div[@id='numscroll']/p/span[1]").text) * 10**8
+        amount2 = int(self.by_xpath("//div[@id='numscroll']/p/span[2]").text) * 10**4
+        amount3 = int(self.by_xpath("//div[@id='numscroll']/p/span[3]").text)
+        return amount1 + amount2 + amount3
+
+    #首页累计注册人数
+    def accumulated_number(self):
+        number1 = int(self.by_xpath("//p[@class='pl3']/span[1]").text) * 10**4
+        number2 = int(self.by_xpath("//p[@class='pl3']/span[2]").text)
+        return number1 + number2
+
     #首页数据查看>
     def datashow(self):
         return self.by_link("查看>").click()
@@ -126,7 +139,7 @@ class HomePage(BasePage):
     #页面下方联系我们
     def contactUs_footer(self):
         return self.by_xpath("//div[@class= 'foot-about float-l']/ul/li[8]").click()
-'''
+
 if __name__ == '__main__':
 
     dr = webdriver.Chrome()
@@ -140,5 +153,6 @@ if __name__ == '__main__':
     s = dr.current_url + b
     print(s)
     print(dr.current_url)
-    dr.quit()
-'''
+    a1 = hp.accumulated_amount()
+    print(a1)
+
