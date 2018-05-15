@@ -27,14 +27,17 @@ class BasePage:
     def by_css(self, css_loc):
         return self.driver.find_element_by_css_selector(css_loc)
 
+    def by_csses(self, css_loc):
+        return self.driver.find_elements_by_css_selector(css_loc)
+
     def by_xpath(self, xpath):
         return self.driver.find_element_by_xpath(xpath)
 
     def by_class_name(self, classname):
         return self.driver.find_element_by_class_name(classname)
 
-    def by_tag(self, tagname):
-        return self.driver.find_elements_by_tag_name(tagname)
+    def by_tag_name(self, tagname):
+        return self.driver.find_element_by_tag_name(tagname)
 
     def select_by_text(self, element, text):
         return Select(element).select_by_visible_text(text)
