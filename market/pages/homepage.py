@@ -139,7 +139,7 @@ class HomePage(BasePage):
     #页面下方联系我们
     def contactUs_footer(self):
         return self.by_xpath("//div[@class= 'foot-about float-l']/ul/li[8]").click()
-
+'''
 if __name__ == '__main__':
 
     dr = webdriver.Chrome()
@@ -155,4 +155,4 @@ if __name__ == '__main__':
     print(dr.current_url)
     a1 = hp.accumulated_amount()
     print(a1)
-
+'''
