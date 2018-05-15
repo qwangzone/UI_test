@@ -33,7 +33,7 @@ class LoginPage(BasePage):
         return self.by_class_name("mobilem")
 
     def loginPassm_error(self):
-        return  self.by_class_name("loginPassm")
+        return self.by_class_name("loginPassm")
 
     def captchaCodem_error(self):
         return self.by_class_name("captchaCodem")
@@ -75,9 +75,7 @@ class LoginPage(BasePage):
             if handle != login_window:
                 dr.switch_to_window(handle)
                 self.by_class_name("agreebtn").click()
-'''
 
-'''
 if __name__ == '__main__':
     dr = webdriver.Chrome()
     dr.maximize_window()
