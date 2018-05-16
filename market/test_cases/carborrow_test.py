@@ -1,3 +1,4 @@
+#coding=utf-8
 import unittest
 import os, sys
 dir = os.path.dirname(os.path.dirname(__file__))
@@ -10,6 +11,7 @@ from carborrow import CarBorrowPage
 
 
 class CarborrowTest(unittest.TestCase):
+
     def setUp(self):
         self.dr = my_driver()
         self.dr.maximize_window()
@@ -54,6 +56,7 @@ class CarborrowTest(unittest.TestCase):
         self.assertIn("请输入借款金额", lendamount_error)
         self.assertIn("请输入借款期限", lendterm_error)
         self.assertIn("请输入验证码", code_error)
+
     def tearDown(self):
         self.dr.quit()
 

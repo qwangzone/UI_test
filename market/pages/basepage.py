@@ -30,6 +30,9 @@ class BasePage:
     def by_csses(self, css_loc):
         return self.driver.find_elements_by_css_selector(css_loc)
 
+    def by_xpaths(self, xpath):
+        return self.driver.find_elements_by_xpath(xpath)
+
     def by_xpath(self, xpath):
         return self.driver.find_element_by_xpath(xpath)
 
