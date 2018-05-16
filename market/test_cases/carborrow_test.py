@@ -10,6 +10,7 @@ from carborrow import CarBorrowPage
 
 
 class CarborrowTest(unittest.TestCase):
+    """我要借款-车贷"""
     def setUp(self):
         self.dr = my_driver()
         self.dr.maximize_window()
@@ -54,11 +55,50 @@ class CarborrowTest(unittest.TestCase):
         self.assertIn("请输入借款金额", lendamount_error)
         self.assertIn("请输入借款期限", lendterm_error)
         self.assertIn("请输入验证码", code_error)
+
+    def test5_name_error(self):
+        """姓名输入不合法"""
+        self.carborrow_p.form_submit(username="www")
+        name_error = self.carborrow_p.error_msg_list()[0].text
+        self.assertIn("请填写正确信息", name_error)
+
+    def test6_phone_error(self):
+        """手机号输入不合法"""
+        self.carborrow_p.form_submit(mobileNo="125")
+        phone_error = self.carborrow_p.error_msg_list()[1].text
+        self.assertIn("请填写有效的手机号码", phone_error)
+
+    def test7_cartype_error(self):
+        """汽车型号输入不合法"""
+        self.carborrow_p.form_submit(carType="@#q")
+        cartype_error = self.carborrow_p.error_msg_list()[2].text
+        self.assertIn("请填写正确信息", cartype_error)
+
+    def test8_carprice_error(self):
+        """汽车价格输入不合法"""
+        self.carborrow_p.form_submit(carPrice="aer")
+        carprice_error = self.carborrow_p.error_msg_list()[3].text
+        self.assertIn("请填写正确信息", carprice_error)
+
+    def test9_lendamount_error(self):
+        """借款金额输入不合法"""
+        self.carborrow_p.form_submit(lendAmount="aer")
+        lendamount_error = self.carborrow_p.error_msg_list()[4].text
+        self.assertIn("请填写正确信息", lendamount_error)
+
+    def test10_lendterm_error(self):
+        """借款期限输入不合法"""
+        self.carborrow_p.form_submit(lendTerm="aer")
+        lendterm_error = self.carborrow_p.error_msg_list()[5].text
+        self.assertIn("请填写正确信息", lendterm_error)
+
+
     def tearDown(self):
         self.dr.quit()
 
 if __name__ == '__main__':
-    suit = unittest.TestSuite()
-    suit.addTest(CarborrowTest('test4_all_null'))
-    runner = unittest.TextTestRunner()
-    runner.run(suit)
+    # suit = unittest.TestSuite()
+    # suit.addTest(CarborrowTest('test4_all_null'))
+    # runner = unittest.TextTestRunner()
+    # runner.run(suit)
+    unittest.main()

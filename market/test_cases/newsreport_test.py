@@ -1,11 +1,28 @@
-'''新闻资讯'''
-from basepage import BasePage
-class NewsReportPage(BasePage):
-    url = "/notice/media"
+import unittest
+import os, sys
+dir = os.path.dirname(os.path.dirname(__file__))
+sys.path.append(dir + "/pages")
+sys.path.append(dir + "/driver")
+# from market.driver.driver import my_driver
+# from market.pages.borrowertipspage import BorrowTipPage
+from driver import my_driver
+from newsreportpage import NewsReportPage
 
-    @property
-    def content(self):
-        return self.by_class_name("xf_mainRight")
 
-    def get_content(self):
-        return self.content.get_attribute("innerHTML")
+class NewsReportTest(unittest.TestCase):
+    """新闻资讯"""
+    def setUp(self):
+        self.dr = my_driver()
+        self.dr.maximize_window()
+        self.newsr_p = NewsReportPage(self.dr)
+        self.newsr_p.open()
+
+    def test1_content(self):
+        """页面内容显示"""
+        content = self.newsr_p.get_content()
+        self.assertIn("News report", content)
+    def tearDown(self):
+        self.dr.quit()
+
+if __name__ == '__main__':
+    unittest.main()

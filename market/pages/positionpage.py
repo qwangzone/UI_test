@@ -1,4 +1,5 @@
 '''联系我们'''
+from basepage import BasePage
 class PostionPage(BasePage):
     url = "/about/aboutus_ap"
 

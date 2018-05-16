@@ -1,4 +1,5 @@
 '''平台公告'''
+from basepage import BasePage
 class PlateNoticePage(BasePage):
     url = "/notice/notice"
 
