@@ -97,8 +97,7 @@ class CarborrowTest(unittest.TestCase):
         self.dr.quit()
 
 if __name__ == '__main__':
-    # suit = unittest.TestSuite()
-    # suit.addTest(CarborrowTest('test4_all_null'))
-    # runner = unittest.TextTestRunner()
-    # runner.run(suit)
-    unittest.main()
+    suit = unittest.TestSuite()
+    suit.addTest(CarborrowTest('test4_all_null'))
+    runner = unittest.TextTestRunner()
+    runner.run(suit)
