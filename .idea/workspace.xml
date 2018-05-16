@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5b4236b-3c17-49ea-a705-2ca5c6b9f2c5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/UI_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/UI_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/market/pages/basepage.py" beforeDir="false" afterPath="$PROJECT_DIR$/market/pages/basepage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/market/pages/creditborrow.py" beforeDir="false" afterPath="$PROJECT_DIR$/market/pages/creditborrow.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/market/test_cases/carborrow_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/market/test_cases/carborrow_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/market/test_cases/creditborrow_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/market/test_cases/creditborrow_test.py" afterDir="false" />
-    </list>
+    <list default="true" id="c5b4236b-3c17-49ea-a705-2ca5c6b9f2c5" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,8 +27,8 @@
       <file leaf-file-name="creditborrow_test.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/market/test_cases/creditborrow_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="868">
-              <caret line="52" column="26" lean-forward="true" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
+            <state relative-caret-position="618">
+              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
               <folding>
                 <element signature="e#14#28#0" expanded="true" />
               </folding>
@@ -48,7 +40,7 @@
         <entry file="file://$PROJECT_DIR$/market/pages/carborrow.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
-              <caret line="73" column="48" lean-forward="true" selection-start-line="73" selection-start-column="48" selection-end-line="73" selection-end-column="48" />
+              <caret line="73" column="48" selection-start-line="73" selection-start-column="48" selection-end-line="73" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -57,7 +49,7 @@
         <entry file="file://$PROJECT_DIR$/market/test_cases/carborrow_test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="950">
-              <caret line="65" column="38" lean-forward="true" selection-start-line="65" selection-start-column="38" selection-end-line="65" selection-end-column="38" />
+              <caret line="65" column="38" selection-start-line="65" selection-start-column="38" selection-end-line="65" selection-end-column="38" />
               <folding>
                 <element signature="e#1#16#0" expanded="true" />
               </folding>
@@ -81,7 +73,7 @@
         <entry file="file://$PROJECT_DIR$/market/pages/basepage.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="474">
-              <caret line="36" column="55" lean-forward="true" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
+              <caret line="36" column="55" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -102,7 +94,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -671,7 +663,7 @@
     <entry file="file://$PROJECT_DIR$/market/test_cases/carborrow_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="950">
-          <caret line="65" column="38" lean-forward="true" selection-start-line="65" selection-start-column="38" selection-end-line="65" selection-end-column="38" />
+          <caret line="65" column="38" selection-start-line="65" selection-start-column="38" selection-end-line="65" selection-end-column="38" />
           <folding>
             <element signature="e#1#16#0" expanded="true" />
           </folding>
@@ -681,7 +673,7 @@
     <entry file="file://$PROJECT_DIR$/market/pages/carborrow.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
-          <caret line="73" column="48" lean-forward="true" selection-start-line="73" selection-start-column="48" selection-end-line="73" selection-end-column="48" />
+          <caret line="73" column="48" selection-start-line="73" selection-start-column="48" selection-end-line="73" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -709,7 +701,7 @@
     <entry file="file://$PROJECT_DIR$/market/pages/basepage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="474">
-          <caret line="36" column="55" lean-forward="true" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
+          <caret line="36" column="55" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -732,8 +724,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/market/test_cases/creditborrow_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="868">
-          <caret line="52" column="26" lean-forward="true" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
+        <state relative-caret-position="618">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
           <folding>
             <element signature="e#14#28#0" expanded="true" />
           </folding>
