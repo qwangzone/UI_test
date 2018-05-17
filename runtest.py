@@ -2,7 +2,8 @@ import unittest
 import HTMLTestRunner
 import time
 import os, sys
-dir = os.path.dirname(__file__)
+#dir = os.path.dirname(__file__)
+dir = os.path.dirname(os.path.abspath(__file__))
 print(dir)
 # sys.path.append(dir + "/manage")
 # sys.path.append(dir + "/market")
