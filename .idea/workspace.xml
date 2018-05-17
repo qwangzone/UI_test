@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89cdc48b-fe70-4da9-93cb-0781a2472d7c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/market/pages/myaccountpage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/market/test_cases/myaccount_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/market/pages/myacountpage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtest.py" beforeDir="false" afterPath="$PROJECT_DIR$/runtest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/pages/myaccountpage.py" beforeDir="false" afterPath="$PROJECT_DIR$/market/pages/myaccountpage.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,8 +29,8 @@
       <file leaf-file-name="myaccount_test.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/market/test_cases/myaccount_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="72" column="44" lean-forward="true" selection-start-line="72" selection-start-column="44" selection-end-line="72" selection-end-column="44" />
+            <state relative-caret-position="303">
+              <caret line="74" column="41" lean-forward="true" selection-start-line="74" selection-start-column="41" selection-end-line="74" selection-end-column="41" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -72,7 +68,7 @@
         <entry file="file://$PROJECT_DIR$/market/pages/myaccountpage.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="36" column="51" lean-forward="true" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="51" />
+              <caret line="36" column="74" lean-forward="true" selection-start-line="36" selection-start-column="74" selection-end-line="36" selection-end-column="74" />
             </state>
           </provider>
         </entry>
@@ -151,9 +147,9 @@
         <option value="$PROJECT_DIR$/market/test_cases/riskmanagement_test.py" />
         <option value="$PROJECT_DIR$/market/test_cases/safety_test.py" />
         <option value="$PROJECT_DIR$/market/pages/myacountpage.py" />
-        <option value="$PROJECT_DIR$/market/pages/myaccountpage.py" />
         <option value="$PROJECT_DIR$/market/test_cases/myaccount_test.py" />
         <option value="$PROJECT_DIR$/runtest.py" />
+        <option value="$PROJECT_DIR$/market/pages/myaccountpage.py" />
       </list>
     </option>
   </component>
@@ -296,9 +292,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_myaccount_test_py - 2018.05.17 at 16h 06m 06s.xml">
-      <configuration name="Unittests in myaccount_test.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_myaccount_test_py - 2018.05.17 at 16h 17m 59s.xml">
       <configuration name="Unittests in myaccount_test.py" configurationId="tests" />
     </history-entry>
@@ -326,17 +319,20 @@
     <history-entry file="Unittests_for_myaccount_test_MyaccountTest_test7_avaliable_amount - 2018.05.17 at 17h 09m 09s.xml">
       <configuration name="Unittests for myaccount_test.MyaccountTest.test7_avaliable_amount" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_myaccount_test_MyaccountTest_test7_avaliable_amount - 2018.05.17 at 17h 21m 41s.xml">
+      <configuration name="Unittests for myaccount_test.MyaccountTest.test7_avaliable_amount" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.44008714" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44008714" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" weight="0.32897604" />
       <window_info id="Favorites" side_tool="true" />
@@ -681,13 +677,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/market/pages/myaccountpage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="36" column="51" lean-forward="true" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/runtest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -698,10 +687,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/market/pages/myaccountpage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="36" column="74" lean-forward="true" selection-start-line="36" selection-start-column="74" selection-end-line="36" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/market/test_cases/myaccount_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="72" column="44" lean-forward="true" selection-start-line="72" selection-start-column="44" selection-end-line="72" selection-end-column="44" />
+        <state relative-caret-position="303">
+          <caret line="74" column="41" lean-forward="true" selection-start-line="74" selection-start-column="41" selection-end-line="74" selection-end-column="41" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>

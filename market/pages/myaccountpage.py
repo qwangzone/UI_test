@@ -34,6 +34,6 @@ class MyacountPage(BasePage):
 
     #可用余额
     def avaliable_amount(self):
-        return self.by_class_name("color-f77").text
+        return self.by_xpath("//div[@class='m-center randw pt1']/h1").text
 
 
