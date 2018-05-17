@@ -14,7 +14,6 @@ class RiskEducationTest(unittest.TestCase):
     """风险教育"""
     def setUp(self):
         self.dr = my_driver()
-        self.dr.maximize_window()
         self.risked_p = RiskEducationPage(self.dr)
         self.risked_p.open()
 

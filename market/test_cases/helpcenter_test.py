@@ -13,7 +13,6 @@ class HelpCenterTest(unittest.TestCase):
     """帮助中心"""
     def setUp(self):
         self.dr = my_driver()
-        self.dr.maximize_window()
         self.hlep_p = HelpCenterPage(self.dr)
         self.hlep_p.open()
 

@@ -14,7 +14,6 @@ class CompanyIntroTest(unittest.TestCase):
     """公司简介"""
     def setUp(self):
         self.dr = my_driver()
-        self.dr.maximize_window()
         self.comintro_p = CompanyInfoPage(self.dr)
         self.comintro_p.open()
 

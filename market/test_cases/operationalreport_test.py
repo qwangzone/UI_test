@@ -14,7 +14,6 @@ class OperationalReportTest(unittest.TestCase):
     """运营报告"""
     def setUp(self):
         self.dr = my_driver()
-        self.dr.maximize_window()
         self.opera_p = OperRportPage(self.dr)
         self.opera_p.open()
 

@@ -3,8 +3,10 @@ import os, sys
 dir = os.path.dirname(os.path.dirname(__file__))
 #print(dir)
 sys.path.append(dir + "/pages")
+sys.path.append(dir + "/driver")
 import loginpage
-from selenium import webdriver
+#from selenium import webdriver
+from driver import my_driver
 import unittest, time
 
 class LoginTest(unittest.TestCase):
@@ -12,8 +14,7 @@ class LoginTest(unittest.TestCase):
 
     @classmethod
     def setUpClass(self):
-        self.dr = webdriver.Chrome()
-        self.dr.maximize_window()
+        self.dr = my_driver()
         self.lg = loginpage.LoginPage(self.dr)
         self.lg.open()
 

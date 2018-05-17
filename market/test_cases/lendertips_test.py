@@ -13,7 +13,6 @@ class LenderTipsTest(unittest.TestCase):
     """出借人提示"""
     def setUp(self):
         self.dr = my_driver()
-        self.dr.maximize_window()
         self.lendert_p = LenderTipsPage(self.dr)
         self.lendert_p.open()
 

@@ -13,7 +13,6 @@ class LawsOthersTest(unittest.TestCase):
     """相关法律法规"""
     def setUp(self):
         self.dr = my_driver()
-        self.dr.maximize_window()
         self.lawsother_p = LawerOtherPage(self.dr)
         self.lawsother_p.open()
 

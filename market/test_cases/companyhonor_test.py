@@ -14,7 +14,6 @@ class CompanyHonorTest(unittest.TestCase):
     """公司荣誉"""
     def setUp(self):
         self.dr = my_driver()
-        self.dr.maximize_window()
         self.comh_p = CompanyHrPage(self.dr)
         self.comh_p.open()
 
@@ -23,6 +22,7 @@ class CompanyHonorTest(unittest.TestCase):
         content = self.comh_p.get_content()
         self.assertIn("荣誉证书", content)
         self.assertIn("数据接入", content)
+
     def tearDown(self):
         self.dr.quit()
 

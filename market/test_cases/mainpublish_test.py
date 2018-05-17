@@ -13,7 +13,6 @@ class MainPublishTest(unittest.TestCase):
     """主体披露"""
     def setUp(self):
         self.dr = my_driver()
-        self.dr.maximize_window()
         self.mainp_p = MainPublishPage(self.dr)
         self.mainp_p.open()
 

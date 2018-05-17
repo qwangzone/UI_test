@@ -14,7 +14,6 @@ class ProductTest(unittest.TestCase):
     """产品介绍"""
     def setUp(self):
         self.dr = my_driver()
-        self.dr.maximize_window()
         self.product_p = ProductPage(self.dr)
         self.product_p.open()
 

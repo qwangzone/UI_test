@@ -14,7 +14,6 @@ class PositionTest(unittest.TestCase):
     """联系我们"""
     def setUp(self):
         self.dr = my_driver()
-        self.dr.maximize_window()
         self.posit_p = PostionPage(self.dr)
         self.posit_p.open()
 

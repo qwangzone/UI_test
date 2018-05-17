@@ -14,7 +14,6 @@ class CarborrowTest(unittest.TestCase):
     """我要借款-车贷"""
     def setUp(self):
         self.dr = my_driver()
-        self.dr.maximize_window()
         self.carborrow_p = CarBorrowPage(self.dr)
         self.carborrow_p.open()
 
@@ -92,7 +91,6 @@ class CarborrowTest(unittest.TestCase):
         self.carborrow_p.form_submit(lendTerm="aer")
         lendterm_error = self.carborrow_p.error_msg_list()[5].text
         self.assertIn("请填写正确信息", lendterm_error)
-
 
     def tearDown(self):
         self.dr.quit()

@@ -14,7 +14,6 @@ class ProhibiteTest(unittest.TestCase):
     """禁止性行为"""
     def setUp(self):
         self.dr = my_driver()
-        self.dr.maximize_window()
         self.prohibite_p = ProhibitedbvPage(self.dr)
         self.prohibite_p.open()
 

@@ -14,7 +14,6 @@ class PlateNoticeTest(unittest.TestCase):
     """平台公告"""
     def setUp(self):
         self.dr = my_driver()
-        self.dr.maximize_window()
         self.plate_p = PlateNoticePage(self.dr)
         self.plate_p.open()
 

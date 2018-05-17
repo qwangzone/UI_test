@@ -14,7 +14,6 @@ class NetLoanTest(unittest.TestCase):
     """网贷知识"""
     def setUp(self):
         self.dr = my_driver()
-        self.dr.maximize_window()
         self.p2p_p = NetLoanKnowPage(self.dr)
         self.p2p_p.open()
 

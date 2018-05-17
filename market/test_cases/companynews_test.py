@@ -14,7 +14,6 @@ class CompanyNewsTest(unittest.TestCase):
     """公司动态"""
     def setUp(self):
         self.dr = my_driver()
-        self.dr.maximize_window()
         self.compn_p = CompanyNewsPage(self.dr)
         self.compn_p.open()
 

@@ -14,7 +14,6 @@ class CooperationTest(unittest.TestCase):
     """合作机构"""
     def setUp(self):
         self.dr = my_driver()
-        self.dr.maximize_window()
         self.coop_p = CooperationPage(self.dr)
         self.coop_p.open()
 

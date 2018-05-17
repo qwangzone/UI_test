@@ -1,4 +1,3 @@
-# coding=utf-8
 '''首页tests'''
 from basepage import BasePage
 from selenium import webdriver

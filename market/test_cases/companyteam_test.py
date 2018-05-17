@@ -14,7 +14,6 @@ class CompanyTeamTest(unittest.TestCase):
     """高管团队"""
     def setUp(self):
         self.dr = my_driver()
-        self.dr.maximize_window()
         self.compt_p = CompanyTeamPage(self.dr)
         self.compt_p.open()
 

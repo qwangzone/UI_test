@@ -1,18 +1,19 @@
 #coding=utf-8
 import os, sys
 import time
-from selenium import webdriver
+#from selenium import webdriver
 import unittest
 dir = os.path.dirname(os.path.dirname(__file__))
 sys.path.append(dir + "/pages")
+sys.path.append(dir + "/driver")
 from homepage import HomePage
+from driver import my_driver
 
 class HomePageTest(unittest.TestCase):
 
     @classmethod
     def setUpClass(self):
-        self.dr = webdriver.Chrome()
-        self.dr.maximize_window()
+        self.dr = my_driver()
         self.hp = HomePage(self.dr)
         self.hp.open()
         self.hp.layerclose()

@@ -14,7 +14,6 @@ class SafeTyTest(unittest.TestCase):
     """安全保障"""
     def setUp(self):
         self.dr = my_driver()
-        self.dr.maximize_window()
         self.safe_p = SafetyPage(self.dr)
         self.safe_p.open()
 

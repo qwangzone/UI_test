@@ -14,7 +14,6 @@ class RegulatorsTest(unittest.TestCase):
     """监管部门"""
     def setUp(self):
         self.dr = my_driver()
-        self.dr.maximize_window()
         self.regulators_p = RegulatorsPage(self.dr)
         self.regulators_p.open()
 

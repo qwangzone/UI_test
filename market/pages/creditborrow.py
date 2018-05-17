@@ -1,4 +1,4 @@
-#coding=utf-8
+'''我有信用-我要借款'''
 from basepage import BasePage
 import time
 
@@ -39,15 +39,14 @@ class CreditBorrowPage(BasePage):
 
     # 提交表单信息
     def form_submit(self, username=u"李逵", mobileNo="15811507615", provinceCode="北京市", cityCode="北京市",
-                    lendAmount="20000", lendTerm="12",captchaCode="www"):
+                    lendAmount="20000", lendTerm="12",captchaCode="1111"):
         self.username.send_keys(username)
         self.mobileNo.send_keys(mobileNo)
         self.provinceCode(provinceCode)
         self.city_Code(cityCode)
         self.lendAmount.send_keys(lendAmount)
         self.lendTerm.send_keys(lendTerm)
-        time.sleep(5)
-        #self.captchaCode.send_keys(captchaCode)
+        self.captchaCode.send_keys(captchaCode)
         self.btn.click()
 
 

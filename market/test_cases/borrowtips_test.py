@@ -13,7 +13,6 @@ from borrowertipspage import BorrowTipPage
 class BorrowTipsTest(unittest.TestCase):
     def setUp(self):
         self.dr = my_driver()
-        self.dr.maximize_window()
         self.borrow_p = BorrowTipPage(self.dr)
         self.borrow_p.open()
 
@@ -21,6 +20,7 @@ class BorrowTipsTest(unittest.TestCase):
         """页面内容显示"""
         content = self.borrow_p.get_content()
         self.assertIn("网络借贷中介平台借款人提示", content)
+
     def tearDown(self):
         self.dr.quit()
 

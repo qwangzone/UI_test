@@ -14,7 +14,6 @@ class NetLoanTest(unittest.TestCase):
     """平台数据"""
     def setUp(self):
         self.dr = my_driver()
-        self.dr.maximize_window()
         self.platedate_p = PlateDatePage(self.dr)
         self.platedate_p.open()
 

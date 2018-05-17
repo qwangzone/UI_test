@@ -2,20 +2,21 @@
 import sys, os
 import time
 import unittest
-from selenium import webdriver
+#from selenium import webdriver
 dir = os.path.dirname(os.path.dirname(__file__))
 sys.path.append(dir + "/pages")
+sys.path.append(dir + "/driver")
 from loginpage import LoginPage
 from zhitouxqpage import ZhitouXqPage
 from zhitouzfpage import InvestzfPage
+from driver import my_driver
 
 
 class InvestTest(unittest.TestCase):
 
     @classmethod
     def setUpClass(self):
-        self.dr = webdriver.Chrome()
-        self.dr.maximize_window()
+        self.dr = my_driver()
         self.lg = LoginPage(self.dr)
         self.lg.login(username='13658524695', password='123456')
         time.sleep(5)

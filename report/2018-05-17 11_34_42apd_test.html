@@ -191,9 +191,9 @@ function showOutput(id, name) {
 
 <div class='heading'>
 <h1>test report</h1>
-<p class='attribute'><strong>Start Time:</strong> 2018-05-17 10:18:51</p>
-<p class='attribute'><strong>Duration:</strong> 0:00:16.132923</p>
-<p class='attribute'><strong>Status:</strong> Pass 1 Error 2</p>
+<p class='attribute'><strong>Start Time:</strong> 2018-05-17 11:34:42</p>
+<p class='attribute'><strong>Duration:</strong> 0:00:11.180639</p>
+<p class='attribute'><strong>Status:</strong> Pass 1</p>
 
 <p class='description'>apd_test market or manager</p>
 </div>
@@ -223,114 +223,26 @@ function showOutput(id, name) {
     <td>View</td>
 </tr>
 
-<tr class='errorClass'>
-    <td>test_cases.creditborrow_test.CreditborrowTest</td>
-    <td>3</td>
+<tr class='passClass'>
+    <td>borrowtips_test.BorrowTipsTest</td>
+    <td>1</td>
     <td>1</td>
     <td>0</td>
-    <td>2</td>
-    <td><a href="javascript:showClassDetail('c1',3)">Detail</a></td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c1',1)">Detail</a></td>
 </tr>
 
 <tr id='pt1.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test1_creditbrorrow_success: 信用借款信息请求提交成功</div></td>
+    <td class='none'><div class='testcase'>test1_content: 页面内容显示</div></td>
     <td colspan='5' align='center'>pass</td>
-</tr>
-
-<tr id='ft1.2' class='none'>
-    <td class='errorCase'><div class='testcase'>test2_codeinput_error: 验证码输入错误，后台验证</div></td>
-    <td colspan='5' align='center'>
-
-    <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.2')" >
-        error</a>
-
-    <div id='div_ft1.2' class="popup_window">
-        <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.2').style.display = 'none' " >
-           [x]</a>
-        </div>
-        <pre>
-        
-ft1.2: Traceback (most recent call last):
-  File "F:/python01/UI_test/market\test_cases\creditborrow_test.py", line 29, in test2_codeinput_error
-    self.creditborrow_p.form_submit()
-  File "F:/python01/UI_test/market/pages\creditborrow.py", line 43, in form_submit
-    self.username.send_keys(username)
-  File "F:/python01/UI_test/market/pages\creditborrow.py", line 10, in username
-    return self.by_id("lendName")
-  File "F:/python01/UI_test/market/pages\basepage.py", line 22, in by_id
-    return self.driver.find_element_by_id(id)
-  File "C:\python3.6\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 229, in find_element_by_id
-    return self.find_element(by=By.ID, value=id_)
-  File "C:\python3.6\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 707, in find_element
-    {'using': by, 'value': value})['value']
-  File "C:\python3.6\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 196, in execute
-    self.error_handler.check_response(response)
-  File "C:\python3.6\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 181, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"id","selector":"lendName"}
-  (Session info: chrome=49.0.2623.13)
-  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64)
-
-
-
-        </pre>
-    </div>
-    <!--css div popup end-->
-
-    </td>
-</tr>
-
-<tr id='ft1.3' class='none'>
-    <td class='errorCase'><div class='testcase'>test3_allinput_error: 所有输入均为空</div></td>
-    <td colspan='5' align='center'>
-
-    <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.3')" >
-        error</a>
-
-    <div id='div_ft1.3' class="popup_window">
-        <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.3').style.display = 'none' " >
-           [x]</a>
-        </div>
-        <pre>
-        
-ft1.3: Traceback (most recent call last):
-  File "F:/python01/UI_test/market\test_cases\creditborrow_test.py", line 35, in test3_allinput_error
-    self.creditborrow_p.btn.click()
-  File "F:/python01/UI_test/market/pages\creditborrow.py", line 38, in btn
-    return self.by_tag_name("button")
-  File "F:/python01/UI_test/market/pages\basepage.py", line 43, in by_tag_name
-    return self.driver.find_element_by_tag_name(tagname)
-  File "C:\python3.6\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 349, in find_element_by_tag_name
-    return self.find_element(by=By.TAG_NAME, value=name)
-  File "C:\python3.6\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 707, in find_element
-    {'using': by, 'value': value})['value']
-  File "C:\python3.6\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 196, in execute
-    self.error_handler.check_response(response)
-  File "C:\python3.6\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 181, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"tag name","selector":"button"}
-  (Session info: chrome=49.0.2623.13)
-  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64)
-
-
-
-        </pre>
-    </div>
-    <!--css div popup end-->
-
-    </td>
 </tr>
 
 <tr id='total_row'>
     <td>Total</td>
-    <td>3</td>
+    <td>1</td>
     <td class="text text-success">1</td>
     <td class="text text-danger">0</td>
-    <td class="text text-warning">2</td>
+    <td class="text text-warning">0</td>
     <td>&nbsp;</td>
 </tr>
 </table>

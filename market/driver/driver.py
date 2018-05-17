@@ -4,9 +4,9 @@ from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
 def my_driver():
     driver = webdriver.Chrome()
+    driver.maximize_window()
     # driver = webdriver.Remote(command_executor="http://115.159.43.181:5555/wd/hub",
     #                           desired_capabilities=DesiredCapabilities.CHROME)
-    # driver.maximize_window()
     return driver
 
 

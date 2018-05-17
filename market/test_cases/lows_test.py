@@ -13,7 +13,6 @@ class LowsTest(unittest.TestCase):
     """法律法规"""
     def setUp(self):
         self.dr = my_driver()
-        self.dr.maximize_window()
         self.lows_p = LawerPage(self.dr)
         self.lows_p.open()
 

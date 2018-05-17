@@ -13,7 +13,6 @@ class NewsReportTest(unittest.TestCase):
     """新闻资讯"""
     def setUp(self):
         self.dr = my_driver()
-        self.dr.maximize_window()
         self.newsr_p = NewsReportPage(self.dr)
         self.newsr_p.open()
 

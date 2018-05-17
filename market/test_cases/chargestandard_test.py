@@ -14,7 +14,6 @@ class ChargeStandardTest(unittest.TestCase):
     """收费标准"""
     def setUp(self):
         self.dr = my_driver()
-        self.dr.maximize_window()
         self.charge_p = ChargingPage(self.dr)
         self.charge_p.open()
 
@@ -22,6 +21,7 @@ class ChargeStandardTest(unittest.TestCase):
         """页面内容显示"""
         content = self.charge_p.get_content()
         self.assertIn("出借人收费标准", content)
+
     def tearDown(self):
         self.dr.quit()
 

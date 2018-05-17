@@ -14,7 +14,6 @@ class riskmanageTest(unittest.TestCase):
     """风险管理"""
     def setUp(self):
         self.dr = my_driver()
-        self.dr.maximize_window()
         self.riskma_p = RiskManegePage(self.dr)
         self.riskma_p.open()
 
