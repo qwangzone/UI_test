@@ -1,3 +1,4 @@
+#coding=utf-8
 import unittest
 import os, sys
 dir = os.path.dirname(os.path.dirname(__file__))
@@ -21,6 +22,7 @@ class CooperationTest(unittest.TestCase):
         """页面内容显示"""
         content = self.coop_p.get_content()
         self.assertIn("合作机构", content)
+
     def tearDown(self):
         self.dr.quit()
 

@@ -23,6 +23,7 @@ class RiskEducationTest(unittest.TestCase):
         content = self.risked_p.get_content()
         self.assertIn("Risk education", content)
         self.assertIn("不可抗力风险", content)
+
     def tearDown(self):
         self.dr.quit()
 

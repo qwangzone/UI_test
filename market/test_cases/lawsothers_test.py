@@ -21,6 +21,7 @@ class LawsOthersTest(unittest.TestCase):
         """页面内容显示"""
         content = self.lawsother_p.get_content()
         self.assertIn("法律法规 政策指导意见", content)
+
     def tearDown(self):
         self.dr.quit()
 

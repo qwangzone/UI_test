@@ -23,6 +23,7 @@ class PositionTest(unittest.TestCase):
         content = self.posit_p.get_content()
         self.assertIn("公司位置", content)
         self.assertIn("关注我们", content)
+
     def tearDown(self):
         self.dr.quit()
 

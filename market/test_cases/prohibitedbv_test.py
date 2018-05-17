@@ -23,6 +23,7 @@ class ProhibiteTest(unittest.TestCase):
         content = self.prohibite_p.get_content()
         self.assertIn("Prohibited behavior", content)
         self.assertIn("网贷平台禁止性行为提示", content)
+
     def tearDown(self):
         self.dr.quit()
 

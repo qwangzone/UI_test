@@ -21,6 +21,7 @@ class LenderTipsTest(unittest.TestCase):
         """页面内容显示"""
         content = self.lendert_p.get_content()
         self.assertIn("网络借贷中介平台出借人提示", content)
+
     def tearDown(self):
         self.dr.quit()
 

@@ -23,6 +23,7 @@ class MainPublishTest(unittest.TestCase):
         self.assertIn("基本情况", content)
         self.assertIn("备案信息", content)
         self.assertIn("其他信息", content)
+
     def tearDown(self):
         self.dr.quit()
 

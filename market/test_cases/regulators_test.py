@@ -22,6 +22,7 @@ class RegulatorsTest(unittest.TestCase):
         """页面内容显示"""
         content = self.regulators_p.get_content()
         self.assertIn("Report", content)
+
     def tearDown(self):
         self.dr.quit()
 

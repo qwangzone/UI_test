@@ -22,6 +22,7 @@ class NetLoanTest(unittest.TestCase):
         """页面内容显示"""
         content = self.p2p_p.get_content()
         self.assertIn("Net loan knowledge", content)
+
     def tearDown(self):
         self.dr.quit()
 

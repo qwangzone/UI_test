@@ -1,3 +1,4 @@
+#coding=utf-8
 import unittest
 import os, sys
 dir = os.path.dirname(os.path.dirname(__file__))

@@ -1,3 +1,4 @@
+#coding=utf-8
 import unittest
 import os, sys
 dir = os.path.dirname(os.path.dirname(__file__))
@@ -21,6 +22,7 @@ class CompanyNewsTest(unittest.TestCase):
         """页面内容显示"""
         content = self.compn_p.get_content()
         self.assertIn("公司动态", content)
+
     def tearDown(self):
         self.dr.quit()
 

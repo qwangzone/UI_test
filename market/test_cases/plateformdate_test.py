@@ -24,6 +24,7 @@ class NetLoanTest(unittest.TestCase):
         self.assertIn("Overview", content)
         self.assertIn("项目成交量", content)
         self.assertIn("风险数据", content)
+
     def tearDown(self):
         self.dr.quit()
 

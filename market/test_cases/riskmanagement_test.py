@@ -23,6 +23,7 @@ class riskmanageTest(unittest.TestCase):
         content = self.riskma_p.get_content()
         self.assertIn("风险管理框架", content)
         self.assertIn("风险预警流程", content)
+
     def tearDown(self):
         self.dr.quit()
 

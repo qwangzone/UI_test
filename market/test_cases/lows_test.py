@@ -21,6 +21,7 @@ class LowsTest(unittest.TestCase):
         """页面内容显示"""
         content = self.lows_p.get_content()
         self.assertIn("法律法规", content)
+
     def tearDown(self):
         self.dr.quit()
 

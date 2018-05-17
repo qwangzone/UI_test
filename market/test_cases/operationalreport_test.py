@@ -22,6 +22,7 @@ class OperationalReportTest(unittest.TestCase):
         """页面内容显示"""
         content = self.opera_p.get_content()
         self.assertIn("阿朋贷2018三月份报告", content)
+
     def tearDown(self):
         self.dr.quit()
 

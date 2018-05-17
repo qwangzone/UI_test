@@ -1,3 +1,4 @@
+#coding=utf-8
 import unittest
 import os, sys
 dir = os.path.dirname(os.path.dirname(__file__))
@@ -25,6 +26,7 @@ class CompanyIntroTest(unittest.TestCase):
         self.assertIn("网站信息", content)
         self.assertIn("公司大事件", content)
         self.assertIn("办公环境", content)
+
     def tearDown(self):
         self.dr.quit()
 

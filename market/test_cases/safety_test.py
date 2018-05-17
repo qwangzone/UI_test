@@ -23,6 +23,7 @@ class SafeTyTest(unittest.TestCase):
         content = self.safe_p.get_content()
         self.assertIn("安全保障", content)
         self.assertIn("法律护航有保障", content)
+
     def tearDown(self):
         self.dr.quit()
 

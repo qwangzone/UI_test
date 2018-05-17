@@ -22,6 +22,7 @@ class ProductTest(unittest.TestCase):
         """页面内容显示"""
         content = self.product_p.get_content()
         self.assertIn("产品介绍", content)
+
     def tearDown(self):
         self.dr.quit()
 

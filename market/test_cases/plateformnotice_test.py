@@ -22,6 +22,7 @@ class PlateNoticeTest(unittest.TestCase):
         """页面内容显示"""
         content = self.plate_p.get_content()
         self.assertIn("Platform notice", content)
+
     def tearDown(self):
         self.dr.quit()
 
