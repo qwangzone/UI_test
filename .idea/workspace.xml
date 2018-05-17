@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="9609ca2c-bc55-4d98-99ea-86e10f8f945c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
+=======
+    <list default="true" id="9609ca2c-bc55-4d98-99ea-86e10f8f945c" name="Default" comment="" />
+>>>>>>> 7b672ff5fe5808dd55009de5875f7fbbec919527
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,8 +22,13 @@
       <file leaf-file-name="runtest.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/runtest.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="363">
               <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+=======
+            <state relative-caret-position="574">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+>>>>>>> 7b672ff5fe5808dd55009de5875f7fbbec919527
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -1151,8 +1160,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/runtest.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="363">
           <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+=======
+        <state relative-caret-position="574">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+>>>>>>> 7b672ff5fe5808dd55009de5875f7fbbec919527
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
