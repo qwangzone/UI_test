@@ -1,37 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9609ca2c-bc55-4d98-99ea-86e10f8f945c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/UI_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/UI_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/market/test_cases/borrowtips_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/market/test_cases/borrowtips_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/market/test_cases/carborrow_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/market/test_cases/carborrow_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/market/test_cases/chargestandard_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/market/test_cases/chargestandard_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/market/test_cases/companyhonor_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/market/test_cases/companyhonor_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/market/test_cases/companyintro_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/market/test_cases/companyintro_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/market/test_cases/companynews_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/market/test_cases/companynews_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/market/test_cases/companyteam_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/market/test_cases/companyteam_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/market/test_cases/cooperation_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/market/test_cases/cooperation_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/market/test_cases/helpcenter_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/market/test_cases/helpcenter_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/market/test_cases/lawsothers_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/market/test_cases/lawsothers_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/market/test_cases/lendertips_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/market/test_cases/lendertips_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/market/test_cases/lows_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/market/test_cases/lows_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/market/test_cases/mainpublish_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/market/test_cases/mainpublish_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/market/test_cases/newsreport_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/market/test_cases/newsreport_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/market/test_cases/operationalreport_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/market/test_cases/operationalreport_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/market/test_cases/p2pknowledge_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/market/test_cases/p2pknowledge_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/market/test_cases/plateformdate_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/market/test_cases/plateformdate_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/market/test_cases/plateformnotice_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/market/test_cases/plateformnotice_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/market/test_cases/position_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/market/test_cases/position_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/market/test_cases/product_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/market/test_cases/product_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/market/test_cases/prohibitedbv_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/market/test_cases/prohibitedbv_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/market/test_cases/regulators_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/market/test_cases/regulators_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/market/test_cases/riskeducation_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/market/test_cases/riskeducation_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/market/test_cases/riskmanagement_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/market/test_cases/riskmanagement_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/market/test_cases/safety_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/market/test_cases/safety_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtest.py" beforeDir="false" afterPath="$PROJECT_DIR$/runtest.py" afterDir="false" />
-    </list>
+    <list default="true" id="9609ca2c-bc55-4d98-99ea-86e10f8f945c" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,8 +15,8 @@
       <file leaf-file-name="runtest.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/runtest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="11" column="107" lean-forward="true" selection-start-line="11" selection-start-column="107" selection-end-line="11" selection-end-column="107" />
+            <state relative-caret-position="574">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -878,8 +848,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/runtest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="11" column="107" lean-forward="true" selection-start-line="11" selection-start-column="107" selection-end-line="11" selection-end-column="107" />
+        <state relative-caret-position="574">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
