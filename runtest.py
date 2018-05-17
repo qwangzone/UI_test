@@ -1,7 +1,5 @@
 import unittest
 import HTMLTestRunner
-#from selenium import webdriver
-#from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 import time
 import os, sys
 dir = os.path.dirname(__file__)
@@ -16,13 +14,7 @@ fp = open(filename, 'wb')
 runner = HTMLTestRunner.HTMLTestRunner(stream=fp, title="test report", description="apd_test market or manager")
 runner.run(discover)
 fp.close()
-# dr = webdriver.Remote(command_executor="http://115.159.43.181:5555/wd/hub",
-#                       desired_capabilities=DesiredCapabilities.CHROME)
-# dr.get("http://58.135.80.52:9380/")
-# print(dr.current_url)
-# print(dr.title)
-# #print(dr.page_source)
-# dr.quit()
+
 
 
 
