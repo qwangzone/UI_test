@@ -1,10 +1,10 @@
-#coding=utf-8
 import os, sys
 dir = os.path.dirname(os.path.dirname(__file__))
 #print(dir)
 sys.path.append(dir + "/pages")
 sys.path.append(dir + "/driver")
 import loginpage
+import myaccountpage
 #from selenium import webdriver
 from driver import my_driver
 import unittest, time
@@ -16,6 +16,7 @@ class LoginTest(unittest.TestCase):
     def setUpClass(self):
         self.dr = my_driver()
         self.lg = loginpage.LoginPage(self.dr)
+        self.mp = myaccountpage.MyacountPage(self.dr)
         self.lg.open()
 
     #用户名错误
@@ -36,9 +37,8 @@ class LoginTest(unittest.TestCase):
     #登录成功
     def test3_login_success(self):
         self.lg.login(username='13658524695', password='123456')
-        time.sleep(5)
-        text3 = self.lg.user_success_text()
-        #print(text3)
+        text3 = self.mp.login_user()
+        print(text3)
         self.assertIn(u'您好', text3)
 
 

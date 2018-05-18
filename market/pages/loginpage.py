@@ -2,6 +2,7 @@
 '''登录页'''
 from basepage import BasePage
 from homepage import HomePage
+from myaccountpage import MyacountPage
 import time
 from selenium import webdriver
 
@@ -26,9 +27,6 @@ class LoginPage(BasePage):
     def homepage_link(self):
         return self.by_link("返回首页")
 
-    def login_user(self):
-        return self.by_id("acountmobile")
-
     def mobilem_error(self):
         return self.by_class_name("mobilem")
 
@@ -45,10 +43,8 @@ class LoginPage(BasePage):
         self.input_loginPass().send_keys(password)
         time.sleep(5)
         self.login_btn().click()
-
-    #获取登录后用户名信息
-    def user_success_text(self):
-        return self.login_user().text
+        time.sleep(3)
+        return MyacountPage(self.driver)
 
     #获取用户名输入框错误提示
     def mobilem_error_text(self):

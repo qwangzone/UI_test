@@ -36,4 +36,8 @@ class MyacountPage(BasePage):
     def avaliable_amount(self):
         return self.by_xpath("//div[@class='m-center randw pt1']/h1").text
 
+    #登录成功用户名
+    def login_user(self):
+        return self.by_id("acountmobile").text
+
 
