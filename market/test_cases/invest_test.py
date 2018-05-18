@@ -18,7 +18,7 @@ class InvestTest(unittest.TestCase):
     def setUpClass(self):
         self.dr = my_driver()
         self.lg = LoginPage(self.dr)
-        self.lg.login(username='13658524695', password='123456')
+        self.lg.login(username='13658524695', password='123456', yanzhengma='1')
         time.sleep(5)
         self.iv = ZhitouXqPage(self.dr)
         self.zhifu = InvestzfPage(self.dr)

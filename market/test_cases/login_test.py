@@ -21,14 +21,14 @@ class LoginTest(unittest.TestCase):
 
     #用户名错误
     def test1_username_error(self):
-        self.lg.login(username='11111', password='123456')
+        self.lg.login(username='11111', password='123456', yanzhengma='1')
         time.sleep(3)
         text1 = self.lg.mobilem_error_text()
         self.assertEqual(text1, u'*该账户不存在')
 
     #登录密码错误
     def test2_password_error(self):
-        self.lg.login(username='13658524695', password='111111')
+        self.lg.login(username='13658524695', password='111111', yanzhengma='1')
         time.sleep(3)
         text2 = self.lg.loginPassm_error_text()
         print(text2)
@@ -36,7 +36,7 @@ class LoginTest(unittest.TestCase):
 
     #登录成功
     def test3_login_success(self):
-        self.lg.login(username='13658524695', password='123456')
+        self.lg.login(username='13658524695', password='123456', yanzhengma='1')
         text3 = self.mp.login_user()
         print(text3)
         self.assertIn(u'您好', text3)

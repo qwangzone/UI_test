@@ -11,8 +11,7 @@ from creditborrow import CreditBorrowPage
 
 class CreditborrowTest(unittest.TestCase):
 
-    @classmethod
-    def setUpClass(self):
+    def setUp(self):
         self.dr = my_driver()
         self.creditborrow_p = CreditBorrowPage(self.dr)
         self.creditborrow_p.open()
@@ -45,12 +44,12 @@ class CreditborrowTest(unittest.TestCase):
         self.assertIn(u'请输入借款期限', term_error)
         self.assertIn(u'请输入验证码', code_error)
 
-    @classmethod
-    def tearDownClass(self):
+    def tearDown(self):
         self.dr.quit()
 
 if __name__ == '__main__':
     unittest.main()
+
 
 
 

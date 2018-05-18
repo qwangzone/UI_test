@@ -18,7 +18,7 @@ class MyaccountTest(unittest.TestCase):
         self.lg = LoginPage(self.dr)
         self.mp = MyacountPage(self.dr)
         self.lg.open()
-        self.lg.login(username='13658524695', password='123456')
+        self.lg.login(username='13658524695', password='123456',yanzhengma='1')
         time.sleep(3)
 
     def test1_overview_success(self):

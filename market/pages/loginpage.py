@@ -37,11 +37,12 @@ class LoginPage(BasePage):
         return self.by_class_name("captchaCodem")
 
     #登录操作
-    def login(self, username, password):
+    def login(self, username, password, yanzhengma):
         self.open()
         self.input_userName().send_keys(username)
         self.input_loginPass().send_keys(password)
-        time.sleep(5)
+        self.input_yanzheng().send_keys(yanzhengma)
+        #time.sleep(5)
         self.login_btn().click()
         time.sleep(3)
         return MyacountPage(self.driver)

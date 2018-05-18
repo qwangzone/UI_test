@@ -49,7 +49,7 @@ class CarBorrowPage(BasePage):
     # 提交表单信息
     def form_submit(self, username="李逵", mobileNo="15811560991", provinceCode="北京市", cityCode="北京市",
                     carType="保时捷", carPrice="100000", lendAmount="20000", lendTerm="12",
-                    captchaCode="www"):
+                    captchaCode="1111"):
         self.username.send_keys(username)
         self.mobileNo.send_keys(mobileNo)
         self.provinceCode(provinceCode)
@@ -58,8 +58,8 @@ class CarBorrowPage(BasePage):
         self.carPrice.send_keys(carPrice)
         self.lendAmount.send_keys(lendAmount)
         self.lendTerm.send_keys(lendTerm)
-        time.sleep(5)
-        # self.captchaCode.send_keys(captchaCode)
+        # time.sleep(5)
+        self.captchaCode.send_keys(captchaCode)
         self.button.click()
 
     # 提交后服务器返回信息
