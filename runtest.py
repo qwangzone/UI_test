@@ -12,7 +12,8 @@ discover = unittest.defaultTestLoader.discover(start_dir=star_dir, pattern="*_te
 now = time.strftime("%Y-%m-%d %H_%M_%S")
 filename = dir + "/report/" + now + 'apd_test.html'
 fp = open(filename, 'wb')
-runner = HTMLTestRunner.HTMLTestRunner(stream=fp, title="test report", description="apd_test market or manager")
+runner = HTMLTestRunner.HTMLTestRunner(stream=fp, title="test report", description="apd_test market or manager",
+                                       verbosity=2)
 runner.run(discover)
 fp.close()
 
