@@ -23,8 +23,8 @@ class InvestTest(unittest.TestCase):
         self.iv = ZhitouXqPage(self.dr)
         self.zhifu = InvestzfPage(self.dr)
 
-    #投资成功
     def test1_invest_success(self):
+        """投资成功"""
         self.iv.open()
         remain1 = self.iv.remain_text()
         #print(remain1)
@@ -43,26 +43,26 @@ class InvestTest(unittest.TestCase):
         remain_text = int(remain1_text-remain2_text)
         self.assertEqual(100, remain_text)
 
-    #投资金额小于100
     def test2_less100(self):
+        """投资金额小于100"""
         self.iv.invest_error(money='10')
         error_text = self.iv.input_error_text()
         self.assertEqual(error_text, u'最小出借金额为100元！')
 
-    #输入格式不正确
     def test3_typerror(self):
+        """输入格式不正确"""
         self.iv.invest_error(money='##3')
         error_text = self.iv.input_error_text()
         self.assertEqual(error_text, u'输入的金额格式不正确')
 
-    #投资金额大于账户余额
     def test4_lessremain(self):
+        """投资金额大于账户余额"""
         self.iv.invest_error(money='1000000')
         error_text = self.iv.input_error_text()
         self.assertEqual(error_text, u'余额不足请进行充值')
 
-    # 投资金额大于剩余可投
     def test5_maxbid(self):
+        """投资金额大于剩余可投"""
         self.iv.open()
         balance = self.iv.remain_invest_text()
         #print(balance)

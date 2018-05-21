@@ -31,16 +31,16 @@ class LoginPage(BasePage):
         return self.by_class_name("user-info")
 
     # 登录模块
-    def login(self, username="caihongguang", password="789654", res="wanneng"):
+    def login(self, username="caihongguang", password="789654", res="1111"):
         # self.open()
         self.input_username.send_keys(username)
         self.input_password.send_keys(password)
         time.sleep(5)
-        # self.input_yanzheng.send_keys(res)
+        self.input_yanzheng.send_keys(res)
         self.btn_click.click()
 
     def login_success(self):
-        return functools.partial(self.login, username="caihongguang", password="789654", res="wanneng")
+        return functools.partial(self.login, username="caihongguang", password="789654", res="1111")
 
     # 获取页面报错信息
     def get_error_msg(self):
