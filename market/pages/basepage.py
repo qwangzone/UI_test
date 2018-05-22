@@ -6,7 +6,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
 class BasePage:
     base_url = "http://58.135.80.52:9380"
-    #base_url = "http://192.168.3.105"
+    # base_url = "http://192.168.3.105"
 
     def __init__(self, webdriver, domain=base_url):
         self.driver = webdriver

@@ -99,7 +99,9 @@ class HomePageTest(unittest.TestCase):
         """转让专区"""
         self.hp.transfer()
         text11 = self.dr.current_url
+        print("text11=" + text11)
         self.dr.back()
+        print("转让=" + self.dr.current_url)
         text = "/" + text11.split('/', 3)[3]  #获取转让专区路径
         self.assertEqual(text, '/creditAssignList/list-0-0-0-1')
 
@@ -107,12 +109,12 @@ class HomePageTest(unittest.TestCase):
         """活动专区"""
         self.hp.activities()
         text12 = self.dr.current_url
-        self.dr.back()
         text = "/" + text12.split('/', 3)[3]  #获取活动专区路径
         self.assertEqual(text, '/help/activity?status=1')
 
     def test13_exchange(self):
         """兑换专区"""
+        self.hp.open()
         self.hp.exchange()
         text13 = self.dr.current_url
         self.dr.back()
@@ -143,4 +145,10 @@ class HomePageTest(unittest.TestCase):
         self.dr.quit()
 
 if __name__ == '__main__':
-    unittest.main()
+    suit = unittest.TestSuite()
+    #suit.addTest(HomePageTest('test11_transfer'))
+    suit.addTest(HomePageTest('test12_activities'))
+    suit.addTest(HomePageTest('test13_exchange'))
+    suit.addTest(HomePageTest('test14_Newbie'))
+    runner = unittest.TextTestRunner()
+    runner.run(suit)
