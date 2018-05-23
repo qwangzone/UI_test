@@ -5,7 +5,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
 class BasePage:
-    base_url = "http://192.168.3.105:88"
+    base_url = "http://192.168.3.106"
 
     def __init__(self, webdriver, domain=base_url):
         self.driver = webdriver

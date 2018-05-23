@@ -10,7 +10,7 @@ print(dir)
 star_dir = dir + "/market/test_cases"
 discover = unittest.defaultTestLoader.discover(start_dir=star_dir, pattern="*_test.py", top_level_dir=None)
 now = time.strftime("%Y-%m-%d %H_%M_%S")
-filename = dir + "/report/" + now + 'apd_test.html'
+filename = dir + "/report/" + 'apd_test.html'
 fp = open(filename, 'wb')
 runner = HTMLTestRunner.HTMLTestRunner(stream=fp, title="test report", description="apd_test market or manager",
                                        verbosity=2)

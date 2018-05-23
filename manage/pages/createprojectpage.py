@@ -177,9 +177,9 @@ class CreateNew(BasePage):
                          repaymentCalcType='等额本息', interestRatePercent="10.5", displayInterestRate='',
                          start_time=datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
                          end_time=(datetime.now() + timedelta(days=1)).strftime("%Y-%m-%d %H:%M:%S"),
-                         contractFullID=222, contractType='信易融_薪金贷合同',
+                         contractFullID=222, contractType='信易融_薪金贷',
                          loanContract='w222', custRating='AAA',
-                         userName='v2998928', purpose='资金用途测试',
+                         userName='q7166416', purpose='资金用途测试',
                          houseGuaranteeInfo='还款保障措施测试', projectDescription='项目情况测试',
                          repaymentSource='还款来源测试', signAddr='签约地址测试'):
         # self.open()
