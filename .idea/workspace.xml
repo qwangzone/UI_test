@@ -20,7 +20,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
               <caret line="51" column="31" lean-forward="false" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
-              <folding />
+              <folding>
+                <marker date="1527141209616" expanded="true" signature="318:2832" ph="..." />
+                <marker date="1527141209616" expanded="true" signature="1657:1738" ph="..." />
+                <marker date="1527141209616" expanded="true" signature="1798:2259" ph="..." />
+                <marker date="1527141209616" expanded="true" signature="1807:2163" ph="..." />
+                <marker date="1527141209616" expanded="true" signature="2320:2417" ph="..." />
+                <marker date="1527141209616" expanded="true" signature="2481:2572" ph="..." />
+                <marker date="1527141209616" expanded="true" signature="2578:2723" ph="..." />
+                <marker date="1527141209616" expanded="true" signature="2757:2832" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -29,7 +38,7 @@
         <entry file="file://C:/python3.6/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="87" column="27" lean-forward="true" selection-start-line="87" selection-start-column="27" selection-end-line="87" selection-end-column="27" />
+              <caret line="87" column="27" lean-forward="false" selection-start-line="87" selection-start-column="27" selection-end-line="87" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -39,7 +48,7 @@
         <entry file="file://C:/python3.6/Lib/site-packages/selenium/webdriver/remote/switch_to.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="293">
-              <caret line="42" column="34" lean-forward="true" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+              <caret line="42" column="34" lean-forward="false" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -50,7 +59,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="211">
               <caret line="179" column="68" lean-forward="false" selection-start-line="179" selection-start-column="68" selection-end-line="179" selection-end-column="68" />
-              <folding />
+              <folding>
+                <marker date="1527141209617" expanded="true" signature="305:4342" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -70,7 +81,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="88">
               <caret line="33" column="73" lean-forward="false" selection-start-line="33" selection-start-column="73" selection-end-line="33" selection-end-column="73" />
-              <folding />
+              <folding>
+                <marker date="1527141209618" expanded="true" signature="1075:1077" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -78,23 +91,10 @@
       <file leaf-file-name="createproject_test.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/manage/test_cases/createproject_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="72" column="47" lean-forward="true" selection-start-line="72" selection-start-column="47" selection-end-line="72" selection-end-column="47" />
+            <state relative-caret-position="297">
+              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding>
                 <element signature="e#14#44#0" expanded="true" />
-                <element signature="e#324#633#0" expanded="false" />
-                <element signature="e#679#874#0" expanded="false" />
-                <element signature="e#926#1740#0" expanded="false" />
-                <element signature="e#1785#2018#0" expanded="false" />
-                <element signature="e#2066#2282#0" expanded="false" />
-                <element signature="e#2328#2544#0" expanded="false" />
-                <element signature="e#2594#2799#0" expanded="false" />
-                <element signature="e#2847#3073#0" expanded="false" />
-                <element signature="e#3125#3340#0" expanded="false" />
-                <element signature="e#3390#3626#0" expanded="false" />
-                <element signature="e#3686#3910#0" expanded="false" />
-                <element signature="e#3968#4195#0" expanded="false" />
-                <element signature="e#4248#4523#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -102,26 +102,14 @@
       </file>
     </leaf>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>Pass</find>
-      <find>Status</find>
-      <find>addSuc</find>
-      <find>main</find>
-      <find>run</find>
-      <find>TestProgram</find>
-      <find>verbosity</find>
-      <find>addSuccess</find>
-      <find>back</find>
-      <find>E</find>
-      <find>loanuserinfobtn</find>
-      <find>saveLoanBtn</find>
-      <find>add</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="wsm" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -142,8 +130,8 @@
         <option value="$PROJECT_DIR$/market/pages/basepage.py" />
         <option value="$PROJECT_DIR$/manage/pages/loginpage.py" />
         <option value="$PROJECT_DIR$/manage/pages/createprojectpage.py" />
-        <option value="$PROJECT_DIR$/manage/test_cases/createproject_test.py" />
         <option value="$PROJECT_DIR$/manage/pages/basepage.py" />
+        <option value="$PROJECT_DIR$/manage/test_cases/createproject_test.py" />
       </list>
     </option>
   </component>
@@ -306,19 +294,12 @@
       </pane>
       <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../my_django" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\github\UI_test" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\github\UI_test\manage" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -332,92 +313,80 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.createproject_test">
-    <configuration default="false" name="home_page_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/market/test_cases" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="UI_test" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/market/test_cases/home_page_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="create_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/manage/test_data" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="UI_test" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage/test_data/create_data.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="createproject_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/manage/test_cases" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="UI_test" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage/test_cases/createproject_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="borrowtips_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/market/test_cases" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="UI_test" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/market/test_cases/borrowtips_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittests for createproject_test.CreateProTest.test12_contractFullID_wrong" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration default="false" name="Unittests for creditborrow_test.CreditborrowTest.test2_codeinput_error" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/manage/test_cases" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/market/test_cases" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="UI_test" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;createproject_test.CreateProTest.test12_contractFullID_wrong&quot;" />
+      <option name="_new_target" value="&quot;creditborrow_test.CreditborrowTest.test2_codeinput_error&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests for creditborrow_test.CreditborrowTest.test3_allinput_error" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/market/test_cases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="UI_test" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;creditborrow_test.CreditborrowTest.test3_allinput_error&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests for creditborrow_test.CreditborrowTest.test3_creditamount_error" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/market/test_cases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="UI_test" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;creditborrow_test.CreditborrowTest.test3_creditamount_error&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in carborrow_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/market/test_cases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="UI_test" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/market/test_cases/carborrow_test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in creditborrow_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/market/test_cases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="UI_test" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/market/test_cases/creditborrow_test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -485,19 +454,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.home_page_test" />
-      <item index="1" class="java.lang.String" itemvalue="Python.create_data" />
-      <item index="2" class="java.lang.String" itemvalue="Python.createproject_test" />
-      <item index="3" class="java.lang.String" itemvalue="Python.borrowtips_test" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for createproject_test.CreateProTest.test12_contractFullID_wrong" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for creditborrow_test.CreditborrowTest.test2_codeinput_error" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for creditborrow_test.CreditborrowTest.test3_allinput_error" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for creditborrow_test.CreditborrowTest.test3_creditamount_error" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in carborrow_test.py" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in creditborrow_test.py" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.createproject_test" />
-        <item index="1" class="java.lang.String" itemvalue="Python.create_data" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for createproject_test.CreateProTest.test12_contractFullID_wrong" />
-        <item index="3" class="java.lang.String" itemvalue="Python.borrowtips_test" />
-        <item index="4" class="java.lang.String" itemvalue="Python.home_page_test" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in creditborrow_test.py" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in carborrow_test.py" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for creditborrow_test.CreditborrowTest.test3_creditamount_error" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for creditborrow_test.CreditborrowTest.test3_allinput_error" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for creditborrow_test.CreditborrowTest.test2_codeinput_error" />
       </list>
     </recent_temporary>
   </component>
@@ -509,62 +478,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a94eb38f-5a7e-49c5-9226-d9294baaf0b8" name="Default" comment="" />
-      <created>1526527664401</created>
+      <changelist id="c5b4236b-3c17-49ea-a705-2ca5c6b9f2c5" name="Default" comment="" />
+      <created>1525914261790</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1526527664401</updated>
+      <updated>1525914261790</updated>
     </task>
-    <task id="LOCAL-00001" summary="add code">
-      <created>1526637158528</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1526637158528</updated>
-    </task>
-    <task id="LOCAL-00002" summary="加入可视化执行过程">
-      <created>1526895448840</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1526895448840</updated>
-    </task>
-    <task id="LOCAL-00003" summary="代码优化">
-      <created>1526958090162</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1526958090162</updated>
-    </task>
-    <task id="LOCAL-00004" summary="代码优化">
-      <created>1527040944666</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1527040944666</updated>
-    </task>
-    <task id="LOCAL-00005" summary="代码优化">
-      <created>1527042965647</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1527042965647</updated>
-    </task>
-    <task id="LOCAL-00006" summary="代码优化">
-      <created>1527134261903</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1527134261903</updated>
-    </task>
-    <task id="LOCAL-00007" summary="代码优化">
-      <created>1527134322933</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1527134322933</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -604,8 +523,8 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26012793" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329718" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329718" sideWeight="0.4978678" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329718" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329718" sideWeight="0.4978678" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3362256" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -624,12 +543,6 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="add code" />
-    <MESSAGE value="加入可视化执行过程" />
-    <MESSAGE value="代码优化" />
-    <option name="LAST_COMMIT_MESSAGE" value="代码优化" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -657,7 +570,7 @@
         <state relative-caret-position="297">
           <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
-            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#0#30#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -929,7 +842,7 @@
         <state relative-caret-position="396">
           <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
           <folding>
-            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#0#30#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -961,7 +874,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="33" column="73" lean-forward="false" selection-start-line="33" selection-start-column="73" selection-end-line="33" selection-end-column="73" />
-          <folding />
+          <folding>
+            <marker date="1527141209618" expanded="true" signature="1075:1077" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -977,14 +892,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="51" column="31" lean-forward="false" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
-          <folding />
+          <folding>
+            <marker date="1527141209616" expanded="true" signature="318:2832" ph="..." />
+            <marker date="1527141209616" expanded="true" signature="1657:1738" ph="..." />
+            <marker date="1527141209616" expanded="true" signature="1798:2259" ph="..." />
+            <marker date="1527141209616" expanded="true" signature="1807:2163" ph="..." />
+            <marker date="1527141209616" expanded="true" signature="2320:2417" ph="..." />
+            <marker date="1527141209616" expanded="true" signature="2481:2572" ph="..." />
+            <marker date="1527141209616" expanded="true" signature="2578:2723" ph="..." />
+            <marker date="1527141209616" expanded="true" signature="2757:2832" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://C:/python3.6/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="87" column="27" lean-forward="true" selection-start-line="87" selection-start-column="27" selection-end-line="87" selection-end-column="27" />
+          <caret line="87" column="27" lean-forward="false" selection-start-line="87" selection-start-column="27" selection-end-line="87" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -992,7 +916,7 @@
     <entry file="file://C:/python3.6/Lib/site-packages/selenium/webdriver/remote/switch_to.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="293">
-          <caret line="42" column="34" lean-forward="true" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+          <caret line="42" column="34" lean-forward="false" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -1001,29 +925,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="211">
           <caret line="179" column="68" lean-forward="false" selection-start-line="179" selection-start-column="68" selection-end-line="179" selection-end-column="68" />
-          <folding />
+          <folding>
+            <marker date="1527141209617" expanded="true" signature="305:4342" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/manage/test_cases/createproject_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="72" column="47" lean-forward="true" selection-start-line="72" selection-start-column="47" selection-end-line="72" selection-end-column="47" />
+        <state relative-caret-position="297">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding>
             <element signature="e#14#44#0" expanded="true" />
-            <element signature="e#324#633#0" expanded="false" />
-            <element signature="e#679#874#0" expanded="false" />
-            <element signature="e#926#1740#0" expanded="false" />
-            <element signature="e#1785#2018#0" expanded="false" />
-            <element signature="e#2066#2282#0" expanded="false" />
-            <element signature="e#2328#2544#0" expanded="false" />
-            <element signature="e#2594#2799#0" expanded="false" />
-            <element signature="e#2847#3073#0" expanded="false" />
-            <element signature="e#3125#3340#0" expanded="false" />
-            <element signature="e#3390#3626#0" expanded="false" />
-            <element signature="e#3686#3910#0" expanded="false" />
-            <element signature="e#3968#4195#0" expanded="false" />
-            <element signature="e#4248#4523#0" expanded="false" />
           </folding>
         </state>
       </provider>
