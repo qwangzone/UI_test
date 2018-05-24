@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="a94eb38f-5a7e-49c5-9226-d9294baaf0b8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+=======
+    <list default="true" id="9344576a-1b46-48bb-941c-4a0cc1ab9082" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/driver/driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/market/driver/driver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/pages/basepage.py" beforeDir="false" afterPath="$PROJECT_DIR$/market/pages/basepage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtest.py" beforeDir="false" afterPath="$PROJECT_DIR$/runtest.py" afterDir="false" />
+>>>>>>> 0764a0c98d3ad790fe0cfc0ae72ec0e0a66cb1de
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,8 +20,8 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="basepage.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/manage/pages/basepage.py">
@@ -95,6 +103,20 @@
               <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding>
                 <element signature="e#14#44#0" expanded="true" />
+=======
+    <leaf>
+      <file leaf-file-name="registersuccesspage.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/market/pages/registersuccesspage.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="register_test.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/market/test_cases/register_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-375">
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+>>>>>>> 0764a0c98d3ad790fe0cfc0ae72ec0e0a66cb1de
               </folding>
             </state>
           </provider>
@@ -111,6 +133,7 @@
       </map>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -140,24 +163,23 @@
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
+=======
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+>>>>>>> 0764a0c98d3ad790fe0cfc0ae72ec0e0a66cb1de
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
+<<<<<<< HEAD
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="UI_test" />
@@ -301,6 +323,36 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
+=======
+          <expand>
+            <path>
+              <item name="UI_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UI_test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UI_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UI_test" type="462c0819:PsiDirectoryNode" />
+              <item name="market" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UI_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UI_test" type="462c0819:PsiDirectoryNode" />
+              <item name="market" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UI_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UI_test" type="462c0819:PsiDirectoryNode" />
+              <item name="market" type="462c0819:PsiDirectoryNode" />
+              <item name="test_cases" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+>>>>>>> 0764a0c98d3ad790fe0cfc0ae72ec0e0a66cb1de
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -313,6 +365,7 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager">
     <configuration default="false" name="Unittests for creditborrow_test.CreditborrowTest.test2_codeinput_error" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -473,11 +526,14 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+=======
+>>>>>>> 0764a0c98d3ad790fe0cfc0ae72ec0e0a66cb1de
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="c5b4236b-3c17-49ea-a705-2ca5c6b9f2c5" name="Default" comment="" />
       <created>1525914261790</created>
       <option name="number" value="Default" />
@@ -539,11 +595,43 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+=======
+      <changelist id="9344576a-1b46-48bb-941c-4a0cc1ab9082" name="Default" comment="" />
+      <created>1527064940176</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1527064940176</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+>>>>>>> 0764a0c98d3ad790fe0cfc0ae72ec0e0a66cb1de
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+<<<<<<< HEAD
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="5" />
@@ -937,6 +1025,17 @@
           <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding>
             <element signature="e#14#44#0" expanded="true" />
+=======
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/market/pages/registersuccesspage.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/market/test_cases/register_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-375">
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+>>>>>>> 0764a0c98d3ad790fe0cfc0ae72ec0e0a66cb1de
           </folding>
         </state>
       </provider>

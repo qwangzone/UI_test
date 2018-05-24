@@ -14,6 +14,15 @@ def my_driver():
         # capabilities['build'] = "myTestBuild_baidu"
         driver = webdriver.Remote(command_executor="http://115.159.43.181:5555/wd/hub",
                                   desired_capabilities=capabilities)
+
+    #capabilities = DesiredCapabilities.CHROME.copy()
+    # 设置测试名称
+    # capabilities['name'] = "mytest_baidu"
+    # 设置本次构建名称
+    # capabilities['build'] = "myTestBuild_baidu"
+    #driver = webdriver.Remote(command_executor="http://115.159.43.181:5555/wd/hub",
+                              #desired_capabilities=capabilities)
+
     return driver
 
 
