@@ -9,7 +9,7 @@ import createprojectpage, loginpage
 
 
 class CreateProTest(unittest.TestCase):
-    '''创建标的test'''
+    '''创建标的tes'''
 
     def setUp(self):
         self.dr = webdriver.Chrome()
