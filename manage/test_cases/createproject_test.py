@@ -127,13 +127,13 @@ class CreateProTest(unittest.TestCase):
 
 
     def tearDown(self):
-        self.dr.quit()
-        # print("end")
+        # self.dr.quit()
+        print("end")
 
 
 if __name__ == '__main__':
-    unittest.main()
-    # suit = unittest.TestSuite()
-    # suit.addTest(CreateProTest('test1_create_success'))
-    # runner = unittest.TextTestRunner()
-    # runner.run(suit)
+    # unittest.main()
+    suit = unittest.TestSuite()
+    suit.addTest(CreateProTest('test1_create_success'))
+    runner = unittest.TextTestRunner()
+    runner.run(suit)

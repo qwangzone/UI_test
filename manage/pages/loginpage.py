@@ -1,6 +1,13 @@
 #coding=utf-8
 from basepage import BasePage
 import time, functools
+import configparser, os
+dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+file_path = dir + "/test_data/date.ini"
+cf = configparser.ConfigParser()
+cf.read(file_path, encoding="utf-8")
+name = cf.get("manage_login_data", "username")
+password = cf.get("manage_login_data", "password")
 
 
 class LoginPage(BasePage):
@@ -31,7 +38,7 @@ class LoginPage(BasePage):
         return self.by_class_name("user-info")
 
     # 登录模块
-    def login(self, username="caihongguang", password="789654", res="1111"):
+    def login(self, username=name, password=password, res="1111"):
         # self.open()
         self.input_username.send_keys(username)
         self.input_password.send_keys(password)
@@ -39,8 +46,8 @@ class LoginPage(BasePage):
         self.input_yanzheng.send_keys(res)
         self.btn_click.click()
 
-    def login_success(self):
-        return functools.partial(self.login, username="caihongguang", password="789654", res="1111")
+    # def login_success(self):
+    #     return functools.partial(self.login, username="caihongguang", password="789654", res="1111")
 
     # 获取页面报错信息
     def get_error_msg(self):

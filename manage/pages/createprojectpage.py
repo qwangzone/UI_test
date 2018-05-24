@@ -6,7 +6,33 @@ from projectstatuspage import ProjectSta
 from uploadimgpage import UploadImg
 # import copyprojectpage
 import time
+
 from datetime import datetime, timedelta
+import configparser, os
+dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+file_path = dir + "/test_data/date.ini"
+cf = configparser.ConfigParser()
+cf.read(file_path, encoding="utf-8")
+project_name_t = cf.get("manage_project_info", "project_name_t")
+project_category_t = cf.get("manage_project_info", "project_category_t")
+projectNewType_t = cf.get("manage_project_info", "projectNewType_t")
+financingMaturity_t = cf.get("manage_project_info", "financingMaturity_t")
+corporeType_t = cf.get("manage_project_info", "corporeType_t")
+amount_t = cf.get("manage_project_info", "amount_t")
+minBidAmount_t = cf.get("manage_project_info", "minBidAmount_t")
+repaymentCalcType_t = cf.get("manage_project_info", "repaymentCalcType_t")
+interestRatePercent_t = cf.get("manage_project_info", "interestRatePercent_t")
+displayInterestRate_t = cf.get("manage_project_info", "displayInterestRate_t")
+contractFullID_t = cf.get("manage_project_info", "contractFullID_t")
+contractType_t = cf.get("manage_project_info", "contractType_t")
+loanContract_t = cf.get("manage_project_info", "loanContract_t")
+custRating_t = cf.get("manage_project_info", "custRating_t")
+userName_t = cf.get("manage_project_info", "userName_t")
+purpose_t = cf.get("manage_project_info", "purpose_t")
+houseGuaranteeInfo_t = cf.get("manage_project_info", "houseGuaranteeInfo_t")
+projectDescription_t = cf.get("manage_project_info", "projectDescription_t")
+repaymentSource_t = cf.get("manage_project_info", "repaymentSource_t")
+signAddr_t = cf.get("manage_project_info", "signAddr_t")
 
 
 class CreateNew(BasePage):
@@ -172,16 +198,19 @@ class CreateNew(BasePage):
 
     # 填写创建标的字段
     def createnewproject(self,
-                         project_name='test', project_category='信易融', projectNewType='直投',
-                         financingMaturity=12, corporeType='普通标', amount=5000, minBidAmount=100,
-                         repaymentCalcType='等额本息', interestRatePercent="10.5", displayInterestRate='10%+1111%',
+                         project_name=project_name_t, project_category=project_category_t,
+                         projectNewType=projectNewType_t,
+                         financingMaturity=financingMaturity_t, corporeType=corporeType_t, amount=amount_t,
+                         minBidAmount=minBidAmount_t,
+                         repaymentCalcType=repaymentCalcType_t, interestRatePercent=interestRatePercent_t,
+                         displayInterestRate=displayInterestRate_t,
                          start_time=datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
                          end_time=(datetime.now() + timedelta(days=1)).strftime("%Y-%m-%d %H:%M:%S"),
-                         contractFullID=222, contractType='信易融_薪金贷合同',
-                         loanContract='w222', custRating='AAA',
-                         userName='q7166416', purpose='资金用途测试',
-                         houseGuaranteeInfo='还款保障措施测试', projectDescription='项目情况测试',
-                         repaymentSource='还款来源测试', signAddr='签约地址测试'):
+                         contractFullID=contractFullID_t, contractType=contractType_t,
+                         loanContract=loanContract_t, custRating=custRating_t,
+                         userName=userName_t, purpose=purpose_t,
+                         houseGuaranteeInfo=houseGuaranteeInfo_t, projectDescription=projectDescription_t,
+                         repaymentSource=repaymentSource_t, signAddr=signAddr_t):
         # self.open()
         # 先填写项目名称与借款期限
         self.project_name.send_keys(project_name)
