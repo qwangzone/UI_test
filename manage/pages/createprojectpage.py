@@ -174,10 +174,10 @@ class CreateNew(BasePage):
     def createnewproject(self,
                          project_name='test', project_category='信易融', projectNewType='直投',
                          financingMaturity=12, corporeType='普通标', amount=5000, minBidAmount=100,
-                         repaymentCalcType='等额本息', interestRatePercent="10.5", displayInterestRate='',
+                         repaymentCalcType='等额本息', interestRatePercent="10.5", displayInterestRate='10%+1111%',
                          start_time=datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
                          end_time=(datetime.now() + timedelta(days=1)).strftime("%Y-%m-%d %H:%M:%S"),
-                         contractFullID=222, contractType='信易融_薪金贷',
+                         contractFullID=222, contractType='信易融_薪金贷合同',
                          loanContract='w222', custRating='AAA',
                          userName='q7166416', purpose='资金用途测试',
                          houseGuaranteeInfo='还款保障措施测试', projectDescription='项目情况测试',
@@ -186,7 +186,7 @@ class CreateNew(BasePage):
         # 先填写项目名称与借款期限
         self.project_name.send_keys(project_name)
         self.financingMaturity.send_keys(financingMaturity)
-        time.sleep(2)
+       # time.sleep(2)
         self.project_category(project_category)
         self.projectNewType(projectNewType)
         self.corporeType(corporeType)
@@ -224,3 +224,31 @@ class CreateNew(BasePage):
         # def get_url(self):
         #     self.createnewproject()
         #     return self.driver.current_url()
+
+    def createprojectwrong(self,project_name='test', project_category='信易融',
+                           projectNewType='直投',financingMaturity=12, corporeType='普通标'):
+        # 先填写项目名称与借款期限
+        self.project_name.send_keys(project_name)
+        self.financingMaturity.send_keys(financingMaturity)
+
+        self.project_category(project_category)
+        self.projectNewType(projectNewType)
+        self.corporeType(corporeType)
+        self.amount.clear()
+        self.minBidAmount.clear()
+        self.interestRatePercent.clear()
+        # 点击保存
+        self.saveLoanBtn.click()
+
+    # 获取alert文本并关闭alert
+    def alert_text(self):
+        text = self.switch_alert().text
+        self.switch_alert().accept()
+        return text
+
+    # 获取报错的内容列表,0-9分别对应0-借款金额 必须填写，1-最小认购金额 必须填写，2-出借方年化利率 必须填写
+    # 3-允许投标起始时间 必须填写，4-认购截止时间 必须填写，5-线上合同编号 必须填写，6-线下借款合同编号 必须填写，
+    # 7-借款人用户ID 必须填写，8-资金用途 必须填写
+    def get_error_text(self, index):
+        return self.by_csses("span[class='field-validation-error']>span")[index].text
+

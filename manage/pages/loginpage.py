@@ -31,7 +31,7 @@ class LoginPage(BasePage):
         return self.by_class_name("user-info")
 
     # 登录模块
-    def login(self, username="caihongguang", password="789654", res="1"):
+    def login(self, username="caihongguang", password="789654", res="1111"):
         # self.open()
         self.input_username.send_keys(username)
         self.input_password.send_keys(password)

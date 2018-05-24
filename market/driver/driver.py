@@ -1,17 +1,19 @@
 from selenium import webdriver
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
-import time
+import time, sys
 
 def my_driver():
-    # driver = webdriver.Chrome()
-    # driver.maximize_window()
-    capabilities = DesiredCapabilities.CHROME.copy()
-    # 设置测试名称
-    # capabilities['name'] = "mytest_baidu"
-    # 设置本次构建名称
-    # capabilities['build'] = "myTestBuild_baidu"
-    driver = webdriver.Remote(command_executor="http://115.159.43.181:5555/wd/hub",
-                              desired_capabilities=capabilities)
+    if sys.platform.startswith("win"):
+        driver = webdriver.Chrome()
+        driver.maximize_window()
+    elif sys.platform.startswith("linux"):
+        capabilities = DesiredCapabilities.CHROME.copy()
+        # 设置测试名称
+        # capabilities['name'] = "mytest_baidu"
+        # 设置本次构建名称
+        # capabilities['build'] = "myTestBuild_baidu"
+        driver = webdriver.Remote(command_executor="http://115.159.43.181:5555/wd/hub",
+                                  desired_capabilities=capabilities)
     return driver
 
 
