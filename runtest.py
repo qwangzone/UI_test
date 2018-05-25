@@ -17,8 +17,6 @@ runner = HTMLTestRunner.HTMLTestRunner(stream=fp, title="test report", descripti
 runner.run(discover)
 fp.close()
 
-"test"
-
 
 
 

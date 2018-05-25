@@ -23,6 +23,8 @@ minBidAmount_t = cf.get("manage_project_info", "minBidAmount_t")
 repaymentCalcType_t = cf.get("manage_project_info", "repaymentCalcType_t")
 interestRatePercent_t = cf.get("manage_project_info", "interestRatePercent_t")
 displayInterestRate_t = cf.get("manage_project_info", "displayInterestRate_t")
+start_time_t = cf.get("manage_project_info", "start_time_t")
+end_time_t = cf.get("manage_project_info", "end_time_t")
 contractFullID_t = cf.get("manage_project_info", "contractFullID_t")
 contractType_t = cf.get("manage_project_info", "contractType_t")
 loanContract_t = cf.get("manage_project_info", "loanContract_t")
@@ -89,12 +91,12 @@ class CreateNew(BasePage):
         return self.by_id("displayInterestRate")
 
     # 允许投标起始时间
-    def start_time(self, time_input=datetime.now().strftime("%Y-%m-%d %H:%M:%S")):
+    def start_time(self, time_input="2018-05-25 12:15:00""""datetime.now().strftime("%Y-%m-%d %H:%M:%S")"""):
         js = "document.getElementById('datetime-picker-4').value=\'%s\'" % time_input
         self.js_execute(js)
 
     # 认购截止时间
-    def end_time(self, time_input=(datetime.now() + timedelta(days=1)).strftime("%Y-%m-%d %H:%M:%S")):
+    def end_time(self, time_input="2020-05-25 12:15:00"""""(datetime.now() + timedelta(days=1)).strftime("%Y-%m-%d %H:%M:%S")"""):
         js = "document.getElementById('datetime-picker-5').value=\'%s\'" % time_input
         self.js_execute(js)
 
@@ -204,8 +206,8 @@ class CreateNew(BasePage):
                          minBidAmount=minBidAmount_t,
                          repaymentCalcType=repaymentCalcType_t, interestRatePercent=interestRatePercent_t,
                          displayInterestRate=displayInterestRate_t,
-                         start_time=datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-                         end_time=(datetime.now() + timedelta(days=1)).strftime("%Y-%m-%d %H:%M:%S"),
+                         start_time=start_time_t,
+                         end_time=end_time_t,
                          contractFullID=contractFullID_t, contractType=contractType_t,
                          loanContract=loanContract_t, custRating=custRating_t,
                          userName=userName_t, purpose=purpose_t,

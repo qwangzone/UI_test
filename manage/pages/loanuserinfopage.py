@@ -96,7 +96,7 @@ class LoanUserInfo(BasePage):
                    ethnic='土家族', educationLevel='本科', maritalStatus='未婚', yearOfService='20年以上',
                    quarters='股东', natureOfCompany='国有企业', industry='创造业', wage='30000元以上',
                    province='北京市', city="北京市", houseRadiosid=1, houseLoanRadios=1,
-                   carRadiosid=1, carLoanRadios=1, scroll=0):
+                   carRadiosid=1, carLoanRadios=1):
         self.nativeProvince.clear()
         self.nativeProvince.send_keys(nativeProvince)
         self.companyEntryTime.clear()
@@ -117,5 +117,82 @@ class LoanUserInfo(BasePage):
         self.houseLoanRadios(houseLoanRadios).click()
         self.carRadios(carRadiosid).click()
         self.carLoanRadios(carLoanRadios).click()
-        self.scroll(scroll)
+        self.scroll(0)
         self.savebtn.click()
+
+    # 获取姓名
+    def get_userrealBorrowerName(self):
+        return self.by_id("userrealBorrowerName").get_attribute("value")
+
+    # 获取籍贯
+    def get_nativeProvince(self):
+        return self.by_id("nativeProvince").get_attribute("value")
+
+    # 入职时间
+    def get_companyEntryTime(self):
+        return self.by_id("companyEntryTime").get_attribute("value")
+
+    # 现居住地
+    def get_currentAddress(self):
+        return self.by_id("currentAddress").get_attribute("value")
+
+    # 民族
+    def get_ethnic(self):
+        return self.by_name("ethnic").by_css("[value='Tujia']").text
+
+    # 学历
+    def get_educationLevel(self):
+        return self.by_name("educationLevel").by_css("[value='UNDERGRADUATE']").text
+
+    # 婚姻情况
+    def get_maritalStatus(self):
+        return self.by_name("maritalStatus").by_css("[value='SINGLE']").text
+
+    # 工作时间
+    def get_yearOfService(self):
+        return self.by_name("yearOfService").by_css("[value='YEAR_ABOVE_20']").text
+
+    # 工作岗位
+    def get_quarters(self):
+        return self.by_name("quarters").by_css("[value='SHAREHOLDER']").text
+
+    # 公司性质
+    def get_natureOfCompany(self):
+        return self.by_name("natureOfCompany").by_css("[value='NatureOfCompany1']").text
+
+    # 所属行业
+    def get_industry(self):
+        return self.by_name("industry").by_css("[value='industry3']").text
+
+    # 月收入
+    def get_wage(self):
+        return self.by_name("wage").by_css("[value='WageTypeMore30000']").text
+
+    # 工作城市（省）
+    def get_province(self):
+        return self.by_name("province").by_css("[value='1']").text
+
+    # 工作城市（市）
+    def get_city(self):
+        return self.by_name("city").by_css("[value='2']").text
+
+    # 是否有房
+    def get_houseRadios1(self):
+        return self.by_id("houseRadios1").get_attribute("value")
+
+    # 有无房贷
+    def get_houseLoanRadios1(self):
+        return self.by_id("houseLoanRadios1").get_attribute("value")
+
+    # 是否有车
+    def get_carRadios1(self):
+        return self.by_id("carRadios1").get_attribute("value")
+
+    # 有无车贷
+    def get_carLoanRadios1(self):
+        return self.by_id("carLoanRadios1").get_attribute("value")
+
+
+
+
+
