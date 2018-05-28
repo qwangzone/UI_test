@@ -1,6 +1,8 @@
 import  configparser, os
+from enum import Enum, unique
 
-class GetData:
+
+class GetData(Enum):
     dir = os.path.dirname(os.path.abspath(__file__))
     file_path = dir + "/date.ini"
     cf = configparser.ConfigParser()

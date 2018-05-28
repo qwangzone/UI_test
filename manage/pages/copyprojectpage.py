@@ -3,6 +3,8 @@ from basepage import BasePage
 from loanuserinfopage import LoanUserInfo
 from projectstatuspage import ProjectSta
 from uploadimgpage import UploadImg
+from enum import Enum, unique
+
 #from createprojectpage import CreateNew
 #import createprojectpage
 
@@ -209,5 +211,110 @@ class CopyPro(BasePage):
     def get_signAddr(self):
         return self.by_id("signAddr").get_attribute("value")
 
+    def get_all_info(self, index):
+        project_name = self.get_project_name()
+        project_status = self.get_project_status()
+        project_category = self.get_project_category()
+        projectNewType = self.get_projectNewType()
+        financingMaturity = self.get_financingMaturity()
+        corporeType = self.get_corporeType()
+        amount = self.get_amount()
+        minBidAmount = self.get_minBidAmount()
+        repaymentCalcType = self.get_repaymentCalcType()
+        interestRatePercent = self.get_interestRatePercent()
+        displayInterestRate = self.get_displayInterestRate()
+        start_time = self.get_start_time()
+        end_time = self.get_end_time()
+        contractFullID = self.get_contractFullID()
+        contractType = self.get_contractType()
+        loanContract = self.get_loanContract()
+        address = self.get_address()
+        unicode = self.get_unicode()
+        bondManId = self.get_bondManId()
+        custRatingAAA = self.get_custRatingAAA()
+        userName = self.get_userName()
+        borrowerUserID = self.get_borrowerUserID()
+        borrowerUserRealName = self.get_borrowerUserRealName()
+        borrowerUserIDCard = self.get_borrowerUserIDCard()
+        borrowerPayType = self.get_borrowerPayType()
+        isrealborrower = self.get_isrealborrower()
+        realBorrowerName = self.get_realBorrowerName()
+        realBorrowerIdCard = self.get_realBorrowerIdCard()
+        area = self.get_area()
+        purpose = self.get_purpose()
+        houseGuaranteeInfo = self.get_houseGuaranteeInfo()
+        projectDescription = self.get_projectDescription()
+        repaymentSource = self.get_repaymentSource()
+        signAddr = self.get_signAddr()
+        info_ls = {}
+        info_ls['project_name'] = project_name
+        info_ls['project_status'] = project_status
+        info_ls['project_category'] = project_category
+        info_ls['projectNewType'] = projectNewType
+        info_ls['financingMaturity'] = financingMaturity
+        info_ls['corporeType'] = corporeType
+        info_ls['amount'] = amount
+        info_ls['minBidAmount'] = minBidAmount
+        info_ls['repaymentCalcType'] = repaymentCalcType
+        info_ls['interestRatePercent'] = interestRatePercent
+        info_ls['displayInterestRate'] = displayInterestRate
+        info_ls['start_time'] = start_time
+        info_ls['end_time'] = end_time
+        info_ls['contractFullID'] = contractFullID
+        info_ls['contractType'] = contractType
+        info_ls['loanContract'] = loanContract
+        info_ls['address'] = address
+        info_ls['unicode'] = unicode
+        info_ls['bondManId'] = bondManId
+        info_ls['custRatingAAA'] = custRatingAAA
+        info_ls['userName'] = userName
+        info_ls['borrowerUserID'] = borrowerUserID
+        info_ls['borrowerUserRealName'] = borrowerUserRealName
+        info_ls['borrowerUserIDCard'] = borrowerUserIDCard
+        info_ls['borrowerPayType'] = borrowerPayType
+        info_ls['isrealborrower'] = isrealborrower
+        info_ls['realBorrowerName'] = realBorrowerName
+        info_ls['realBorrowerIdCard'] = realBorrowerIdCard
+        info_ls['area'] = area
+        info_ls['purpose'] = purpose
+        info_ls['houseGuaranteeInfo'] = houseGuaranteeInfo
+        info_ls['projectDescription'] = projectDescription
+        info_ls['repaymentSource'] = repaymentSource
+        info_ls['signAddr'] = signAddr
+        return info_ls[index]
 
+
+
+
+
+class get_method():
+    def test(self):
+        return "0"
+
+    def test1(self):
+        return "1"
+
+    def test2(self):
+        return '2'
+
+    def wq(self, index):
+        a = self.test()
+        b = self.test1()
+        c = self.test2()
+        w = {'a':a, 'b':b, 'c':c}
+        return w[index]
+
+    def __iter__(self):
+        return self
+
+    def __next__(self):
+        self.a = self.test()
+        self.b = self.test1()
+        self.c = self.test2()
+        return self.a
+
+
+if __name__ == '__main__':
+    t = get_method()
+    print(t.wq('b'))
 
