@@ -1,12 +1,15 @@
 import os, sys
 import unittest
 import time
-dir = os.path.dirname(os.path.dirname(__file__))
+dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+print(dir)
 sys.path.append(dir + "/pages")
 sys.path.append(dir + "/driver")
+sys.path.append(dir + "/db")
 from registerpage import RegisterPage
 from driver import my_driver
 from registersuccesspage import RegisterSuccessPage
+from mysql_db import DB
 
 class RegisterTest(unittest.TestCase):
 
@@ -19,6 +22,7 @@ class RegisterTest(unittest.TestCase):
         """手机号码存在"""
         self.rp.register_error()
         text_error = self.rp.mobile_error()
+        print(text_error)
         self.assertIn('该手机号存在', text_error)
 
     def test2_captchaCode_error(self):
@@ -39,10 +43,20 @@ class RegisterTest(unittest.TestCase):
         time.sleep(3)
         text = self.rs.register_success().text
         self.assertIn('用户，恭喜您注册成功！', text)
+        # db = DB()
+        # db.delete_user()
+        # db.close()
 
     def tearDown(self):
         self.dr.quit()
 
 
 if __name__ == '__main__':
+    # suite = unittest.TestSuite()
+    # suite.addTest(RegisterTest("test4_register_success"))
+    # runner = unittest.TextTestRunner()
+    # runner.run(suite)
     unittest.main()
+    db = DB()
+    db.delete_user()
+    db.close()

@@ -1,9 +1,10 @@
 """账户总览"""
 from basepage import BasePage
-
-
+from rechargepage import RechargePage
+from drawcashpage import DrawcashPage
 
 class MyacountPage(BasePage):
+    url = '/user/'
 
     def login_success_text(self):
         return self.by_css("li.subNav>a").text
@@ -39,5 +40,15 @@ class MyacountPage(BasePage):
     #登录成功用户名
     def login_user(self):
         return self.by_id("acountmobile").text
+
+    #账户总览充值入口
+    def account_pay(self):
+        self.by_link("充值").click()
+        return RechargePage(self.driver)
+
+    #账户总览提现入口
+    def draw_btn(self):
+        self.by_link("提现").click()
+        return DrawcashPage(self.driver)
 
 

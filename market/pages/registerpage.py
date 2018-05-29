@@ -45,13 +45,14 @@ class RegisterPage(BasePage):
         return self.by_class_name("registerok")
 
     #注册
-    def register(self, mobile='12345678914', password='123456', code='1', yanzheng='000000'):
+    def register(self, mobile='12345678915', password='123456', code='1', yanzheng='000000'):
         self.open()
         self.agreebtn().click()
         self.mobile().send_keys(mobile)
         self.loginPass().send_keys(password)
         self.captchaCode().send_keys(code)
         self.btn_captchaCode().click()
+        time.sleep(3)
         self.sms_captchaCode().send_keys(yanzheng)
         self.register_btn().click()
         return RegisterSuccessPage(self.driver)

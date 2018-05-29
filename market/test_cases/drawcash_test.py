@@ -35,12 +35,19 @@ class DrawcashTest(unittest.TestCase):
         print(text_error)
         self.assertEqual(text_error, '提现申请失败！单笔提现金额最低10.0元!')
 
+    def test3_drawcash_error(self):
+        """提现金额大于可用余额"""
+        text = float(self.dp.availableamount()) #可用余额
+        print(text)
+        amount3 = str(text + 1)
+        print(amount3)
+        self.dp.drawcash(drawamount=amount3)
+        text = self.dp.drawinput_error()
+        self.assertEqual(text, '账户余额不足')
+
+
 if __name__ == '__main__':
-    #unittest.main()
-    suit = unittest.TestSuite()
-    suit.addTest(DrawcashTest('test2_drawcash_less10'))
-    runner = unittest.TextTestRunner()
-    runner.run(suit)
+    unittest.main()
 
 
 
