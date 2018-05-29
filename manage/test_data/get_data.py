@@ -41,3 +41,4 @@ class GetData(Enum):
     projectDescription_t = cf.get("manage_project_info", "projectDescription_t")
     repaymentSource_t = cf.get("manage_project_info", "repaymentSource_t")
     signAddr_t = cf.get("manage_project_info", "signAddr_t")
+    custRating_t_bool = cf.get("manage_project_info", "custRating_t_bool")

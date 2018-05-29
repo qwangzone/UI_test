@@ -1,12 +1,10 @@
 #coding=utf-8
 from basepage import BasePage
-from loanuserinfopage import LoanUserInfo
-from projectstatuspage import ProjectSta
-from uploadimgpage import UploadImg
-from enum import Enum, unique
-
-#from createprojectpage import CreateNew
-#import createprojectpage
+import os, sys
+dir = os.path.dirname(os.path.dirname(__file__))
+file_path = dir + "/test_data/"
+sys.path.append(file_path)
+from get_data import GetData
 
 class CopyPro(BasePage):
     url = ''
@@ -53,7 +51,7 @@ class CopyPro(BasePage):
         return self.success_alert.text
 
     # 更改项目名称，加入风险评级（复制是不会复制风险评级，项目名称也太长）然后保存
-    def save_proinfo(self, project_name='复制标的', custRating='D', scroll=0):
+    def save_proinfo(self, project_name=GetData.project_name_t.value, custRating=GetData.custRating_t.value, scroll=0):
         self.copy_btn.click()
         self.project_name.clear()
         self.project_name.send_keys(project_name)
@@ -314,7 +312,5 @@ class get_method():
         return self.a
 
 
-if __name__ == '__main__':
-    t = get_method()
-    print(t.wq('b'))
+
 

@@ -6,35 +6,33 @@ from projectstatuspage import ProjectSta
 from uploadimgpage import UploadImg
 # import copyprojectpage
 import time
-
-from datetime import datetime, timedelta
-import configparser, os
-dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-file_path = dir + "/test_data/date.ini"
-cf = configparser.ConfigParser()
-cf.read(file_path, encoding="utf-8")
-project_name_t = cf.get("manage_project_info", "project_name_t")
-project_category_t = cf.get("manage_project_info", "project_category_t")
-projectNewType_t = cf.get("manage_project_info", "projectNewType_t")
-financingMaturity_t = cf.get("manage_project_info", "financingMaturity_t")
-corporeType_t = cf.get("manage_project_info", "corporeType_t")
-amount_t = cf.get("manage_project_info", "amount_t")
-minBidAmount_t = cf.get("manage_project_info", "minBidAmount_t")
-repaymentCalcType_t = cf.get("manage_project_info", "repaymentCalcType_t")
-interestRatePercent_t = cf.get("manage_project_info", "interestRatePercent_t")
-displayInterestRate_t = cf.get("manage_project_info", "displayInterestRate_t")
-start_time_t = cf.get("manage_project_info", "start_time_t")
-end_time_t = cf.get("manage_project_info", "end_time_t")
-contractFullID_t = cf.get("manage_project_info", "contractFullID_t")
-contractType_t = cf.get("manage_project_info", "contractType_t")
-loanContract_t = cf.get("manage_project_info", "loanContract_t")
-custRating_t = cf.get("manage_project_info", "custRating_t")
-userName_t = cf.get("manage_project_info", "userName_t")
-purpose_t = cf.get("manage_project_info", "purpose_t")
-houseGuaranteeInfo_t = cf.get("manage_project_info", "houseGuaranteeInfo_t")
-projectDescription_t = cf.get("manage_project_info", "projectDescription_t")
-repaymentSource_t = cf.get("manage_project_info", "repaymentSource_t")
-signAddr_t = cf.get("manage_project_info", "signAddr_t")
+import os, sys
+dir = os.path.dirname(os.path.dirname(__file__))
+file_path = dir + "/test_data/"
+sys.path.append(file_path)
+from get_data import GetData
+# project_name_t = cf.get("manage_project_info", "project_name_t")
+# project_category_t = cf.get("manage_project_info", "project_category_t")
+# projectNewType_t = cf.get("manage_project_info", "projectNewType_t")
+# financingMaturity_t = cf.get("manage_project_info", "financingMaturity_t")
+# corporeType_t = cf.get("manage_project_info", "corporeType_t")
+# amount_t = cf.get("manage_project_info", "amount_t")
+# minBidAmount_t = cf.get("manage_project_info", "minBidAmount_t")
+# repaymentCalcType_t = cf.get("manage_project_info", "repaymentCalcType_t")
+# interestRatePercent_t = cf.get("manage_project_info", "interestRatePercent_t")
+# displayInterestRate_t = cf.get("manage_project_info", "displayInterestRate_t")
+# start_time_t = cf.get("manage_project_info", "start_time_t")
+# end_time_t = cf.get("manage_project_info", "end_time_t")
+# contractFullID_t = cf.get("manage_project_info", "contractFullID_t")
+# contractType_t = cf.get("manage_project_info", "contractType_t")
+# loanContract_t = cf.get("manage_project_info", "loanContract_t")
+# custRating_t = cf.get("manage_project_info", "custRating_t")
+# userName_t = cf.get("manage_project_info", "userName_t")
+# purpose_t = cf.get("manage_project_info", "purpose_t")
+# houseGuaranteeInfo_t = cf.get("manage_project_info", "houseGuaranteeInfo_t")
+# projectDescription_t = cf.get("manage_project_info", "projectDescription_t")
+# repaymentSource_t = cf.get("manage_project_info", "repaymentSource_t")
+# signAddr_t = cf.get("manage_project_info", "signAddr_t")
 
 
 class CreateNew(BasePage):
@@ -43,6 +41,7 @@ class CreateNew(BasePage):
     # 项目名称
     @property
     def project_name(self):
+        self.by_id("projectName").clear()
         return self.by_id("projectName")
 
     # 上线项目分类
@@ -58,6 +57,7 @@ class CreateNew(BasePage):
     # 借款期限
     @property
     def financingMaturity(self):
+        self.by_id("financingMaturity").clear()
         return self.by_id("financingMaturity")
 
     # 标的类型
@@ -68,11 +68,13 @@ class CreateNew(BasePage):
     # 借款金额
     @property
     def amount(self):
+        self.by_id("amount").clear()
         return self.by_id("amount")
 
     # 最小认购金额元
     @property
     def minBidAmount(self):
+        self.by_id("minBidAmount").clear()
         return self.by_id("minBidAmount")
 
     # 还款方式
@@ -83,11 +85,13 @@ class CreateNew(BasePage):
     # 出借方年化利率
     @property
     def interestRatePercent(self):
+        self.by_id("interestRatePercent").clear()
         return self.by_id("interestRatePercent")
 
     # 显示的年化利率
     @property
     def displayInterestRate(self):
+        self.by_id("displayInterestRate").clear()
         return self.by_id("displayInterestRate")
 
     # 允许投标起始时间
@@ -103,6 +107,7 @@ class CreateNew(BasePage):
     # 线上合同编号
     @property
     def contractFullID(self):
+        self.by_id("contractFullID").clear()
         return self.by_id("contractFullID")
 
     # 合同类型
@@ -113,6 +118,7 @@ class CreateNew(BasePage):
     # 线下借款合同编号
     @property
     def loanContract(self):
+        self.by_id("loanContract").clear()
         return self.by_id("loanContract")
 
     # 风险评级
@@ -122,6 +128,7 @@ class CreateNew(BasePage):
     # 借款人用户名
     @property
     def userName(self):
+        self.by_id("userName").clear()
         return self.by_id("userName")
 
     # 获取用户信息
@@ -132,26 +139,31 @@ class CreateNew(BasePage):
     # 资金用途
     @property
     def purpose(self):
+        self.by_id("purpose").clear()
         return self.by_id("purpose")
 
     # 还款保障措施
     @property
     def houseGuaranteeInfo(self):
+        self.by_id("houseGuaranteeInfo").clear()
         return self.by_id("houseGuaranteeInfo")
 
     # 项目情况
     @property
     def projectDescription(self):
+        self.by_id("projectDescription").clear()
         return self.by_id("projectDescription")
 
     # 还款来源
     @property
     def repaymentSource(self):
+        self.by_id("repaymentSource").clear()
         return self.by_id("repaymentSource")
 
     # 签约地址
     @property
     def signAddr(self):
+        self.by_id("signAddr").clear()
         return self.by_id("signAddr")
 
     # 底部保存按钮
@@ -200,19 +212,22 @@ class CreateNew(BasePage):
 
     # 填写创建标的字段
     def createnewproject(self,
-                         project_name=project_name_t, project_category=project_category_t,
-                         projectNewType=projectNewType_t,
-                         financingMaturity=financingMaturity_t, corporeType=corporeType_t, amount=amount_t,
-                         minBidAmount=minBidAmount_t,
-                         repaymentCalcType=repaymentCalcType_t, interestRatePercent=interestRatePercent_t,
-                         displayInterestRate=displayInterestRate_t,
-                         start_time=start_time_t,
-                         end_time=end_time_t,
-                         contractFullID=contractFullID_t, contractType=contractType_t,
-                         loanContract=loanContract_t, custRating=custRating_t,
-                         userName=userName_t, purpose=purpose_t,
-                         houseGuaranteeInfo=houseGuaranteeInfo_t, projectDescription=projectDescription_t,
-                         repaymentSource=repaymentSource_t, signAddr=signAddr_t):
+                         project_name=GetData.project_name_t.value, project_category=GetData.project_category_t.value,
+                         projectNewType=GetData.projectNewType_t.value,
+                         financingMaturity=GetData.financingMaturity_t.value,
+                         corporeType=GetData.corporeType_t.value, amount=GetData.amount_t.value,
+                         minBidAmount=GetData.minBidAmount_t.value,
+                         repaymentCalcType=GetData.repaymentCalcType_t.value,
+                         interestRatePercent=GetData.interestRatePercent_t.value,
+                         displayInterestRate=GetData.displayInterestRate_t.value,
+                         start_time=GetData.start_time_t.value,
+                         end_time=GetData.end_time_t.value,
+                         contractFullID=GetData.contractFullID_t.value, contractType=GetData.contractType_t.value,
+                         loanContract=GetData.loanContract_t.value, custRating=GetData.custRating_t.value,
+                         userName=GetData.userName_t.value, purpose=GetData.purpose_t.value,
+                         houseGuaranteeInfo=GetData.houseGuaranteeInfo_t.value,
+                         projectDescription=GetData.projectDescription_t.value,
+                         repaymentSource=GetData.repaymentSource_t.value, signAddr=GetData.signAddr_t.value):
         # self.open()
         # 先填写项目名称与借款期限
         self.project_name.send_keys(project_name)
@@ -221,12 +236,9 @@ class CreateNew(BasePage):
         self.project_category(project_category)
         self.projectNewType(projectNewType)
         self.corporeType(corporeType)
-        self.amount.clear()
         self.amount.send_keys(amount)
-        self.minBidAmount.clear()
         self.minBidAmount.send_keys(minBidAmount)
         self.repaymentCalcType(repaymentCalcType)
-        self.interestRatePercent.clear()
         self.interestRatePercent.send_keys(interestRatePercent)
         self.displayInterestRate.send_keys(displayInterestRate)
         self.start_time(start_time)
@@ -238,13 +250,9 @@ class CreateNew(BasePage):
         self.userName.send_keys(userName)
         # 获取借款人信息
         self.btnLoadUser.click()
-        self.purpose.clear()
         self.purpose.send_keys(purpose)
-        self.houseGuaranteeInfo.clear()
         self.houseGuaranteeInfo.send_keys(houseGuaranteeInfo)
-        self.projectDescription.clear()
         self.projectDescription.send_keys(projectDescription)
-        self.repaymentSource.clear()
         self.repaymentSource.send_keys(repaymentSource)
         self.signAddr.send_keys(signAddr)
         self.saveLoanBtn.click()
@@ -265,9 +273,21 @@ class CreateNew(BasePage):
         self.project_category(project_category)
         self.projectNewType(projectNewType)
         self.corporeType(corporeType)
-        self.amount.clear()
-        self.minBidAmount.clear()
-        self.interestRatePercent.clear()
+        # 把所有输入框内容置为空
+        self.amount
+        self.minBidAmount
+        self.interestRatePercent
+        self.displayInterestRate
+        self.start_time(time_input="")
+        self.end_time(time_input="")
+        self.contractFullID
+        self.loanContract
+        self.userName
+        self.purpose
+        self.houseGuaranteeInfo
+        self.projectDescription
+        self.repaymentSource
+        self.signAddr
         # 点击保存
         self.saveLoanBtn.click()
 
