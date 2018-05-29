@@ -1,5 +1,10 @@
 #coding=utf-8
 from basepage import BasePage
+import os, sys
+dir = os.path.dirname(os.path.dirname(__file__))
+file_path = dir + "/test_data/"
+sys.path.append(file_path)
+from get_data import GetData
 
 
 class LoanUserInfo(BasePage):

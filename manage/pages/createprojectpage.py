@@ -303,3 +303,29 @@ class CreateNew(BasePage):
     def get_error_text(self, index):
         return self.by_csses("span[class='field-validation-error']>span")[index].text
 
+# from selenium import webdriver
+# import threading
+# def test1():
+#     dr = webdriver.Chrome()
+#     dr.maximize_window()
+#     dr.get("http://www.baidu.com")
+#     dr.find_element_by_id("kw").send_keys("线程1")
+#     dr.find_element_by_id("su").click()
+#     time.sleep(10)
+#     #dr.quit()
+#
+# def test2():
+#     dr = webdriver.Chrome()
+#     dr.maximize_window()
+#     dr.get("http://www.baidu.com")
+#     dr.find_element_by_id("kw").send_keys("线程2")
+#     dr.find_element_by_id("su").click()
+#     time.sleep(10)
+#     #dr.quit()
+# t1 = threading.Thread(target=test1, name="Test1")
+# t2 = threading.Thread(target=test2, name="Test2")
+# t1.start()
+# t2.start()
+# t1.join()
+# t2.join()
+# # test1()
