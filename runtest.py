@@ -8,6 +8,7 @@ print(dir)
 from multiprocessing import Process
 # sys.path.append(dir + "/manage")
 # sys.path.append(dir + "/market")
+
 def run_market():
     star_dir = dir + "/market/test_cases"
     discover = unittest.defaultTestLoader.discover(start_dir=star_dir, pattern="carborrow_test.py", top_level_dir=None)
@@ -18,6 +19,7 @@ def run_market():
                                            verbosity=2)
     runner.run(discover)
     fp.close()
+
 def run_manage():
     star_dir = dir + "/manage/test_cases"
     discover = unittest.defaultTestLoader.discover(start_dir=star_dir, pattern="createproject_test.py", top_level_dir=None)
@@ -28,6 +30,7 @@ def run_manage():
                                            verbosity=2)
     runner.run(discover)
     fp.close()
+
 if __name__ == '__main__':
     p1 = Process(target=run_market)
     p2 = Process(target=run_manage)
