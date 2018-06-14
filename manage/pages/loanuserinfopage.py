@@ -143,7 +143,8 @@ class LoanUserInfo(BasePage):
 
     # 民族
     def get_ethnic(self):
-        return self.by_name("ethnic").by_css("[value='Tujia']").text
+        return self.by_name("ethnic").find_element_by_css_selector("[value='Tujia']").text
+       # return self.by_name("ethnic").by_css_t("[value='Tujia']").text
 
     # 学历
     def get_educationLevel(self):

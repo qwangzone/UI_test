@@ -34,7 +34,9 @@ def createdata(driver):
 
     # 创建标的
     create_p.open()
-    create_p.createnewproject(project_name="testwq")
+    # create_p.createnewproject(project_name="接口测试信3",financingMaturity="1",project_category="企易融",
+    #                           contractType="企易融_企易融协议",userName="g2674271")
+    create_p.createnewproject(project_name="接口测试信3", financingMaturity="12")
 
     # 填写借款人信息
     loanuser_p = create_p.loanuserinfo()

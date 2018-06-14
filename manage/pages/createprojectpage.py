@@ -136,6 +136,30 @@ class CreateNew(BasePage):
     def btnLoadUser(self):
         return self.by_id("btnLoadUser")
 
+    # 进件编号（企易融必填）
+    @property
+    def intoPiecesNo(self):
+        return self.by_id("intoPiecesNo")
+
+    # 原始出借金额（企易融必填）
+    @property
+    def sourceProjectAmount(self):
+        return self.by_id("sourceProjectAmount")
+
+    # 原始借款期限
+    def qi_start_time(self, time_input="2018-05-25 12:15:00""""datetime.now().strftime("%Y-%m-%d %H:%M:%S")"""):
+        js = "document.getElementById('date-picker-2').value=\'%s\'" % time_input
+        self.js_execute(js)
+
+    def qi_end_time(self, time_input="2018-05-25 12:15:00""""datetime.now().strftime("%Y-%m-%d %H:%M:%S")"""):
+        js = "document.getElementById('date-picker-3').value=\'%s\'" % time_input
+        self.js_execute(js)
+
+    # 车贷分公司（车易融必填)
+    @property
+    def carLoanCompany(self):
+        return self.by_id("carLoanCompany")
+
     # 资金用途
     @property
     def purpose(self):
@@ -224,7 +248,12 @@ class CreateNew(BasePage):
                          end_time=GetData.end_time_t.value,
                          contractFullID=GetData.contractFullID_t.value, contractType=GetData.contractType_t.value,
                          loanContract=GetData.loanContract_t.value, custRating=GetData.custRating_t.value,
-                         userName=GetData.userName_t.value, purpose=GetData.purpose_t.value,
+                         userName=GetData.userName_t.value, intoPiecesNo=GetData.intoPiecesNo.value,
+                         sourceProjectAmount=GetData.sourceProjectAmount.value,
+                         qi_start_time=GetData.qi_start_time.value,
+                         qi_end_time=GetData.qi_end_time.value,
+                         carLoanCompany=GetData.carLoanCompany.value,
+                         purpose=GetData.purpose_t.value,
                          houseGuaranteeInfo=GetData.houseGuaranteeInfo_t.value,
                          projectDescription=GetData.projectDescription_t.value,
                          repaymentSource=GetData.repaymentSource_t.value, signAddr=GetData.signAddr_t.value):
@@ -250,6 +279,11 @@ class CreateNew(BasePage):
         self.userName.send_keys(userName)
         # 获取借款人信息
         self.btnLoadUser.click()
+        self.intoPiecesNo.send_keys(intoPiecesNo)
+        self.sourceProjectAmount.send_keys(sourceProjectAmount)
+        self.qi_start_time(qi_start_time)
+        self.qi_end_time(qi_end_time)
+        self.carLoanCompany.send_keys(carLoanCompany)
         self.purpose.send_keys(purpose)
         self.houseGuaranteeInfo.send_keys(houseGuaranteeInfo)
         self.projectDescription.send_keys(projectDescription)
