@@ -47,3 +47,25 @@ class GetData(Enum):
     qi_start_time = cf.get("manage_project_info", "qi_start_time")
     qi_end_time = cf.get("manage_project_info", "qi_end_time")
     carLoanCompany = cf.get("manage_project_info", "carLoanCompany")
+
+    nativeProvince = cf.get("loanuser_info", "nativeProvince")
+    companyEntryTime = cf.get("loanuser_info", "companyEntryTime")
+    currentAddress = cf.get("loanuser_info", "currentAddress")
+    ethnic = cf.get("loanuser_info", "ethnic")
+    educationLevel = cf.get("loanuser_info", "educationLevel")
+    maritalStatus = cf.get("loanuser_info", "maritalStatus")
+    yearOfService = cf.get("loanuser_info", "yearOfService")
+    quarters = cf.get("loanuser_info", "quarters")
+    natureOfCompany = cf.get("loanuser_info", "natureOfCompany")
+    industry = cf.get("loanuser_info", "industry")
+    wage = cf.get("loanuser_info", "wage")
+    province = cf.get("loanuser_info", "province")
+    city = cf.get("loanuser_info", "city")
+    houseRadiosid = cf.get("loanuser_info", "houseRadiosid")
+    houseLoanRadios = cf.get("loanuser_info", "houseLoanRadios")
+    carRadiosid = cf.get("loanuser_info", "carRadiosid")
+    carLoanRadios = cf.get("loanuser_info", "carLoanRadios")
+
+
+
+print(GetData['city'].value)

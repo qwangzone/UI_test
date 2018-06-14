@@ -224,7 +224,7 @@ class CreateProTest(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    unittest.main ()
+    unittest.main()
     # suit = unittest.TestSuite()
     # suit.addTest(CreateProTest('test_repay_source_null'))
     # runner = unittest.TextTestRunner()

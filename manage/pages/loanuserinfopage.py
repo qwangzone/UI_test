@@ -1,4 +1,4 @@
-#coding=utf-8
+"""借款人信息"""
 from basepage import BasePage
 import os, sys
 dir = os.path.dirname(os.path.dirname(__file__))
@@ -143,44 +143,45 @@ class LoanUserInfo(BasePage):
 
     # 民族
     def get_ethnic(self):
-        return self.by_name("ethnic").find_element_by_css_selector("[value='Tujia']").text
+        #return self.by_name("ethnic").find_element_by_css_selector("[value='Tujia']").text
        # return self.by_name("ethnic").by_css_t("[value='Tujia']").text
+        return self.by_name("ethnic").find_element_by_css_selector("[value='Tujia']").text
 
     # 学历
     def get_educationLevel(self):
-        return self.by_name("educationLevel").by_css("[value='UNDERGRADUATE']").text
+        return self.by_name("educationLevel").find_element_by_css_selector("[value='UNDERGRADUATE']").text
 
     # 婚姻情况
     def get_maritalStatus(self):
-        return self.by_name("maritalStatus").by_css("[value='SINGLE']").text
+        return self.by_name("maritalStatus").find_element_by_css_selector("[value='SINGLE']").text
 
     # 工作时间
     def get_yearOfService(self):
-        return self.by_name("yearOfService").by_css("[value='YEAR_ABOVE_20']").text
+        return self.by_name("yearOfService").find_element_by_css_selector("[value='YEAR_ABOVE_20']").text
 
     # 工作岗位
     def get_quarters(self):
-        return self.by_name("quarters").by_css("[value='SHAREHOLDER']").text
+        return self.by_name("quarters").find_element_by_css_selector("[value='SHAREHOLDER']").text
 
     # 公司性质
     def get_natureOfCompany(self):
-        return self.by_name("natureOfCompany").by_css("[value='NatureOfCompany1']").text
+        return self.by_name("natureOfCompany").find_element_by_css_selector("[value='NatureOfCompany1']").text
 
     # 所属行业
     def get_industry(self):
-        return self.by_name("industry").by_css("[value='industry3']").text
+        return self.by_name("industry").find_element_by_css_selector("[value='industry3']").text
 
     # 月收入
     def get_wage(self):
-        return self.by_name("wage").by_css("[value='WageTypeMore30000']").text
+        return self.by_name("wage").find_element_by_css_selector("[value='WageTypeMore30000']").text
 
     # 工作城市（省）
     def get_province(self):
-        return self.by_name("province").by_css("[value='1']").text
+        return self.by_name("province").find_element_by_css_selector("[value='1']").text
 
     # 工作城市（市）
     def get_city(self):
-        return self.by_name("city").by_css("[value='2']").text
+        return self.by_name("city").find_element_by_css_selector("[value='2']").text
 
     # 是否有房
     def get_houseRadios1(self):
@@ -197,6 +198,36 @@ class LoanUserInfo(BasePage):
     # 有无车贷
     def get_carLoanRadios1(self):
         return self.by_id("carLoanRadios1").get_attribute("value")
+
+    def get_all_loanuserinfo(self, index):
+        get_nativeProvince = self.get_nativeProvince()
+        get_companyEntryTime = self.get_companyEntryTime()
+        get_currentAddress = self.get_currentAddress()
+        get_ethnic = self.get_ethnic()
+        get_educationLevel = self.get_educationLevel()
+        get_maritalStatus = self.get_maritalStatus()
+        get_yearOfService = self.get_yearOfService()
+        get_quarters = self.get_quarters()
+        get_natureOfCompany = self.get_natureOfCompany()
+        get_industry = self.get_industry()
+        get_wage = self.get_wage()
+        get_province = self.get_province()
+        get_city = self.get_city()
+        info_ls = {}
+        info_ls['get_nativeProvince'] = get_nativeProvince
+        info_ls['get_companyEntryTime'] = get_companyEntryTime
+        info_ls['get_currentAddress'] = get_currentAddress
+        info_ls['get_ethnic'] = get_ethnic
+        info_ls['get_educationLevel'] = get_educationLevel
+        info_ls['get_maritalStatus'] = get_maritalStatus
+        info_ls['get_yearOfService'] = get_yearOfService
+        info_ls['get_quarters'] = get_quarters
+        info_ls['get_natureOfCompany'] = get_natureOfCompany
+        info_ls['get_industry'] = get_industry
+        info_ls['get_wage'] = get_wage
+        info_ls['get_province'] = get_province
+        info_ls['get_city'] = get_city
+        return info_ls[index]
 
 
 

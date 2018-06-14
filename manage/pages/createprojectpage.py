@@ -312,6 +312,7 @@ class CreateNew(BasePage):
         self.minBidAmount
         self.interestRatePercent
         self.displayInterestRate
+
         self.start_time(time_input="")
         self.end_time(time_input="")
         self.contractFullID
